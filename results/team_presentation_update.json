@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-22",
+  "team_name": "NullPointers",
+  "members": [
+    "Sankalp Kumar",
+    "Devansh Singh",
+    "Ved Kumar",
+    "Shreel Singh"
+  ],
+  "slide_count": 9,
+  "other_slide_text_unchanged": true,
+  "exported_with": "Microsoft PowerPoint",
+  "pptx_sha256": "c88fe58503ae8532febfa999a1de312b6133cf4e07ebde2a526c8fe53683da17",
+  "pdf_sha256": "372324c67825be20a4458108827ddd118171ecdb3c136f5913b2cd3ade7e74fe",
+  "scope": "Team fields supplied by the user. Title slide visually inspected; PDF text and remaining slide text checked. Prior presentation_verification.json describes the original handoff snapshot."
+}

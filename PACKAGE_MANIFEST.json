@@ -13,7 +13,7 @@
   },
   "SHA256SUMS.txt": {
     "bytes": 689,
-    "sha256": "c59a6643ff08ee063bce7810e14ecbc3df2c65743bef3c5d43843d7d2d06f1da"
+    "sha256": "600998ccd32d134036f84a75fcfd2c63cdac080fb37d1253c6d10faaaee251e2"
   },
   "START_HERE_TEAM_LEADER.txt": {
     "bytes": 3004,
@@ -148,12 +148,12 @@
     "sha256": "6c441756ebc1f86fd387aeb3a29a420fcbfa4a1f7637be9c4ad1291aab8cfaf1"
   },
   "presentation/EchoGesture_Final.pptx": {
-    "bytes": 43306,
-    "sha256": "515ec8f389b5d23f4f26e2032e2b9f4670f13427c7962ac45a3221d87353fc39"
+    "bytes": 45243,
+    "sha256": "c88fe58503ae8532febfa999a1de312b6133cf4e07ebde2a526c8fe53683da17"
   },
   "presentation/EchoGesture_Slides_Preview.pdf": {
-    "bytes": 394911,
-    "sha256": "4036cfe32fe44836cb6ea42ce33b169dace342392984394eba4de8695a144a02"
+    "bytes": 225240,
+    "sha256": "372324c67825be20a4458108827ddd118171ecdb3c136f5913b2cd3ade7e74fe"
   },
   "releases/EchoGesture-debug.apk": {
     "bytes": 60825849,
