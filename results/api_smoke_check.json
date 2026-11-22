@@ -1,0 +1,31 @@
+{
+  "scope": "One training-clip CPU landmark tensor; contract/load smoke check only, not accuracy evidence",
+  "results": {
+    "ensemble": {
+      "prediction": "BOOK",
+      "top5": [
+        "BOOK",
+        "COOK",
+        "FACT",
+        "FINANCE",
+        "BEG"
+      ],
+      "confidence": 0.04156471788883209,
+      "latency_ms": 47.192375,
+      "clip_id": "training-smoke-07073"
+    },
+    "3d": {
+      "prediction": "BOAT",
+      "top5": [
+        "BOAT",
+        "MELT",
+        "BOOK",
+        "LAND",
+        "BIBLE"
+      ],
+      "confidence": 0.039558157324790955,
+      "latency_ms": 0.994125,
+      "clip_id": "training-smoke-07073"
+    }
+  }
+}

@@ -1,0 +1,4428 @@
+{
+  "feature_version": "palm3d-context-v1",
+  "frames": 48,
+  "classes": 2000,
+  "counts": {
+    "train": 13788,
+    "val": 3868,
+    "test": 2878
+  },
+  "metadata_counts": {
+    "train": 14289,
+    "val": 3916,
+    "test": 2878
+  },
+  "class_coverage": {
+    "train": 2000,
+    "val": 1996,
+    "test": 1999
+  },
+  "signer_overlap_train_val": 108,
+  "signer_overlap_train_test": 104,
+  "signer_independent": false,
+  "source": "OpenHands WLASL public inferred-XYZ poses",
+  "rejected": [],
+  "original_counts": {
+    "train": 14289,
+    "val": 3916,
+    "test": 2878
+  },
+  "exact_duplicate_exclusions": [
+    {
+      "clip_id": "24651",
+      "split": "train",
+      "label": "GIVE",
+      "signer_id": 11,
+      "class_id": 784,
+      "features": "24651.npy"
+    },
+    {
+      "clip_id": "36936",
+      "split": "train",
+      "label": "MOTHER",
+      "signer_id": 11,
+      "class_id": 1118,
+      "features": "36936.npy"
+    },
+    {
+      "clip_id": "57947",
+      "split": "train",
+      "label": "THIN",
+      "signer_id": 10,
+      "class_id": 1797,
+      "features": "57947.npy"
+    },
+    {
+      "clip_id": "08486",
+      "split": "train",
+      "label": "BUY",
+      "signer_id": 59,
+      "class_id": 264,
+      "features": "08486.npy"
+    },
+    {
+      "clip_id": "34583",
+      "split": "train",
+      "label": "MAKE",
+      "signer_id": 10,
+      "class_id": 1059,
+      "features": "34583.npy"
+    },
+    {
+      "clip_id": "59506",
+      "split": "val",
+      "label": "TRAVEL",
+      "signer_id": 12,
+      "class_id": 1851,
+      "features": "59506.npy"
+    },
+    {
+      "clip_id": "09723",
+      "split": "train",
+      "label": "CENTER",
+      "signer_id": 13,
+      "class_id": 309,
+      "features": "09723.npy"
+    },
+    {
+      "clip_id": "15330",
+      "split": "train",
+      "label": "DELAY",
+      "signer_id": 11,
+      "class_id": 486,
+      "features": "15330.npy"
+    },
+    {
+      "clip_id": "59155",
+      "split": "train",
+      "label": "TOWN",
+      "signer_id": 12,
+      "class_id": 1842,
+      "features": "59155.npy"
+    },
+    {
+      "clip_id": "46430",
+      "split": "train",
+      "label": "REASON",
+      "signer_id": 4,
+      "class_id": 1412,
+      "features": "46430.npy"
+    },
+    {
+      "clip_id": "27282",
+      "split": "train",
+      "label": "HER",
+      "signer_id": 11,
+      "class_id": 859,
+      "features": "27282.npy"
+    },
+    {
+      "clip_id": "32696",
+      "split": "train",
+      "label": "LECTURE",
+      "signer_id": 4,
+      "class_id": 1007,
+      "features": "32696.npy"
+    },
+    {
+      "clip_id": "37198",
+      "split": "train",
+      "label": "MUCH",
+      "signer_id": 11,
+      "class_id": 1127,
+      "features": "37198.npy"
+    },
+    {
+      "clip_id": "24379",
+      "split": "train",
+      "label": "GERMANY",
+      "signer_id": 45,
+      "class_id": 776,
+      "features": "24379.npy"
+    },
+    {
+      "clip_id": "44323",
+      "split": "train",
+      "label": "PRESENTATION",
+      "signer_id": 4,
+      "class_id": 1334,
+      "features": "44323.npy"
+    },
+    {
+      "clip_id": "44629",
+      "split": "train",
+      "label": "PRIVATE",
+      "signer_id": 10,
+      "class_id": 1350,
+      "features": "44629.npy"
+    },
+    {
+      "clip_id": "18417",
+      "split": "train",
+      "label": "EDUCATE",
+      "signer_id": 13,
+      "class_id": 598,
+      "features": "18417.npy"
+    },
+    {
+      "clip_id": "02973",
+      "split": "val",
+      "label": "APPETITE",
+      "signer_id": 11,
+      "class_id": 80,
+      "features": "02973.npy"
+    },
+    {
+      "clip_id": "09081",
+      "split": "train",
+      "label": "CAPTAIN",
+      "signer_id": 11,
+      "class_id": 288,
+      "features": "09081.npy"
+    },
+    {
+      "clip_id": "05219",
+      "split": "train",
+      "label": "BASIC",
+      "signer_id": 11,
+      "class_id": 153,
+      "features": "05219.npy"
+    },
+    {
+      "clip_id": "45220",
+      "split": "train",
+      "label": "PUBLISH",
+      "signer_id": 31,
+      "class_id": 1373,
+      "features": "45220.npy"
+    },
+    {
+      "clip_id": "44488",
+      "split": "train",
+      "label": "PRIDE",
+      "signer_id": 11,
+      "class_id": 1340,
+      "features": "44488.npy"
+    },
+    {
+      "clip_id": "28827",
+      "split": "train",
+      "label": "ILL",
+      "signer_id": 12,
+      "class_id": 904,
+      "features": "28827.npy"
+    },
+    {
+      "clip_id": "37833",
+      "split": "train",
+      "label": "NECESSARY",
+      "signer_id": 41,
+      "class_id": 1144,
+      "features": "37833.npy"
+    },
+    {
+      "clip_id": "50471",
+      "split": "train",
+      "label": "SEQUENCE",
+      "signer_id": 11,
+      "class_id": 1536,
+      "features": "50471.npy"
+    },
+    {
+      "clip_id": "14457",
+      "split": "train",
+      "label": "CUTE",
+      "signer_id": 11,
+      "class_id": 457,
+      "features": "14457.npy"
+    },
+    {
+      "clip_id": "05303",
+      "split": "val",
+      "label": "BATHROOM",
+      "signer_id": 10,
+      "class_id": 156,
+      "features": "05303.npy"
+    },
+    {
+      "clip_id": "03124",
+      "split": "train",
+      "label": "APPROVE",
+      "signer_id": 11,
+      "class_id": 86,
+      "features": "03124.npy"
+    },
+    {
+      "clip_id": "41452",
+      "split": "train",
+      "label": "PAST",
+      "signer_id": 11,
+      "class_id": 1241,
+      "features": "41452.npy"
+    },
+    {
+      "clip_id": "21212",
+      "split": "train",
+      "label": "FATHER",
+      "signer_id": 11,
+      "class_id": 686,
+      "features": "21212.npy"
+    },
+    {
+      "clip_id": "31316",
+      "split": "train",
+      "label": "JUMP",
+      "signer_id": 21,
+      "class_id": 964,
+      "features": "31316.npy"
+    },
+    {
+      "clip_id": "42425",
+      "split": "train",
+      "label": "PHONE",
+      "signer_id": 13,
+      "class_id": 1270,
+      "features": "42425.npy"
+    },
+    {
+      "clip_id": "58733",
+      "split": "train",
+      "label": "TOILET",
+      "signer_id": 52,
+      "class_id": 1823,
+      "features": "58733.npy"
+    },
+    {
+      "clip_id": "60859",
+      "split": "train",
+      "label": "UNTIL",
+      "signer_id": 16,
+      "class_id": 1881,
+      "features": "60859.npy"
+    },
+    {
+      "clip_id": "48216",
+      "split": "train",
+      "label": "RISE",
+      "signer_id": 10,
+      "class_id": 1467,
+      "features": "48216.npy"
+    },
+    {
+      "clip_id": "44324",
+      "split": "train",
+      "label": "PRESENTATION",
+      "signer_id": 4,
+      "class_id": 1334,
+      "features": "44324.npy"
+    },
+    {
+      "clip_id": "44738",
+      "split": "train",
+      "label": "PROCRASTINATE",
+      "signer_id": 11,
+      "class_id": 1353,
+      "features": "44738.npy"
+    },
+    {
+      "clip_id": "56972",
+      "split": "val",
+      "label": "TASTE",
+      "signer_id": 21,
+      "class_id": 1753,
+      "features": "56972.npy"
+    },
+    {
+      "clip_id": "01157",
+      "split": "train",
+      "label": "ADOPT",
+      "signer_id": 13,
+      "class_id": 24,
+      "features": "01157.npy"
+    },
+    {
+      "clip_id": "56782",
+      "split": "train",
+      "label": "TALE",
+      "signer_id": 11,
+      "class_id": 1748,
+      "features": "56782.npy"
+    },
+    {
+      "clip_id": "37687",
+      "split": "train",
+      "label": "NATION",
+      "signer_id": 11,
+      "class_id": 1142,
+      "features": "37687.npy"
+    },
+    {
+      "clip_id": "30879",
+      "split": "train",
+      "label": "JAIL",
+      "signer_id": 10,
+      "class_id": 951,
+      "features": "30879.npy"
+    },
+    {
+      "clip_id": "06215",
+      "split": "train",
+      "label": "BIKE",
+      "signer_id": 59,
+      "class_id": 188,
+      "features": "06215.npy"
+    },
+    {
+      "clip_id": "02644",
+      "split": "train",
+      "label": "ANNOY",
+      "signer_id": 6,
+      "class_id": 71,
+      "features": "02644.npy"
+    },
+    {
+      "clip_id": "07864",
+      "split": "train",
+      "label": "BROCHURE",
+      "signer_id": 11,
+      "class_id": 244,
+      "features": "07864.npy"
+    },
+    {
+      "clip_id": "15405",
+      "split": "train",
+      "label": "DELIVER",
+      "signer_id": 11,
+      "class_id": 488,
+      "features": "15405.npy"
+    },
+    {
+      "clip_id": "59384",
+      "split": "train",
+      "label": "TRANSFORM",
+      "signer_id": 59,
+      "class_id": 1849,
+      "features": "59384.npy"
+    },
+    {
+      "clip_id": "53199",
+      "split": "train",
+      "label": "SOMEDAY",
+      "signer_id": 11,
+      "class_id": 1629,
+      "features": "53199.npy"
+    },
+    {
+      "clip_id": "43169",
+      "split": "train",
+      "label": "PLAY",
+      "signer_id": 52,
+      "class_id": 1291,
+      "features": "43169.npy"
+    },
+    {
+      "clip_id": "51360",
+      "split": "train",
+      "label": "SHOW",
+      "signer_id": 12,
+      "class_id": 1564,
+      "features": "51360.npy"
+    },
+    {
+      "clip_id": "32312",
+      "split": "train",
+      "label": "LATE",
+      "signer_id": 12,
+      "class_id": 993,
+      "features": "32312.npy"
+    },
+    {
+      "clip_id": "53699",
+      "split": "train",
+      "label": "SPEECH",
+      "signer_id": 4,
+      "class_id": 1650,
+      "features": "53699.npy"
+    },
+    {
+      "clip_id": "01553",
+      "split": "val",
+      "label": "AGO",
+      "signer_id": 4,
+      "class_id": 38,
+      "features": "01553.npy"
+    },
+    {
+      "clip_id": "13355",
+      "split": "train",
+      "label": "CORRECT",
+      "signer_id": 11,
+      "class_id": 424,
+      "features": "13355.npy"
+    },
+    {
+      "clip_id": "53710",
+      "split": "train",
+      "label": "SPEECH",
+      "signer_id": 12,
+      "class_id": 1650,
+      "features": "53710.npy"
+    },
+    {
+      "clip_id": "08346",
+      "split": "train",
+      "label": "BUS",
+      "signer_id": 29,
+      "class_id": 256,
+      "features": "08346.npy"
+    },
+    {
+      "clip_id": "09209",
+      "split": "train",
+      "label": "CARE",
+      "signer_id": 11,
+      "class_id": 293,
+      "features": "09209.npy"
+    },
+    {
+      "clip_id": "05960",
+      "split": "train",
+      "label": "BENEFIT",
+      "signer_id": 19,
+      "class_id": 178,
+      "features": "05960.npy"
+    },
+    {
+      "clip_id": "32541",
+      "split": "train",
+      "label": "LEAD",
+      "signer_id": 11,
+      "class_id": 1000,
+      "features": "32541.npy"
+    },
+    {
+      "clip_id": "25048",
+      "split": "train",
+      "label": "GOODBYE",
+      "signer_id": 20,
+      "class_id": 797,
+      "features": "25048.npy"
+    },
+    {
+      "clip_id": "15709",
+      "split": "val",
+      "label": "DESCRIBE",
+      "signer_id": 21,
+      "class_id": 500,
+      "features": "15709.npy"
+    },
+    {
+      "clip_id": "57613",
+      "split": "train",
+      "label": "THANKFUL",
+      "signer_id": 13,
+      "class_id": 1781,
+      "features": "57613.npy"
+    },
+    {
+      "clip_id": "00339",
+      "split": "val",
+      "label": "ABDOMEN",
+      "signer_id": 10,
+      "class_id": 2,
+      "features": "00339.npy"
+    },
+    {
+      "clip_id": "00338",
+      "split": "train",
+      "label": "ABDOMEN",
+      "signer_id": 10,
+      "class_id": 2,
+      "features": "00338.npy"
+    },
+    {
+      "clip_id": "15849",
+      "split": "train",
+      "label": "DETACH",
+      "signer_id": 11,
+      "class_id": 506,
+      "features": "15849.npy"
+    },
+    {
+      "clip_id": "19746",
+      "split": "val",
+      "label": "EVENING",
+      "signer_id": 11,
+      "class_id": 640,
+      "features": "19746.npy"
+    },
+    {
+      "clip_id": "49672",
+      "split": "train",
+      "label": "SCOLD",
+      "signer_id": 11,
+      "class_id": 1513,
+      "features": "49672.npy"
+    },
+    {
+      "clip_id": "13093",
+      "split": "train",
+      "label": "CONVERSATION",
+      "signer_id": 10,
+      "class_id": 413,
+      "features": "13093.npy"
+    },
+    {
+      "clip_id": "13880",
+      "split": "train",
+      "label": "CREATE",
+      "signer_id": 10,
+      "class_id": 441,
+      "features": "13880.npy"
+    },
+    {
+      "clip_id": "23427",
+      "split": "train",
+      "label": "FREEWAY",
+      "signer_id": 11,
+      "class_id": 742,
+      "features": "23427.npy"
+    },
+    {
+      "clip_id": "16877",
+      "split": "train",
+      "label": "DISTURB",
+      "signer_id": 11,
+      "class_id": 540,
+      "features": "16877.npy"
+    },
+    {
+      "clip_id": "02487",
+      "split": "train",
+      "label": "ANATOMY",
+      "signer_id": 15,
+      "class_id": 63,
+      "features": "02487.npy"
+    },
+    {
+      "clip_id": "20839",
+      "split": "train",
+      "label": "FAIRY",
+      "signer_id": 11,
+      "class_id": 674,
+      "features": "20839.npy"
+    },
+    {
+      "clip_id": "07703",
+      "split": "train",
+      "label": "BREEZE",
+      "signer_id": 10,
+      "class_id": 238,
+      "features": "07703.npy"
+    },
+    {
+      "clip_id": "47140",
+      "split": "train",
+      "label": "RELY",
+      "signer_id": 11,
+      "class_id": 1433,
+      "features": "47140.npy"
+    },
+    {
+      "clip_id": "43538",
+      "split": "train",
+      "label": "POLICEMAN",
+      "signer_id": 13,
+      "class_id": 1301,
+      "features": "43538.npy"
+    },
+    {
+      "clip_id": "57286",
+      "split": "train",
+      "label": "TELL",
+      "signer_id": 11,
+      "class_id": 1764,
+      "features": "57286.npy"
+    },
+    {
+      "clip_id": "37883",
+      "split": "train",
+      "label": "NEED",
+      "signer_id": 27,
+      "class_id": 1147,
+      "features": "37883.npy"
+    },
+    {
+      "clip_id": "63287",
+      "split": "train",
+      "label": "WHY",
+      "signer_id": 11,
+      "class_id": 1956,
+      "features": "63287.npy"
+    },
+    {
+      "clip_id": "17016",
+      "split": "val",
+      "label": "DOCTOR",
+      "signer_id": 60,
+      "class_id": 546,
+      "features": "17016.npy"
+    },
+    {
+      "clip_id": "42232",
+      "split": "train",
+      "label": "PERSON",
+      "signer_id": 10,
+      "class_id": 1264,
+      "features": "42232.npy"
+    },
+    {
+      "clip_id": "41454",
+      "split": "train",
+      "label": "PAST",
+      "signer_id": 11,
+      "class_id": 1241,
+      "features": "41454.npy"
+    },
+    {
+      "clip_id": "49658",
+      "split": "train",
+      "label": "SCISSORS",
+      "signer_id": 11,
+      "class_id": 1512,
+      "features": "49658.npy"
+    },
+    {
+      "clip_id": "19560",
+      "split": "train",
+      "label": "ESCAPE",
+      "signer_id": 39,
+      "class_id": 635,
+      "features": "19560.npy"
+    },
+    {
+      "clip_id": "14482",
+      "split": "train",
+      "label": "CUT",
+      "signer_id": 11,
+      "class_id": 456,
+      "features": "14482.npy"
+    },
+    {
+      "clip_id": "00599",
+      "split": "train",
+      "label": "ACCEPT",
+      "signer_id": 11,
+      "class_id": 7,
+      "features": "00599.npy"
+    },
+    {
+      "clip_id": "07230",
+      "split": "train",
+      "label": "BORROW",
+      "signer_id": 10,
+      "class_id": 215,
+      "features": "07230.npy"
+    },
+    {
+      "clip_id": "07301",
+      "split": "train",
+      "label": "BOTTOM",
+      "signer_id": 13,
+      "class_id": 220,
+      "features": "07301.npy"
+    },
+    {
+      "clip_id": "37432",
+      "split": "train",
+      "label": "MUST",
+      "signer_id": 41,
+      "class_id": 1134,
+      "features": "37432.npy"
+    },
+    {
+      "clip_id": "31559",
+      "split": "train",
+      "label": "KEYBOARD",
+      "signer_id": 10,
+      "class_id": 971,
+      "features": "31559.npy"
+    },
+    {
+      "clip_id": "44739",
+      "split": "train",
+      "label": "PROCRASTINATE",
+      "signer_id": 11,
+      "class_id": 1353,
+      "features": "44739.npy"
+    },
+    {
+      "clip_id": "48711",
+      "split": "val",
+      "label": "RUDE",
+      "signer_id": 13,
+      "class_id": 1484,
+      "features": "48711.npy"
+    },
+    {
+      "clip_id": "07575",
+      "split": "train",
+      "label": "BRAVE",
+      "signer_id": 4,
+      "class_id": 232,
+      "features": "07575.npy"
+    },
+    {
+      "clip_id": "64048",
+      "split": "train",
+      "label": "WRISTWATCH",
+      "signer_id": 12,
+      "class_id": 1988,
+      "features": "64048.npy"
+    },
+    {
+      "clip_id": "61371",
+      "split": "train",
+      "label": "VEGETABLE",
+      "signer_id": 12,
+      "class_id": 1893,
+      "features": "61371.npy"
+    },
+    {
+      "clip_id": "44953",
+      "split": "val",
+      "label": "PROOF",
+      "signer_id": 10,
+      "class_id": 1362,
+      "features": "44953.npy"
+    },
+    {
+      "clip_id": "51803",
+      "split": "train",
+      "label": "SING",
+      "signer_id": 4,
+      "class_id": 1579,
+      "features": "51803.npy"
+    },
+    {
+      "clip_id": "45867",
+      "split": "train",
+      "label": "RACE",
+      "signer_id": 13,
+      "class_id": 1399,
+      "features": "45867.npy"
+    },
+    {
+      "clip_id": "15141",
+      "split": "train",
+      "label": "DEDUCT",
+      "signer_id": 4,
+      "class_id": 480,
+      "features": "15141.npy"
+    },
+    {
+      "clip_id": "51199",
+      "split": "train",
+      "label": "SHOPPING",
+      "signer_id": 15,
+      "class_id": 1558,
+      "features": "51199.npy"
+    },
+    {
+      "clip_id": "21824",
+      "split": "val",
+      "label": "FINAL",
+      "signer_id": 11,
+      "class_id": 699,
+      "features": "21824.npy"
+    },
+    {
+      "clip_id": "30281",
+      "split": "train",
+      "label": "INTERRUPT",
+      "signer_id": 40,
+      "class_id": 935,
+      "features": "30281.npy"
+    },
+    {
+      "clip_id": "01122",
+      "split": "train",
+      "label": "ADMIT",
+      "signer_id": 11,
+      "class_id": 23,
+      "features": "01122.npy"
+    },
+    {
+      "clip_id": "17212",
+      "split": "train",
+      "label": "DONE",
+      "signer_id": 11,
+      "class_id": 553,
+      "features": "17212.npy"
+    },
+    {
+      "clip_id": "07702",
+      "split": "train",
+      "label": "BREEZE",
+      "signer_id": 10,
+      "class_id": 238,
+      "features": "07702.npy"
+    },
+    {
+      "clip_id": "38875",
+      "split": "train",
+      "label": "NOTICE",
+      "signer_id": 10,
+      "class_id": 1176,
+      "features": "38875.npy"
+    },
+    {
+      "clip_id": "53041",
+      "split": "train",
+      "label": "SOFA",
+      "signer_id": 11,
+      "class_id": 1623,
+      "features": "53041.npy"
+    },
+    {
+      "clip_id": "44973",
+      "split": "train",
+      "label": "PROPER",
+      "signer_id": 10,
+      "class_id": 1364,
+      "features": "44973.npy"
+    },
+    {
+      "clip_id": "36404",
+      "split": "train",
+      "label": "MISTAKE",
+      "signer_id": 12,
+      "class_id": 1101,
+      "features": "36404.npy"
+    },
+    {
+      "clip_id": "47724",
+      "split": "train",
+      "label": "RESTROOM",
+      "signer_id": 10,
+      "class_id": 1455,
+      "features": "47724.npy"
+    },
+    {
+      "clip_id": "61138",
+      "split": "train",
+      "label": "VACANT",
+      "signer_id": 11,
+      "class_id": 1887,
+      "features": "61138.npy"
+    },
+    {
+      "clip_id": "36946",
+      "split": "train",
+      "label": "MOTHER",
+      "signer_id": 41,
+      "class_id": 1118,
+      "features": "36946.npy"
+    },
+    {
+      "clip_id": "41029",
+      "split": "train",
+      "label": "PAPER",
+      "signer_id": 13,
+      "class_id": 1232,
+      "features": "41029.npy"
+    },
+    {
+      "clip_id": "23951",
+      "split": "train",
+      "label": "FUTURE",
+      "signer_id": 11,
+      "class_id": 760,
+      "features": "23951.npy"
+    },
+    {
+      "clip_id": "39586",
+      "split": "train",
+      "label": "OK",
+      "signer_id": 3,
+      "class_id": 1198,
+      "features": "39586.npy"
+    },
+    {
+      "clip_id": "07198",
+      "split": "train",
+      "label": "BORED",
+      "signer_id": 11,
+      "class_id": 214,
+      "features": "07198.npy"
+    },
+    {
+      "clip_id": "43907",
+      "split": "train",
+      "label": "POSTPONE",
+      "signer_id": 11,
+      "class_id": 1313,
+      "features": "43907.npy"
+    },
+    {
+      "clip_id": "07266",
+      "split": "val",
+      "label": "BOTHER",
+      "signer_id": 11,
+      "class_id": 218,
+      "features": "07266.npy"
+    },
+    {
+      "clip_id": "40317",
+      "split": "train",
+      "label": "OTHER",
+      "signer_id": 11,
+      "class_id": 1215,
+      "features": "40317.npy"
+    },
+    {
+      "clip_id": "40314",
+      "split": "train",
+      "label": "OTHER",
+      "signer_id": 4,
+      "class_id": 1215,
+      "features": "40314.npy"
+    },
+    {
+      "clip_id": "47462",
+      "split": "train",
+      "label": "REQUIRE",
+      "signer_id": 4,
+      "class_id": 1445,
+      "features": "47462.npy"
+    },
+    {
+      "clip_id": "51690",
+      "split": "train",
+      "label": "SILENT",
+      "signer_id": 11,
+      "class_id": 1572,
+      "features": "51690.npy"
+    },
+    {
+      "clip_id": "52175",
+      "split": "train",
+      "label": "SKINNY",
+      "signer_id": 10,
+      "class_id": 1595,
+      "features": "52175.npy"
+    },
+    {
+      "clip_id": "00841",
+      "split": "train",
+      "label": "ACROSS",
+      "signer_id": 16,
+      "class_id": 11,
+      "features": "00841.npy"
+    },
+    {
+      "clip_id": "64451",
+      "split": "train",
+      "label": "YOURSELF",
+      "signer_id": 11,
+      "class_id": 1998,
+      "features": "64451.npy"
+    },
+    {
+      "clip_id": "57849",
+      "split": "train",
+      "label": "THERMOMETER",
+      "signer_id": 12,
+      "class_id": 1794,
+      "features": "57849.npy"
+    },
+    {
+      "clip_id": "15297",
+      "split": "train",
+      "label": "DEGREE",
+      "signer_id": 11,
+      "class_id": 485,
+      "features": "15297.npy"
+    },
+    {
+      "clip_id": "52104",
+      "split": "train",
+      "label": "SKETCH",
+      "signer_id": 31,
+      "class_id": 1591,
+      "features": "52104.npy"
+    },
+    {
+      "clip_id": "45455",
+      "split": "train",
+      "label": "PURPOSE",
+      "signer_id": 12,
+      "class_id": 1380,
+      "features": "45455.npy"
+    },
+    {
+      "clip_id": "25423",
+      "split": "train",
+      "label": "GRANDMA",
+      "signer_id": 11,
+      "class_id": 806,
+      "features": "25423.npy"
+    },
+    {
+      "clip_id": "44782",
+      "split": "train",
+      "label": "PROFESSIONAL",
+      "signer_id": 11,
+      "class_id": 1354,
+      "features": "44782.npy"
+    },
+    {
+      "clip_id": "44400",
+      "split": "val",
+      "label": "PRESSURE",
+      "signer_id": 11,
+      "class_id": 1336,
+      "features": "44400.npy"
+    },
+    {
+      "clip_id": "52691",
+      "split": "val",
+      "label": "SNACK",
+      "signer_id": 11,
+      "class_id": 1612,
+      "features": "52691.npy"
+    },
+    {
+      "clip_id": "08512",
+      "split": "train",
+      "label": "BYE",
+      "signer_id": 10,
+      "class_id": 265,
+      "features": "08512.npy"
+    },
+    {
+      "clip_id": "35558",
+      "split": "train",
+      "label": "MELODY",
+      "signer_id": 11,
+      "class_id": 1080,
+      "features": "35558.npy"
+    },
+    {
+      "clip_id": "02010",
+      "split": "train",
+      "label": "ALLIGATOR",
+      "signer_id": 13,
+      "class_id": 51,
+      "features": "02010.npy"
+    },
+    {
+      "clip_id": "47482",
+      "split": "train",
+      "label": "RESCUE",
+      "signer_id": 11,
+      "class_id": 1446,
+      "features": "47482.npy"
+    },
+    {
+      "clip_id": "47806",
+      "split": "train",
+      "label": "RETREAT",
+      "signer_id": 21,
+      "class_id": 1458,
+      "features": "47806.npy"
+    },
+    {
+      "clip_id": "61136",
+      "split": "train",
+      "label": "VACANT",
+      "signer_id": 21,
+      "class_id": 1887,
+      "features": "61136.npy"
+    },
+    {
+      "clip_id": "37888",
+      "split": "train",
+      "label": "NEED",
+      "signer_id": 5,
+      "class_id": 1147,
+      "features": "37888.npy"
+    },
+    {
+      "clip_id": "57063",
+      "split": "train",
+      "label": "TEACH",
+      "signer_id": 11,
+      "class_id": 1755,
+      "features": "57063.npy"
+    },
+    {
+      "clip_id": "64433",
+      "split": "train",
+      "label": "YOUR",
+      "signer_id": 11,
+      "class_id": 1997,
+      "features": "64433.npy"
+    },
+    {
+      "clip_id": "38287",
+      "split": "train",
+      "label": "NICE",
+      "signer_id": 11,
+      "class_id": 1160,
+      "features": "38287.npy"
+    },
+    {
+      "clip_id": "26956",
+      "split": "train",
+      "label": "HEAR",
+      "signer_id": 41,
+      "class_id": 848,
+      "features": "26956.npy"
+    },
+    {
+      "clip_id": "00600",
+      "split": "val",
+      "label": "ACCEPT",
+      "signer_id": 11,
+      "class_id": 7,
+      "features": "00600.npy"
+    },
+    {
+      "clip_id": "13352",
+      "split": "train",
+      "label": "CORRECT",
+      "signer_id": 59,
+      "class_id": 424,
+      "features": "13352.npy"
+    },
+    {
+      "clip_id": "63364",
+      "split": "train",
+      "label": "WILL",
+      "signer_id": 11,
+      "class_id": 1959,
+      "features": "63364.npy"
+    },
+    {
+      "clip_id": "06533",
+      "split": "train",
+      "label": "BLAME",
+      "signer_id": 11,
+      "class_id": 197,
+      "features": "06533.npy"
+    },
+    {
+      "clip_id": "07245",
+      "split": "train",
+      "label": "BOSS",
+      "signer_id": 11,
+      "class_id": 216,
+      "features": "07245.npy"
+    },
+    {
+      "clip_id": "62444",
+      "split": "train",
+      "label": "WATCH",
+      "signer_id": 13,
+      "class_id": 1925,
+      "features": "62444.npy"
+    },
+    {
+      "clip_id": "25432",
+      "split": "train",
+      "label": "GRANDMOTHER",
+      "signer_id": 21,
+      "class_id": 807,
+      "features": "25432.npy"
+    },
+    {
+      "clip_id": "05915",
+      "split": "train",
+      "label": "BELOW",
+      "signer_id": 11,
+      "class_id": 176,
+      "features": "05915.npy"
+    },
+    {
+      "clip_id": "20012",
+      "split": "train",
+      "label": "EXACT",
+      "signer_id": 10,
+      "class_id": 648,
+      "features": "20012.npy"
+    },
+    {
+      "clip_id": "04013",
+      "split": "val",
+      "label": "ATTENTION",
+      "signer_id": 13,
+      "class_id": 108,
+      "features": "04013.npy"
+    },
+    {
+      "clip_id": "46962",
+      "split": "train",
+      "label": "REHEARSE",
+      "signer_id": 11,
+      "class_id": 1425,
+      "features": "46962.npy"
+    },
+    {
+      "clip_id": "18116",
+      "split": "train",
+      "label": "EACH",
+      "signer_id": 5,
+      "class_id": 585,
+      "features": "18116.npy"
+    },
+    {
+      "clip_id": "59795",
+      "split": "train",
+      "label": "TRUE",
+      "signer_id": 11,
+      "class_id": 1858,
+      "features": "59795.npy"
+    },
+    {
+      "clip_id": "01646",
+      "split": "train",
+      "label": "AIM",
+      "signer_id": 10,
+      "class_id": 43,
+      "features": "01646.npy"
+    },
+    {
+      "clip_id": "24991",
+      "split": "train",
+      "label": "GOLD",
+      "signer_id": 39,
+      "class_id": 793,
+      "features": "24991.npy"
+    },
+    {
+      "clip_id": "24139",
+      "split": "train",
+      "label": "GASOLINE",
+      "signer_id": 12,
+      "class_id": 768,
+      "features": "24139.npy"
+    },
+    {
+      "clip_id": "48077",
+      "split": "train",
+      "label": "RIDICULOUS",
+      "signer_id": 11,
+      "class_id": 1464,
+      "features": "48077.npy"
+    },
+    {
+      "clip_id": "33172",
+      "split": "train",
+      "label": "LIFT",
+      "signer_id": 12,
+      "class_id": 1023,
+      "features": "33172.npy"
+    },
+    {
+      "clip_id": "61237",
+      "split": "val",
+      "label": "VALUE",
+      "signer_id": 11,
+      "class_id": 1891,
+      "features": "61237.npy"
+    },
+    {
+      "clip_id": "59352",
+      "split": "train",
+      "label": "TRANQUIL",
+      "signer_id": 10,
+      "class_id": 1847,
+      "features": "59352.npy"
+    },
+    {
+      "clip_id": "39201",
+      "split": "train",
+      "label": "OBJECTIVE",
+      "signer_id": 10,
+      "class_id": 1185,
+      "features": "39201.npy"
+    },
+    {
+      "clip_id": "43949",
+      "split": "train",
+      "label": "POTENTIAL",
+      "signer_id": 11,
+      "class_id": 1315,
+      "features": "43949.npy"
+    },
+    {
+      "clip_id": "60704",
+      "split": "train",
+      "label": "UNIQUE",
+      "signer_id": 4,
+      "class_id": 1878,
+      "features": "60704.npy"
+    },
+    {
+      "clip_id": "53039",
+      "split": "train",
+      "label": "SOFA",
+      "signer_id": 59,
+      "class_id": 1623,
+      "features": "53039.npy"
+    },
+    {
+      "clip_id": "05731",
+      "split": "train",
+      "label": "BEFORE",
+      "signer_id": 4,
+      "class_id": 168,
+      "features": "05731.npy"
+    },
+    {
+      "clip_id": "57077",
+      "split": "train",
+      "label": "TEA",
+      "signer_id": 39,
+      "class_id": 1754,
+      "features": "57077.npy"
+    },
+    {
+      "clip_id": "05300",
+      "split": "train",
+      "label": "BATHROOM",
+      "signer_id": 13,
+      "class_id": 156,
+      "features": "05300.npy"
+    },
+    {
+      "clip_id": "21440",
+      "split": "train",
+      "label": "FEEL",
+      "signer_id": 5,
+      "class_id": 694,
+      "features": "21440.npy"
+    },
+    {
+      "clip_id": "42252",
+      "split": "train",
+      "label": "PERSPECTIVE",
+      "signer_id": 11,
+      "class_id": 1266,
+      "features": "42252.npy"
+    },
+    {
+      "clip_id": "44344",
+      "split": "train",
+      "label": "PRESENT",
+      "signer_id": 10,
+      "class_id": 1333,
+      "features": "44344.npy"
+    },
+    {
+      "clip_id": "58727",
+      "split": "train",
+      "label": "TO",
+      "signer_id": 11,
+      "class_id": 1818,
+      "features": "58727.npy"
+    },
+    {
+      "clip_id": "44281",
+      "split": "train",
+      "label": "PREPARE",
+      "signer_id": 41,
+      "class_id": 1331,
+      "features": "44281.npy"
+    },
+    {
+      "clip_id": "15711",
+      "split": "train",
+      "label": "DESCRIBE",
+      "signer_id": 10,
+      "class_id": 500,
+      "features": "15711.npy"
+    },
+    {
+      "clip_id": "13534",
+      "split": "train",
+      "label": "COUNT",
+      "signer_id": 10,
+      "class_id": 430,
+      "features": "13534.npy"
+    },
+    {
+      "clip_id": "47362",
+      "split": "train",
+      "label": "REPORT",
+      "signer_id": 11,
+      "class_id": 1441,
+      "features": "47362.npy"
+    },
+    {
+      "clip_id": "48893",
+      "split": "val",
+      "label": "RUSH",
+      "signer_id": 10,
+      "class_id": 1488,
+      "features": "48893.npy"
+    },
+    {
+      "clip_id": "63120",
+      "split": "train",
+      "label": "WHILE",
+      "signer_id": 32,
+      "class_id": 1952,
+      "features": "63120.npy"
+    },
+    {
+      "clip_id": "56783",
+      "split": "val",
+      "label": "TALE",
+      "signer_id": 11,
+      "class_id": 1748,
+      "features": "56783.npy"
+    },
+    {
+      "clip_id": "52604",
+      "split": "train",
+      "label": "SMELL",
+      "signer_id": 13,
+      "class_id": 1608,
+      "features": "52604.npy"
+    },
+    {
+      "clip_id": "63694",
+      "split": "train",
+      "label": "WONDERFUL",
+      "signer_id": 12,
+      "class_id": 1974,
+      "features": "63694.npy"
+    },
+    {
+      "clip_id": "29281",
+      "split": "train",
+      "label": "INCLUDE",
+      "signer_id": 10,
+      "class_id": 912,
+      "features": "29281.npy"
+    },
+    {
+      "clip_id": "56488",
+      "split": "train",
+      "label": "SYMPATHY",
+      "signer_id": 12,
+      "class_id": 1742,
+      "features": "56488.npy"
+    },
+    {
+      "clip_id": "28067",
+      "split": "train",
+      "label": "HOST",
+      "signer_id": 11,
+      "class_id": 883,
+      "features": "28067.npy"
+    },
+    {
+      "clip_id": "31236",
+      "split": "train",
+      "label": "JOY",
+      "signer_id": 10,
+      "class_id": 961,
+      "features": "31236.npy"
+    },
+    {
+      "clip_id": "45656",
+      "split": "train",
+      "label": "QUARREL",
+      "signer_id": 10,
+      "class_id": 1388,
+      "features": "45656.npy"
+    },
+    {
+      "clip_id": "58772",
+      "split": "train",
+      "label": "TOLERATE",
+      "signer_id": 11,
+      "class_id": 1825,
+      "features": "58772.npy"
+    },
+    {
+      "clip_id": "45532",
+      "split": "train",
+      "label": "PUT OFF",
+      "signer_id": 12,
+      "class_id": 1384,
+      "features": "45532.npy"
+    },
+    {
+      "clip_id": "40119",
+      "split": "train",
+      "label": "ORANGE",
+      "signer_id": 13,
+      "class_id": 1212,
+      "features": "40119.npy"
+    },
+    {
+      "clip_id": "18329",
+      "split": "train",
+      "label": "EAT",
+      "signer_id": 11,
+      "class_id": 596,
+      "features": "18329.npy"
+    },
+    {
+      "clip_id": "44086",
+      "split": "train",
+      "label": "PRACTICE",
+      "signer_id": 10,
+      "class_id": 1320,
+      "features": "44086.npy"
+    },
+    {
+      "clip_id": "15323",
+      "split": "train",
+      "label": "DELAY",
+      "signer_id": 13,
+      "class_id": 486,
+      "features": "15323.npy"
+    },
+    {
+      "clip_id": "21182",
+      "split": "val",
+      "label": "FAST",
+      "signer_id": 11,
+      "class_id": 684,
+      "features": "21182.npy"
+    },
+    {
+      "clip_id": "47492",
+      "split": "train",
+      "label": "RESEARCH",
+      "signer_id": 4,
+      "class_id": 1447,
+      "features": "47492.npy"
+    },
+    {
+      "clip_id": "43904",
+      "split": "train",
+      "label": "POSTPONE",
+      "signer_id": 13,
+      "class_id": 1313,
+      "features": "43904.npy"
+    },
+    {
+      "clip_id": "07493",
+      "split": "train",
+      "label": "BRAG",
+      "signer_id": 59,
+      "class_id": 229,
+      "features": "07493.npy"
+    },
+    {
+      "clip_id": "46965",
+      "split": "train",
+      "label": "REHEARSE",
+      "signer_id": 12,
+      "class_id": 1425,
+      "features": "46965.npy"
+    },
+    {
+      "clip_id": "57489",
+      "split": "train",
+      "label": "TERRIBLE",
+      "signer_id": 10,
+      "class_id": 1773,
+      "features": "57489.npy"
+    },
+    {
+      "clip_id": "27555",
+      "split": "train",
+      "label": "HIS",
+      "signer_id": 14,
+      "class_id": 868,
+      "features": "27555.npy"
+    },
+    {
+      "clip_id": "19743",
+      "split": "train",
+      "label": "EVENING",
+      "signer_id": 21,
+      "class_id": 640,
+      "features": "19743.npy"
+    },
+    {
+      "clip_id": "21826",
+      "split": "train",
+      "label": "FINAL",
+      "signer_id": 12,
+      "class_id": 699,
+      "features": "21826.npy"
+    },
+    {
+      "clip_id": "31220",
+      "split": "train",
+      "label": "JOURNEY",
+      "signer_id": 11,
+      "class_id": 960,
+      "features": "31220.npy"
+    },
+    {
+      "clip_id": "32914",
+      "split": "train",
+      "label": "LET",
+      "signer_id": 20,
+      "class_id": 1015,
+      "features": "32914.npy"
+    },
+    {
+      "clip_id": "39389",
+      "split": "train",
+      "label": "ODOR",
+      "signer_id": 11,
+      "class_id": 1193,
+      "features": "39389.npy"
+    },
+    {
+      "clip_id": "43540",
+      "split": "train",
+      "label": "POLICEMAN",
+      "signer_id": 11,
+      "class_id": 1301,
+      "features": "43540.npy"
+    },
+    {
+      "clip_id": "50584",
+      "split": "train",
+      "label": "SETTLE",
+      "signer_id": 10,
+      "class_id": 1540,
+      "features": "50584.npy"
+    },
+    {
+      "clip_id": "24956",
+      "split": "train",
+      "label": "GO",
+      "signer_id": 10,
+      "class_id": 789,
+      "features": "24956.npy"
+    },
+    {
+      "clip_id": "60709",
+      "split": "train",
+      "label": "UNIQUE",
+      "signer_id": 12,
+      "class_id": 1878,
+      "features": "60709.npy"
+    },
+    {
+      "clip_id": "32257",
+      "split": "train",
+      "label": "LAST",
+      "signer_id": 11,
+      "class_id": 990,
+      "features": "32257.npy"
+    },
+    {
+      "clip_id": "32667",
+      "split": "train",
+      "label": "LEAVE",
+      "signer_id": 10,
+      "class_id": 1006,
+      "features": "32667.npy"
+    },
+    {
+      "clip_id": "10637",
+      "split": "train",
+      "label": "CHOOSE",
+      "signer_id": 11,
+      "class_id": 339,
+      "features": "10637.npy"
+    },
+    {
+      "clip_id": "01159",
+      "split": "val",
+      "label": "ADOPT",
+      "signer_id": 11,
+      "class_id": 24,
+      "features": "01159.npy"
+    },
+    {
+      "clip_id": "47301",
+      "split": "train",
+      "label": "REPEAT",
+      "signer_id": 27,
+      "class_id": 1438,
+      "features": "47301.npy"
+    },
+    {
+      "clip_id": "05847",
+      "split": "train",
+      "label": "BELIEF",
+      "signer_id": 4,
+      "class_id": 173,
+      "features": "05847.npy"
+    },
+    {
+      "clip_id": "00894",
+      "split": "train",
+      "label": "ACTIVITY",
+      "signer_id": 10,
+      "class_id": 15,
+      "features": "00894.npy"
+    },
+    {
+      "clip_id": "18479",
+      "split": "train",
+      "label": "EFFORT",
+      "signer_id": 11,
+      "class_id": 600,
+      "features": "18479.npy"
+    },
+    {
+      "clip_id": "27556",
+      "split": "train",
+      "label": "HIS",
+      "signer_id": 11,
+      "class_id": 868,
+      "features": "27556.npy"
+    },
+    {
+      "clip_id": "24331",
+      "split": "train",
+      "label": "GEOGRAPHY",
+      "signer_id": 4,
+      "class_id": 773,
+      "features": "24331.npy"
+    },
+    {
+      "clip_id": "49002",
+      "split": "train",
+      "label": "SAFE",
+      "signer_id": 11,
+      "class_id": 1492,
+      "features": "49002.npy"
+    },
+    {
+      "clip_id": "53262",
+      "split": "train",
+      "label": "SONG",
+      "signer_id": 13,
+      "class_id": 1635,
+      "features": "53262.npy"
+    },
+    {
+      "clip_id": "00849",
+      "split": "train",
+      "label": "ACT",
+      "signer_id": 11,
+      "class_id": 12,
+      "features": "00849.npy"
+    },
+    {
+      "clip_id": "19215",
+      "split": "train",
+      "label": "ENGINE",
+      "signer_id": 10,
+      "class_id": 622,
+      "features": "19215.npy"
+    },
+    {
+      "clip_id": "45932",
+      "split": "train",
+      "label": "RAGE",
+      "signer_id": 11,
+      "class_id": 1401,
+      "features": "45932.npy"
+    },
+    {
+      "clip_id": "44020",
+      "split": "train",
+      "label": "POVERTY",
+      "signer_id": 31,
+      "class_id": 1318,
+      "features": "44020.npy"
+    },
+    {
+      "clip_id": "44023",
+      "split": "train",
+      "label": "POVERTY",
+      "signer_id": 11,
+      "class_id": 1318,
+      "features": "44023.npy"
+    },
+    {
+      "clip_id": "26973",
+      "split": "train",
+      "label": "HEARING",
+      "signer_id": 45,
+      "class_id": 849,
+      "features": "26973.npy"
+    },
+    {
+      "clip_id": "08946",
+      "split": "train",
+      "label": "CAN",
+      "signer_id": 5,
+      "class_id": 280,
+      "features": "08946.npy"
+    },
+    {
+      "clip_id": "16200",
+      "split": "train",
+      "label": "DIFFERENT",
+      "signer_id": 5,
+      "class_id": 518,
+      "features": "16200.npy"
+    },
+    {
+      "clip_id": "09186",
+      "split": "train",
+      "label": "CAREFUL",
+      "signer_id": 11,
+      "class_id": 294,
+      "features": "09186.npy"
+    },
+    {
+      "clip_id": "27925",
+      "split": "train",
+      "label": "HOPE",
+      "signer_id": 39,
+      "class_id": 880,
+      "features": "27925.npy"
+    },
+    {
+      "clip_id": "43525",
+      "split": "train",
+      "label": "POLICE",
+      "signer_id": 13,
+      "class_id": 1300,
+      "features": "43525.npy"
+    },
+    {
+      "clip_id": "19239",
+      "split": "train",
+      "label": "ENGLISH",
+      "signer_id": 12,
+      "class_id": 625,
+      "features": "19239.npy"
+    },
+    {
+      "clip_id": "25378",
+      "split": "train",
+      "label": "GRAMMAR",
+      "signer_id": 11,
+      "class_id": 804,
+      "features": "25378.npy"
+    },
+    {
+      "clip_id": "00835",
+      "split": "train",
+      "label": "ACROSS",
+      "signer_id": 4,
+      "class_id": 11,
+      "features": "00835.npy"
+    },
+    {
+      "clip_id": "01575",
+      "split": "train",
+      "label": "AGREE",
+      "signer_id": 26,
+      "class_id": 39,
+      "features": "01575.npy"
+    },
+    {
+      "clip_id": "34705",
+      "split": "train",
+      "label": "MANAGER",
+      "signer_id": 11,
+      "class_id": 1062,
+      "features": "34705.npy"
+    },
+    {
+      "clip_id": "20768",
+      "split": "val",
+      "label": "FACULTY",
+      "signer_id": 13,
+      "class_id": 672,
+      "features": "20768.npy"
+    },
+    {
+      "clip_id": "44951",
+      "split": "train",
+      "label": "PROOF",
+      "signer_id": 21,
+      "class_id": 1362,
+      "features": "44951.npy"
+    },
+    {
+      "clip_id": "59792",
+      "split": "train",
+      "label": "TRUE",
+      "signer_id": 31,
+      "class_id": 1858,
+      "features": "59792.npy"
+    },
+    {
+      "clip_id": "16397",
+      "split": "train",
+      "label": "DIRT",
+      "signer_id": 11,
+      "class_id": 527,
+      "features": "16397.npy"
+    },
+    {
+      "clip_id": "31181",
+      "split": "train",
+      "label": "JOKE",
+      "signer_id": 10,
+      "class_id": 959,
+      "features": "31181.npy"
+    },
+    {
+      "clip_id": "01229",
+      "split": "train",
+      "label": "ADVANCED",
+      "signer_id": 10,
+      "class_id": 26,
+      "features": "01229.npy"
+    },
+    {
+      "clip_id": "18858",
+      "split": "train",
+      "label": "ELSE",
+      "signer_id": 11,
+      "class_id": 611,
+      "features": "18858.npy"
+    },
+    {
+      "clip_id": "17969",
+      "split": "train",
+      "label": "DULL",
+      "signer_id": 59,
+      "class_id": 577,
+      "features": "17969.npy"
+    },
+    {
+      "clip_id": "25354",
+      "split": "train",
+      "label": "GRADUATION",
+      "signer_id": 11,
+      "class_id": 803,
+      "features": "25354.npy"
+    },
+    {
+      "clip_id": "31223",
+      "split": "train",
+      "label": "JOURNEY",
+      "signer_id": 12,
+      "class_id": 960,
+      "features": "31223.npy"
+    },
+    {
+      "clip_id": "47804",
+      "split": "train",
+      "label": "RETREAT",
+      "signer_id": 4,
+      "class_id": 1458,
+      "features": "47804.npy"
+    },
+    {
+      "clip_id": "16194",
+      "split": "train",
+      "label": "DIFFERENT",
+      "signer_id": 4,
+      "class_id": 518,
+      "features": "16194.npy"
+    },
+    {
+      "clip_id": "43528",
+      "split": "train",
+      "label": "POLICE",
+      "signer_id": 11,
+      "class_id": 1300,
+      "features": "43528.npy"
+    },
+    {
+      "clip_id": "21207",
+      "split": "train",
+      "label": "FATHER",
+      "signer_id": 52,
+      "class_id": 686,
+      "features": "21207.npy"
+    },
+    {
+      "clip_id": "02109",
+      "split": "train",
+      "label": "ALONE",
+      "signer_id": 11,
+      "class_id": 54,
+      "features": "02109.npy"
+    },
+    {
+      "clip_id": "55056",
+      "split": "val",
+      "label": "STRAIGHT",
+      "signer_id": 12,
+      "class_id": 1690,
+      "features": "55056.npy"
+    },
+    {
+      "clip_id": "01556",
+      "split": "train",
+      "label": "AGO",
+      "signer_id": 11,
+      "class_id": 38,
+      "features": "01556.npy"
+    },
+    {
+      "clip_id": "59153",
+      "split": "train",
+      "label": "TOWN",
+      "signer_id": 11,
+      "class_id": 1842,
+      "features": "59153.npy"
+    },
+    {
+      "clip_id": "03480",
+      "split": "val",
+      "label": "ART",
+      "signer_id": 31,
+      "class_id": 98,
+      "features": "03480.npy"
+    },
+    {
+      "clip_id": "15424",
+      "split": "train",
+      "label": "DEMAND",
+      "signer_id": 4,
+      "class_id": 489,
+      "features": "15424.npy"
+    },
+    {
+      "clip_id": "44274",
+      "split": "train",
+      "label": "PREPARE",
+      "signer_id": 4,
+      "class_id": 1331,
+      "features": "44274.npy"
+    },
+    {
+      "clip_id": "63629",
+      "split": "train",
+      "label": "WITNESS",
+      "signer_id": 11,
+      "class_id": 1970,
+      "features": "63629.npy"
+    },
+    {
+      "clip_id": "01579",
+      "split": "train",
+      "label": "AGREE",
+      "signer_id": 11,
+      "class_id": 39,
+      "features": "01579.npy"
+    },
+    {
+      "clip_id": "33466",
+      "split": "train",
+      "label": "LISTEN",
+      "signer_id": 41,
+      "class_id": 1034,
+      "features": "33466.npy"
+    },
+    {
+      "clip_id": "09200",
+      "split": "train",
+      "label": "CARE",
+      "signer_id": 4,
+      "class_id": 293,
+      "features": "09200.npy"
+    },
+    {
+      "clip_id": "20335",
+      "split": "train",
+      "label": "EXPECT",
+      "signer_id": 39,
+      "class_id": 658,
+      "features": "20335.npy"
+    },
+    {
+      "clip_id": "13253",
+      "split": "train",
+      "label": "COP",
+      "signer_id": 12,
+      "class_id": 420,
+      "features": "13253.npy"
+    },
+    {
+      "clip_id": "01160",
+      "split": "train",
+      "label": "ADOPT",
+      "signer_id": 11,
+      "class_id": 24,
+      "features": "01160.npy"
+    },
+    {
+      "clip_id": "09493",
+      "split": "train",
+      "label": "CATEGORY",
+      "signer_id": 10,
+      "class_id": 301,
+      "features": "09493.npy"
+    },
+    {
+      "clip_id": "24741",
+      "split": "train",
+      "label": "GLASS",
+      "signer_id": 11,
+      "class_id": 786,
+      "features": "24741.npy"
+    },
+    {
+      "clip_id": "48892",
+      "split": "train",
+      "label": "RUSH",
+      "signer_id": 14,
+      "class_id": 1488,
+      "features": "48892.npy"
+    },
+    {
+      "clip_id": "48897",
+      "split": "train",
+      "label": "RUSH",
+      "signer_id": 12,
+      "class_id": 1488,
+      "features": "48897.npy"
+    },
+    {
+      "clip_id": "15845",
+      "split": "train",
+      "label": "DETACH",
+      "signer_id": 21,
+      "class_id": 506,
+      "features": "15845.npy"
+    },
+    {
+      "clip_id": "01586",
+      "split": "train",
+      "label": "AGREEMENT",
+      "signer_id": 11,
+      "class_id": 40,
+      "features": "01586.npy"
+    },
+    {
+      "clip_id": "15406",
+      "split": "train",
+      "label": "DELIVER",
+      "signer_id": 11,
+      "class_id": 488,
+      "features": "15406.npy"
+    },
+    {
+      "clip_id": "47060",
+      "split": "train",
+      "label": "RELAX",
+      "signer_id": 13,
+      "class_id": 1429,
+      "features": "47060.npy"
+    },
+    {
+      "clip_id": "11978",
+      "split": "train",
+      "label": "COMMENT",
+      "signer_id": 12,
+      "class_id": 378,
+      "features": "11978.npy"
+    },
+    {
+      "clip_id": "59992",
+      "split": "train",
+      "label": "TURN",
+      "signer_id": 10,
+      "class_id": 1864,
+      "features": "59992.npy"
+    },
+    {
+      "clip_id": "57953",
+      "split": "train",
+      "label": "THIN",
+      "signer_id": 12,
+      "class_id": 1797,
+      "features": "57953.npy"
+    },
+    {
+      "clip_id": "44689",
+      "split": "train",
+      "label": "PROBLEM",
+      "signer_id": 5,
+      "class_id": 1351,
+      "features": "44689.npy"
+    },
+    {
+      "clip_id": "15325",
+      "split": "train",
+      "label": "DELAY",
+      "signer_id": 11,
+      "class_id": 486,
+      "features": "15325.npy"
+    },
+    {
+      "clip_id": "25631",
+      "split": "train",
+      "label": "GREAT",
+      "signer_id": 10,
+      "class_id": 812,
+      "features": "25631.npy"
+    },
+    {
+      "clip_id": "57765",
+      "split": "train",
+      "label": "THEMSELVES",
+      "signer_id": 11,
+      "class_id": 1788,
+      "features": "57765.npy"
+    },
+    {
+      "clip_id": "49544",
+      "split": "train",
+      "label": "SCHEDULE",
+      "signer_id": 5,
+      "class_id": 1508,
+      "features": "49544.npy"
+    },
+    {
+      "clip_id": "27279",
+      "split": "train",
+      "label": "HER",
+      "signer_id": 10,
+      "class_id": 859,
+      "features": "27279.npy"
+    },
+    {
+      "clip_id": "53445",
+      "split": "train",
+      "label": "SOUR",
+      "signer_id": 13,
+      "class_id": 1642,
+      "features": "53445.npy"
+    },
+    {
+      "clip_id": "27319",
+      "split": "train",
+      "label": "HERSELF",
+      "signer_id": 11,
+      "class_id": 861,
+      "features": "27319.npy"
+    },
+    {
+      "clip_id": "34357",
+      "split": "train",
+      "label": "MACHINE",
+      "signer_id": 10,
+      "class_id": 1053,
+      "features": "34357.npy"
+    },
+    {
+      "clip_id": "14572",
+      "split": "train",
+      "label": "DAD",
+      "signer_id": 12,
+      "class_id": 459,
+      "features": "14572.npy"
+    },
+    {
+      "clip_id": "41070",
+      "split": "train",
+      "label": "PARADE",
+      "signer_id": 41,
+      "class_id": 1234,
+      "features": "41070.npy"
+    },
+    {
+      "clip_id": "64043",
+      "split": "train",
+      "label": "WRISTWATCH",
+      "signer_id": 6,
+      "class_id": 1988,
+      "features": "64043.npy"
+    },
+    {
+      "clip_id": "01376",
+      "split": "train",
+      "label": "AFRAID",
+      "signer_id": 11,
+      "class_id": 30,
+      "features": "01376.npy"
+    },
+    {
+      "clip_id": "56784",
+      "split": "val",
+      "label": "TALE",
+      "signer_id": 11,
+      "class_id": 1748,
+      "features": "56784.npy"
+    },
+    {
+      "clip_id": "14128",
+      "split": "train",
+      "label": "CRUEL",
+      "signer_id": 4,
+      "class_id": 445,
+      "features": "14128.npy"
+    },
+    {
+      "clip_id": "19818",
+      "split": "train",
+      "label": "EVERYDAY",
+      "signer_id": 11,
+      "class_id": 645,
+      "features": "19818.npy"
+    },
+    {
+      "clip_id": "57754",
+      "split": "val",
+      "label": "THEM",
+      "signer_id": 11,
+      "class_id": 1786,
+      "features": "57754.npy"
+    },
+    {
+      "clip_id": "62793",
+      "split": "train",
+      "label": "WEIGHT",
+      "signer_id": 13,
+      "class_id": 1940,
+      "features": "62793.npy"
+    },
+    {
+      "clip_id": "10298",
+      "split": "train",
+      "label": "CHEMICAL",
+      "signer_id": 59,
+      "class_id": 327,
+      "features": "10298.npy"
+    },
+    {
+      "clip_id": "11420",
+      "split": "train",
+      "label": "CLUMSY",
+      "signer_id": 13,
+      "class_id": 362,
+      "features": "11420.npy"
+    },
+    {
+      "clip_id": "44177",
+      "split": "val",
+      "label": "PRECIPITATION",
+      "signer_id": 13,
+      "class_id": 1326,
+      "features": "44177.npy"
+    },
+    {
+      "clip_id": "37894",
+      "split": "train",
+      "label": "NEED",
+      "signer_id": 41,
+      "class_id": 1147,
+      "features": "37894.npy"
+    },
+    {
+      "clip_id": "49178",
+      "split": "train",
+      "label": "SAME",
+      "signer_id": 13,
+      "class_id": 1497,
+      "features": "49178.npy"
+    },
+    {
+      "clip_id": "09721",
+      "split": "train",
+      "label": "CENTER",
+      "signer_id": 4,
+      "class_id": 309,
+      "features": "09721.npy"
+    },
+    {
+      "clip_id": "37370",
+      "split": "val",
+      "label": "MUSIC",
+      "signer_id": 11,
+      "class_id": 1133,
+      "features": "37370.npy"
+    },
+    {
+      "clip_id": "50061",
+      "split": "train",
+      "label": "SECRET",
+      "signer_id": 10,
+      "class_id": 1522,
+      "features": "50061.npy"
+    },
+    {
+      "clip_id": "49483",
+      "split": "train",
+      "label": "SCARED",
+      "signer_id": 11,
+      "class_id": 1507,
+      "features": "49483.npy"
+    },
+    {
+      "clip_id": "20143",
+      "split": "train",
+      "label": "EXCHANGE",
+      "signer_id": 21,
+      "class_id": 652,
+      "features": "20143.npy"
+    },
+    {
+      "clip_id": "60854",
+      "split": "val",
+      "label": "UNTIL",
+      "signer_id": 13,
+      "class_id": 1881,
+      "features": "60854.npy"
+    },
+    {
+      "clip_id": "32694",
+      "split": "train",
+      "label": "LECTURE",
+      "signer_id": 4,
+      "class_id": 1007,
+      "features": "32694.npy"
+    },
+    {
+      "clip_id": "45114",
+      "split": "train",
+      "label": "PROVIDE",
+      "signer_id": 11,
+      "class_id": 1369,
+      "features": "45114.npy"
+    },
+    {
+      "clip_id": "11952",
+      "split": "train",
+      "label": "COMMAND",
+      "signer_id": 12,
+      "class_id": 377,
+      "features": "11952.npy"
+    },
+    {
+      "clip_id": "27456",
+      "split": "train",
+      "label": "HIGHWAY",
+      "signer_id": 12,
+      "class_id": 865,
+      "features": "27456.npy"
+    },
+    {
+      "clip_id": "53155",
+      "split": "train",
+      "label": "SOLID",
+      "signer_id": 21,
+      "class_id": 1626,
+      "features": "53155.npy"
+    },
+    {
+      "clip_id": "32881",
+      "split": "val",
+      "label": "LESS",
+      "signer_id": 11,
+      "class_id": 1013,
+      "features": "32881.npy"
+    },
+    {
+      "clip_id": "00855",
+      "split": "train",
+      "label": "ACTION",
+      "signer_id": 10,
+      "class_id": 13,
+      "features": "00855.npy"
+    },
+    {
+      "clip_id": "02276",
+      "split": "train",
+      "label": "AMAZING",
+      "signer_id": 10,
+      "class_id": 59,
+      "features": "02276.npy"
+    },
+    {
+      "clip_id": "08825",
+      "split": "train",
+      "label": "CAMPING",
+      "signer_id": 59,
+      "class_id": 279,
+      "features": "08825.npy"
+    },
+    {
+      "clip_id": "43807",
+      "split": "train",
+      "label": "POSITION",
+      "signer_id": 41,
+      "class_id": 1309,
+      "features": "43807.npy"
+    },
+    {
+      "clip_id": "00947",
+      "split": "train",
+      "label": "ADAPT",
+      "signer_id": 15,
+      "class_id": 17,
+      "features": "00947.npy"
+    },
+    {
+      "clip_id": "13822",
+      "split": "train",
+      "label": "CRAVE",
+      "signer_id": 11,
+      "class_id": 439,
+      "features": "13822.npy"
+    },
+    {
+      "clip_id": "61239",
+      "split": "train",
+      "label": "VALUE",
+      "signer_id": 5,
+      "class_id": 1891,
+      "features": "61239.npy"
+    },
+    {
+      "clip_id": "14955",
+      "split": "train",
+      "label": "DEATH",
+      "signer_id": 11,
+      "class_id": 473,
+      "features": "14955.npy"
+    },
+    {
+      "clip_id": "25527",
+      "split": "train",
+      "label": "GRATEFUL",
+      "signer_id": 11,
+      "class_id": 810,
+      "features": "25527.npy"
+    },
+    {
+      "clip_id": "20110",
+      "split": "train",
+      "label": "EXCEPT",
+      "signer_id": 4,
+      "class_id": 651,
+      "features": "20110.npy"
+    },
+    {
+      "clip_id": "24553",
+      "split": "train",
+      "label": "GIFT",
+      "signer_id": 10,
+      "class_id": 780,
+      "features": "24553.npy"
+    },
+    {
+      "clip_id": "36142",
+      "split": "train",
+      "label": "MINE",
+      "signer_id": 11,
+      "class_id": 1096,
+      "features": "36142.npy"
+    },
+    {
+      "clip_id": "35933",
+      "split": "train",
+      "label": "MICROSCOPE",
+      "signer_id": 6,
+      "class_id": 1089,
+      "features": "35933.npy"
+    },
+    {
+      "clip_id": "43948",
+      "split": "train",
+      "label": "POTENTIAL",
+      "signer_id": 11,
+      "class_id": 1315,
+      "features": "43948.npy"
+    },
+    {
+      "clip_id": "40097",
+      "split": "train",
+      "label": "ORAL",
+      "signer_id": 4,
+      "class_id": 1211,
+      "features": "40097.npy"
+    },
+    {
+      "clip_id": "28058",
+      "split": "train",
+      "label": "HOST",
+      "signer_id": 13,
+      "class_id": 883,
+      "features": "28058.npy"
+    },
+    {
+      "clip_id": "55631",
+      "split": "train",
+      "label": "SUE",
+      "signer_id": 11,
+      "class_id": 1708,
+      "features": "55631.npy"
+    },
+    {
+      "clip_id": "59666",
+      "split": "train",
+      "label": "TRIP",
+      "signer_id": 21,
+      "class_id": 1854,
+      "features": "59666.npy"
+    },
+    {
+      "clip_id": "45526",
+      "split": "train",
+      "label": "PUT OFF",
+      "signer_id": 13,
+      "class_id": 1384,
+      "features": "45526.npy"
+    },
+    {
+      "clip_id": "60075",
+      "split": "train",
+      "label": "TV",
+      "signer_id": 12,
+      "class_id": 1867,
+      "features": "60075.npy"
+    },
+    {
+      "clip_id": "54845",
+      "split": "train",
+      "label": "STITCH",
+      "signer_id": 41,
+      "class_id": 1685,
+      "features": "54845.npy"
+    },
+    {
+      "clip_id": "34832",
+      "split": "train",
+      "label": "MANY",
+      "signer_id": 11,
+      "class_id": 1063,
+      "features": "34832.npy"
+    },
+    {
+      "clip_id": "59673",
+      "split": "val",
+      "label": "TRIP",
+      "signer_id": 12,
+      "class_id": 1854,
+      "features": "59673.npy"
+    },
+    {
+      "clip_id": "51224",
+      "split": "val",
+      "label": "SHORT",
+      "signer_id": 32,
+      "class_id": 1559,
+      "features": "51224.npy"
+    },
+    {
+      "clip_id": "10187",
+      "split": "train",
+      "label": "CHECK",
+      "signer_id": 59,
+      "class_id": 324,
+      "features": "10187.npy"
+    },
+    {
+      "clip_id": "64385",
+      "split": "train",
+      "label": "YOU",
+      "signer_id": 10,
+      "class_id": 1995,
+      "features": "64385.npy"
+    },
+    {
+      "clip_id": "35292",
+      "split": "train",
+      "label": "MEAN",
+      "signer_id": 31,
+      "class_id": 1072,
+      "features": "35292.npy"
+    },
+    {
+      "clip_id": "27932",
+      "split": "train",
+      "label": "HOPE",
+      "signer_id": 5,
+      "class_id": 880,
+      "features": "27932.npy"
+    },
+    {
+      "clip_id": "28430",
+      "split": "train",
+      "label": "HURRY",
+      "signer_id": 10,
+      "class_id": 895,
+      "features": "28430.npy"
+    },
+    {
+      "clip_id": "56313",
+      "split": "train",
+      "label": "SWEET",
+      "signer_id": 11,
+      "class_id": 1734,
+      "features": "56313.npy"
+    },
+    {
+      "clip_id": "19233",
+      "split": "train",
+      "label": "ENGLISH",
+      "signer_id": 21,
+      "class_id": 625,
+      "features": "19233.npy"
+    },
+    {
+      "clip_id": "20746",
+      "split": "train",
+      "label": "FACT",
+      "signer_id": 10,
+      "class_id": 671,
+      "features": "20746.npy"
+    },
+    {
+      "clip_id": "36241",
+      "split": "train",
+      "label": "MINUS",
+      "signer_id": 12,
+      "class_id": 1097,
+      "features": "36241.npy"
+    },
+    {
+      "clip_id": "40652",
+      "split": "train",
+      "label": "OWE",
+      "signer_id": 59,
+      "class_id": 1223,
+      "features": "40652.npy"
+    },
+    {
+      "clip_id": "40810",
+      "split": "train",
+      "label": "PAIN",
+      "signer_id": 12,
+      "class_id": 1228,
+      "features": "40810.npy"
+    },
+    {
+      "clip_id": "62618",
+      "split": "train",
+      "label": "WEAR",
+      "signer_id": 11,
+      "class_id": 1932,
+      "features": "62618.npy"
+    },
+    {
+      "clip_id": "16384",
+      "split": "train",
+      "label": "DIRECTOR",
+      "signer_id": 21,
+      "class_id": 526,
+      "features": "16384.npy"
+    },
+    {
+      "clip_id": "27824",
+      "split": "train",
+      "label": "HONEST",
+      "signer_id": 13,
+      "class_id": 876,
+      "features": "27824.npy"
+    },
+    {
+      "clip_id": "48277",
+      "split": "val",
+      "label": "ROAD",
+      "signer_id": 11,
+      "class_id": 1469,
+      "features": "48277.npy"
+    },
+    {
+      "clip_id": "53622",
+      "split": "train",
+      "label": "SPEAK",
+      "signer_id": 11,
+      "class_id": 1647,
+      "features": "53622.npy"
+    },
+    {
+      "clip_id": "59354",
+      "split": "train",
+      "label": "TRANQUIL",
+      "signer_id": 11,
+      "class_id": 1847,
+      "features": "59354.npy"
+    },
+    {
+      "clip_id": "17514",
+      "split": "train",
+      "label": "DRAG",
+      "signer_id": 10,
+      "class_id": 561,
+      "features": "17514.npy"
+    },
+    {
+      "clip_id": "10300",
+      "split": "train",
+      "label": "CHEMICAL",
+      "signer_id": 11,
+      "class_id": 327,
+      "features": "10300.npy"
+    },
+    {
+      "clip_id": "29010",
+      "split": "train",
+      "label": "IMPACT",
+      "signer_id": 10,
+      "class_id": 907,
+      "features": "29010.npy"
+    },
+    {
+      "clip_id": "46660",
+      "split": "train",
+      "label": "RECOVER",
+      "signer_id": 4,
+      "class_id": 1418,
+      "features": "46660.npy"
+    },
+    {
+      "clip_id": "47139",
+      "split": "train",
+      "label": "RELY",
+      "signer_id": 11,
+      "class_id": 1433,
+      "features": "47139.npy"
+    },
+    {
+      "clip_id": "49889",
+      "split": "train",
+      "label": "SCULPTURE",
+      "signer_id": 11,
+      "class_id": 1518,
+      "features": "49889.npy"
+    },
+    {
+      "clip_id": "44186",
+      "split": "train",
+      "label": "PRECISE",
+      "signer_id": 13,
+      "class_id": 1327,
+      "features": "44186.npy"
+    },
+    {
+      "clip_id": "59669",
+      "split": "train",
+      "label": "TRIP",
+      "signer_id": 11,
+      "class_id": 1854,
+      "features": "59669.npy"
+    },
+    {
+      "clip_id": "21950",
+      "split": "train",
+      "label": "FINISH",
+      "signer_id": 11,
+      "class_id": 705,
+      "features": "21950.npy"
+    },
+    {
+      "clip_id": "43174",
+      "split": "train",
+      "label": "PLAY",
+      "signer_id": 11,
+      "class_id": 1291,
+      "features": "43174.npy"
+    },
+    {
+      "clip_id": "15035",
+      "split": "train",
+      "label": "DECIDE",
+      "signer_id": 59,
+      "class_id": 477,
+      "features": "15035.npy"
+    },
+    {
+      "clip_id": "39632",
+      "split": "train",
+      "label": "OLD",
+      "signer_id": 11,
+      "class_id": 1199,
+      "features": "39632.npy"
+    },
+    {
+      "clip_id": "50054",
+      "split": "train",
+      "label": "SECRET",
+      "signer_id": 31,
+      "class_id": 1522,
+      "features": "50054.npy"
+    },
+    {
+      "clip_id": "45759",
+      "split": "train",
+      "label": "QUIET",
+      "signer_id": 4,
+      "class_id": 1393,
+      "features": "45759.npy"
+    },
+    {
+      "clip_id": "21863",
+      "split": "train",
+      "label": "FIND",
+      "signer_id": 12,
+      "class_id": 702,
+      "features": "21863.npy"
+    },
+    {
+      "clip_id": "07424",
+      "split": "train",
+      "label": "BOX",
+      "signer_id": 41,
+      "class_id": 223,
+      "features": "07424.npy"
+    },
+    {
+      "clip_id": "02829",
+      "split": "train",
+      "label": "ANY",
+      "signer_id": 5,
+      "class_id": 74,
+      "features": "02829.npy"
+    },
+    {
+      "clip_id": "29388",
+      "split": "train",
+      "label": "INDEPENDENT",
+      "signer_id": 11,
+      "class_id": 914,
+      "features": "29388.npy"
+    },
+    {
+      "clip_id": "58725",
+      "split": "train",
+      "label": "TO",
+      "signer_id": 13,
+      "class_id": 1818,
+      "features": "58725.npy"
+    },
+    {
+      "clip_id": "06163",
+      "split": "train",
+      "label": "BICYCLE",
+      "signer_id": 10,
+      "class_id": 186,
+      "features": "06163.npy"
+    },
+    {
+      "clip_id": "57241",
+      "split": "train",
+      "label": "TELEPHONE",
+      "signer_id": 11,
+      "class_id": 1761,
+      "features": "57241.npy"
+    },
+    {
+      "clip_id": "50439",
+      "split": "train",
+      "label": "SEPARATE",
+      "signer_id": 10,
+      "class_id": 1534,
+      "features": "50439.npy"
+    },
+    {
+      "clip_id": "45062",
+      "split": "train",
+      "label": "PROTECT",
+      "signer_id": 13,
+      "class_id": 1366,
+      "features": "45062.npy"
+    },
+    {
+      "clip_id": "53668",
+      "split": "train",
+      "label": "SPECIFIC",
+      "signer_id": 13,
+      "class_id": 1649,
+      "features": "53668.npy"
+    },
+    {
+      "clip_id": "13623",
+      "split": "train",
+      "label": "COURT",
+      "signer_id": 11,
+      "class_id": 432,
+      "features": "13623.npy"
+    },
+    {
+      "clip_id": "42545",
+      "split": "val",
+      "label": "PHYSICIAN",
+      "signer_id": 10,
+      "class_id": 1273,
+      "features": "42545.npy"
+    },
+    {
+      "clip_id": "07530",
+      "split": "train",
+      "label": "BRAIN",
+      "signer_id": 11,
+      "class_id": 231,
+      "features": "07530.npy"
+    },
+    {
+      "clip_id": "63600",
+      "split": "train",
+      "label": "WITHIN",
+      "signer_id": 21,
+      "class_id": 1968,
+      "features": "63600.npy"
+    },
+    {
+      "clip_id": "39071",
+      "split": "train",
+      "label": "NUMEROUS",
+      "signer_id": 11,
+      "class_id": 1180,
+      "features": "39071.npy"
+    },
+    {
+      "clip_id": "32916",
+      "split": "train",
+      "label": "LET",
+      "signer_id": 10,
+      "class_id": 1015,
+      "features": "32916.npy"
+    },
+    {
+      "clip_id": "41554",
+      "split": "train",
+      "label": "PAUSE",
+      "signer_id": 31,
+      "class_id": 1244,
+      "features": "41554.npy"
+    },
+    {
+      "clip_id": "42142",
+      "split": "train",
+      "label": "PERMIT",
+      "signer_id": 10,
+      "class_id": 1263,
+      "features": "42142.npy"
+    },
+    {
+      "clip_id": "45529",
+      "split": "train",
+      "label": "PUT OFF",
+      "signer_id": 11,
+      "class_id": 1384,
+      "features": "45529.npy"
+    },
+    {
+      "clip_id": "41649",
+      "split": "train",
+      "label": "PEACEFUL",
+      "signer_id": 11,
+      "class_id": 1248,
+      "features": "41649.npy"
+    },
+    {
+      "clip_id": "44179",
+      "split": "train",
+      "label": "PRECIPITATION",
+      "signer_id": 11,
+      "class_id": 1326,
+      "features": "44179.npy"
+    },
+    {
+      "clip_id": "49175",
+      "split": "train",
+      "label": "SAME",
+      "signer_id": 4,
+      "class_id": 1497,
+      "features": "49175.npy"
+    },
+    {
+      "clip_id": "13158",
+      "split": "train",
+      "label": "COOK",
+      "signer_id": 59,
+      "class_id": 416,
+      "features": "13158.npy"
+    },
+    {
+      "clip_id": "35298",
+      "split": "train",
+      "label": "MEAN",
+      "signer_id": 10,
+      "class_id": 1072,
+      "features": "35298.npy"
+    },
+    {
+      "clip_id": "62279",
+      "split": "train",
+      "label": "WAR",
+      "signer_id": 10,
+      "class_id": 1918,
+      "features": "62279.npy"
+    },
+    {
+      "clip_id": "44091",
+      "split": "train",
+      "label": "PRACTICE",
+      "signer_id": 12,
+      "class_id": 1320,
+      "features": "44091.npy"
+    },
+    {
+      "clip_id": "45762",
+      "split": "train",
+      "label": "QUIET",
+      "signer_id": 11,
+      "class_id": 1393,
+      "features": "45762.npy"
+    },
+    {
+      "clip_id": "21328",
+      "split": "train",
+      "label": "FEAR",
+      "signer_id": 11,
+      "class_id": 689,
+      "features": "21328.npy"
+    },
+    {
+      "clip_id": "21327",
+      "split": "train",
+      "label": "FEAR",
+      "signer_id": 11,
+      "class_id": 689,
+      "features": "21327.npy"
+    },
+    {
+      "clip_id": "23330",
+      "split": "train",
+      "label": "FRANCE",
+      "signer_id": 45,
+      "class_id": 740,
+      "features": "23330.npy"
+    },
+    {
+      "clip_id": "23335",
+      "split": "train",
+      "label": "FRANCE",
+      "signer_id": 11,
+      "class_id": 740,
+      "features": "23335.npy"
+    },
+    {
+      "clip_id": "13250",
+      "split": "train",
+      "label": "COP",
+      "signer_id": 11,
+      "class_id": 420,
+      "features": "13250.npy"
+    },
+    {
+      "clip_id": "13424",
+      "split": "train",
+      "label": "COST",
+      "signer_id": 12,
+      "class_id": 425,
+      "features": "13424.npy"
+    },
+    {
+      "clip_id": "57730",
+      "split": "train",
+      "label": "THEIR",
+      "signer_id": 11,
+      "class_id": 1785,
+      "features": "57730.npy"
+    },
+    {
+      "clip_id": "24516",
+      "split": "train",
+      "label": "GHOST",
+      "signer_id": 13,
+      "class_id": 779,
+      "features": "24516.npy"
+    },
+    {
+      "clip_id": "40560",
+      "split": "train",
+      "label": "OVER",
+      "signer_id": 4,
+      "class_id": 1219,
+      "features": "40560.npy"
+    },
+    {
+      "clip_id": "47648",
+      "split": "train",
+      "label": "RESPONSIBLE",
+      "signer_id": 10,
+      "class_id": 1452,
+      "features": "47648.npy"
+    },
+    {
+      "clip_id": "01584",
+      "split": "train",
+      "label": "AGREEMENT",
+      "signer_id": 4,
+      "class_id": 40,
+      "features": "01584.npy"
+    },
+    {
+      "clip_id": "63603",
+      "split": "train",
+      "label": "WITHIN",
+      "signer_id": 10,
+      "class_id": 1968,
+      "features": "63603.npy"
+    },
+    {
+      "clip_id": "12758",
+      "split": "train",
+      "label": "CONSIDER",
+      "signer_id": 11,
+      "class_id": 403,
+      "features": "12758.npy"
+    },
+    {
+      "clip_id": "15753",
+      "split": "train",
+      "label": "DESIGN",
+      "signer_id": 11,
+      "class_id": 502,
+      "features": "15753.npy"
+    },
+    {
+      "clip_id": "16114",
+      "split": "train",
+      "label": "DICE",
+      "signer_id": 11,
+      "class_id": 515,
+      "features": "16114.npy"
+    },
+    {
+      "clip_id": "28817",
+      "split": "train",
+      "label": "ILLEGAL",
+      "signer_id": 10,
+      "class_id": 905,
+      "features": "28817.npy"
+    },
+    {
+      "clip_id": "20973",
+      "split": "train",
+      "label": "FAMILIAR",
+      "signer_id": 12,
+      "class_id": 677,
+      "features": "20973.npy"
+    },
+    {
+      "clip_id": "46663",
+      "split": "train",
+      "label": "RECOVER",
+      "signer_id": 11,
+      "class_id": 1418,
+      "features": "46663.npy"
+    },
+    {
+      "clip_id": "45530",
+      "split": "train",
+      "label": "PUT OFF",
+      "signer_id": 11,
+      "class_id": 1384,
+      "features": "45530.npy"
+    },
+    {
+      "clip_id": "37310",
+      "split": "train",
+      "label": "MURDER",
+      "signer_id": 41,
+      "class_id": 1129,
+      "features": "37310.npy"
+    },
+    {
+      "clip_id": "30840",
+      "split": "train",
+      "label": "JACKET",
+      "signer_id": 10,
+      "class_id": 950,
+      "features": "30840.npy"
+    },
+    {
+      "clip_id": "63335",
+      "split": "train",
+      "label": "WIFE",
+      "signer_id": 5,
+      "class_id": 1958,
+      "features": "63335.npy"
+    },
+    {
+      "clip_id": "59209",
+      "split": "train",
+      "label": "TRADE",
+      "signer_id": 4,
+      "class_id": 1843,
+      "features": "59209.npy"
+    },
+    {
+      "clip_id": "15328",
+      "split": "train",
+      "label": "DELAY",
+      "signer_id": 11,
+      "class_id": 486,
+      "features": "15328.npy"
+    },
+    {
+      "clip_id": "14837",
+      "split": "train",
+      "label": "DEAD",
+      "signer_id": 21,
+      "class_id": 471,
+      "features": "14837.npy"
+    },
+    {
+      "clip_id": "39037",
+      "split": "val",
+      "label": "NUMBER",
+      "signer_id": 5,
+      "class_id": 1179,
+      "features": "39037.npy"
+    },
+    {
+      "clip_id": "13023",
+      "split": "train",
+      "label": "CONTRIBUTE",
+      "signer_id": 10,
+      "class_id": 411,
+      "features": "13023.npy"
+    },
+    {
+      "clip_id": "29637",
+      "split": "train",
+      "label": "INFORMATION",
+      "signer_id": 11,
+      "class_id": 920,
+      "features": "29637.npy"
+    },
+    {
+      "clip_id": "05565",
+      "split": "train",
+      "label": "BEAUTIFUL",
+      "signer_id": 41,
+      "class_id": 161,
+      "features": "05565.npy"
+    },
+    {
+      "clip_id": "61882",
+      "split": "train",
+      "label": "VOCABULARY",
+      "signer_id": 39,
+      "class_id": 1903,
+      "features": "61882.npy"
+    },
+    {
+      "clip_id": "20201",
+      "split": "train",
+      "label": "EXCUSE",
+      "signer_id": 11,
+      "class_id": 654,
+      "features": "20201.npy"
+    },
+    {
+      "clip_id": "16354",
+      "split": "val",
+      "label": "DIPLOMA",
+      "signer_id": 11,
+      "class_id": 525,
+      "features": "16354.npy"
+    },
+    {
+      "clip_id": "52108",
+      "split": "train",
+      "label": "SKETCH",
+      "signer_id": 11,
+      "class_id": 1591,
+      "features": "52108.npy"
+    },
+    {
+      "clip_id": "29564",
+      "split": "train",
+      "label": "INFECTION",
+      "signer_id": 4,
+      "class_id": 917,
+      "features": "29564.npy"
+    },
+    {
+      "clip_id": "46495",
+      "split": "val",
+      "label": "RECEIVE",
+      "signer_id": 11,
+      "class_id": 1413,
+      "features": "46495.npy"
+    },
+    {
+      "clip_id": "01626",
+      "split": "train",
+      "label": "AID",
+      "signer_id": 10,
+      "class_id": 42,
+      "features": "01626.npy"
+    },
+    {
+      "clip_id": "57752",
+      "split": "train",
+      "label": "THEM",
+      "signer_id": 13,
+      "class_id": 1786,
+      "features": "57752.npy"
+    },
+    {
+      "clip_id": "53267",
+      "split": "train",
+      "label": "SONG",
+      "signer_id": 12,
+      "class_id": 1635,
+      "features": "53267.npy"
+    },
+    {
+      "clip_id": "12823",
+      "split": "train",
+      "label": "CONSTRUCT",
+      "signer_id": 11,
+      "class_id": 405,
+      "features": "12823.npy"
+    },
+    {
+      "clip_id": "27942",
+      "split": "train",
+      "label": "HOP",
+      "signer_id": 10,
+      "class_id": 879,
+      "features": "27942.npy"
+    },
+    {
+      "clip_id": "47081",
+      "split": "train",
+      "label": "RELEASE",
+      "signer_id": 11,
+      "class_id": 1430,
+      "features": "47081.npy"
+    },
+    {
+      "clip_id": "43539",
+      "split": "train",
+      "label": "POLICEMAN",
+      "signer_id": 11,
+      "class_id": 1301,
+      "features": "43539.npy"
+    },
+    {
+      "clip_id": "41812",
+      "split": "train",
+      "label": "PENALTY",
+      "signer_id": 13,
+      "class_id": 1253,
+      "features": "41812.npy"
+    },
+    {
+      "clip_id": "34827",
+      "split": "train",
+      "label": "MANY",
+      "signer_id": 13,
+      "class_id": 1063,
+      "features": "34827.npy"
+    },
+    {
+      "clip_id": "56700",
+      "split": "train",
+      "label": "TAKE",
+      "signer_id": 11,
+      "class_id": 1745,
+      "features": "56700.npy"
+    },
+    {
+      "clip_id": "41033",
+      "split": "train",
+      "label": "PAPER",
+      "signer_id": 5,
+      "class_id": 1232,
+      "features": "41033.npy"
+    },
+    {
+      "clip_id": "60353",
+      "split": "val",
+      "label": "UGLY",
+      "signer_id": 11,
+      "class_id": 1872,
+      "features": "60353.npy"
+    },
+    {
+      "clip_id": "40178",
+      "split": "train",
+      "label": "ORDER",
+      "signer_id": 11,
+      "class_id": 1213,
+      "features": "40178.npy"
+    },
+    {
+      "clip_id": "50414",
+      "split": "train",
+      "label": "SENTENCE",
+      "signer_id": 11,
+      "class_id": 1533,
+      "features": "50414.npy"
+    },
+    {
+      "clip_id": "01557",
+      "split": "train",
+      "label": "AGO",
+      "signer_id": 11,
+      "class_id": 38,
+      "features": "01557.npy"
+    },
+    {
+      "clip_id": "13356",
+      "split": "train",
+      "label": "CORRECT",
+      "signer_id": 11,
+      "class_id": 424,
+      "features": "13356.npy"
+    },
+    {
+      "clip_id": "25627",
+      "split": "train",
+      "label": "GREAT",
+      "signer_id": 13,
+      "class_id": 812,
+      "features": "25627.npy"
+    },
+    {
+      "clip_id": "10594",
+      "split": "train",
+      "label": "CHOICE",
+      "signer_id": 11,
+      "class_id": 336,
+      "features": "10594.npy"
+    },
+    {
+      "clip_id": "07262",
+      "split": "train",
+      "label": "BOTHER",
+      "signer_id": 40,
+      "class_id": 218,
+      "features": "07262.npy"
+    },
+    {
+      "clip_id": "07234",
+      "split": "train",
+      "label": "BORROW",
+      "signer_id": 12,
+      "class_id": 215,
+      "features": "07234.npy"
+    },
+    {
+      "clip_id": "10598",
+      "split": "train",
+      "label": "CHOICE",
+      "signer_id": 12,
+      "class_id": 336,
+      "features": "10598.npy"
+    },
+    {
+      "clip_id": "37316",
+      "split": "train",
+      "label": "MUSCLE",
+      "signer_id": 13,
+      "class_id": 1130,
+      "features": "37316.npy"
+    },
+    {
+      "clip_id": "53903",
+      "split": "train",
+      "label": "SPIRIT",
+      "signer_id": 13,
+      "class_id": 1656,
+      "features": "53903.npy"
+    },
+    {
+      "clip_id": "61886",
+      "split": "train",
+      "label": "VOCABULARY",
+      "signer_id": 11,
+      "class_id": 1903,
+      "features": "61886.npy"
+    },
+    {
+      "clip_id": "07578",
+      "split": "train",
+      "label": "BRAVE",
+      "signer_id": 11,
+      "class_id": 232,
+      "features": "07578.npy"
+    },
+    {
+      "clip_id": "05796",
+      "split": "train",
+      "label": "BEHAVIOR",
+      "signer_id": 10,
+      "class_id": 171,
+      "features": "05796.npy"
+    },
+    {
+      "clip_id": "46958",
+      "split": "train",
+      "label": "REHEARSE",
+      "signer_id": 13,
+      "class_id": 1425,
+      "features": "46958.npy"
+    },
+    {
+      "clip_id": "43812",
+      "split": "train",
+      "label": "POSITIVE",
+      "signer_id": 11,
+      "class_id": 1310,
+      "features": "43812.npy"
+    },
+    {
+      "clip_id": "47642",
+      "split": "train",
+      "label": "RESPONSIBILITY",
+      "signer_id": 13,
+      "class_id": 1451,
+      "features": "47642.npy"
+    },
+    {
+      "clip_id": "62821",
+      "split": "val",
+      "label": "WEIRD",
+      "signer_id": 10,
+      "class_id": 1941,
+      "features": "62821.npy"
+    },
+    {
+      "clip_id": "51810",
+      "split": "train",
+      "label": "SING",
+      "signer_id": 12,
+      "class_id": 1579,
+      "features": "51810.npy"
+    },
+    {
+      "clip_id": "42945",
+      "split": "train",
+      "label": "PITY",
+      "signer_id": 10,
+      "class_id": 1285,
+      "features": "42945.npy"
+    },
+    {
+      "clip_id": "12945",
+      "split": "train",
+      "label": "CONTEST",
+      "signer_id": 11,
+      "class_id": 408,
+      "features": "12945.npy"
+    },
+    {
+      "clip_id": "56482",
+      "split": "train",
+      "label": "SYMPATHY",
+      "signer_id": 13,
+      "class_id": 1742,
+      "features": "56482.npy"
+    },
+    {
+      "clip_id": "28292",
+      "split": "train",
+      "label": "HUMAN",
+      "signer_id": 10,
+      "class_id": 890,
+      "features": "28292.npy"
+    },
+    {
+      "clip_id": "47345",
+      "split": "train",
+      "label": "REPLY",
+      "signer_id": 11,
+      "class_id": 1440,
+      "features": "47345.npy"
+    },
+    {
+      "clip_id": "45471",
+      "split": "train",
+      "label": "PURSUE",
+      "signer_id": 11,
+      "class_id": 1381,
+      "features": "45471.npy"
+    },
+    {
+      "clip_id": "35560",
+      "split": "train",
+      "label": "MELODY",
+      "signer_id": 12,
+      "class_id": 1080,
+      "features": "35560.npy"
+    },
+    {
+      "clip_id": "59842",
+      "split": "train",
+      "label": "TRUTH",
+      "signer_id": 11,
+      "class_id": 1860,
+      "features": "59842.npy"
+    },
+    {
+      "clip_id": "56118",
+      "split": "train",
+      "label": "SURRENDER",
+      "signer_id": 44,
+      "class_id": 1727,
+      "features": "56118.npy"
+    },
+    {
+      "clip_id": "57949",
+      "split": "train",
+      "label": "THIN",
+      "signer_id": 10,
+      "class_id": 1797,
+      "features": "57949.npy"
+    },
+    {
+      "clip_id": "58247",
+      "split": "train",
+      "label": "THRILL",
+      "signer_id": 41,
+      "class_id": 1805,
+      "features": "58247.npy"
+    },
+    {
+      "clip_id": "33279",
+      "split": "train",
+      "label": "LIKE",
+      "signer_id": 5,
+      "class_id": 1026,
+      "features": "33279.npy"
+    },
+    {
+      "clip_id": "48516",
+      "split": "train",
+      "label": "ROOM",
+      "signer_id": 11,
+      "class_id": 1477,
+      "features": "48516.npy"
+    },
+    {
+      "clip_id": "59210",
+      "split": "val",
+      "label": "TRADE",
+      "signer_id": 4,
+      "class_id": 1843,
+      "features": "59210.npy"
+    },
+    {
+      "clip_id": "57306",
+      "split": "train",
+      "label": "TEMPERATURE",
+      "signer_id": 11,
+      "class_id": 1765,
+      "features": "57306.npy"
+    },
+    {
+      "clip_id": "43834",
+      "split": "train",
+      "label": "POSSIBLE",
+      "signer_id": 11,
+      "class_id": 1311,
+      "features": "43834.npy"
+    },
+    {
+      "clip_id": "53698",
+      "split": "train",
+      "label": "SPEECH",
+      "signer_id": 4,
+      "class_id": 1650,
+      "features": "53698.npy"
+    },
+    {
+      "clip_id": "53420",
+      "split": "train",
+      "label": "SOUND",
+      "signer_id": 10,
+      "class_id": 1640,
+      "features": "53420.npy"
+    },
+    {
+      "clip_id": "52584",
+      "split": "train",
+      "label": "SMART",
+      "signer_id": 10,
+      "class_id": 1607,
+      "features": "52584.npy"
+    },
+    {
+      "clip_id": "44478",
+      "split": "val",
+      "label": "PRICE",
+      "signer_id": 12,
+      "class_id": 1339,
+      "features": "44478.npy"
+    },
+    {
+      "clip_id": "19462",
+      "split": "train",
+      "label": "EQUAL",
+      "signer_id": 11,
+      "class_id": 632,
+      "features": "19462.npy"
+    },
+    {
+      "clip_id": "13026",
+      "split": "train",
+      "label": "CONTRIBUTE",
+      "signer_id": 11,
+      "class_id": 411,
+      "features": "13026.npy"
+    },
+    {
+      "clip_id": "18245",
+      "split": "train",
+      "label": "EARTH",
+      "signer_id": 10,
+      "class_id": 591,
+      "features": "18245.npy"
+    },
+    {
+      "clip_id": "45104",
+      "split": "train",
+      "label": "PROVE",
+      "signer_id": 10,
+      "class_id": 1368,
+      "features": "45104.npy"
+    },
+    {
+      "clip_id": "39382",
+      "split": "val",
+      "label": "ODD",
+      "signer_id": 10,
+      "class_id": 1192,
+      "features": "39382.npy"
+    },
+    {
+      "clip_id": "30878",
+      "split": "train",
+      "label": "JAIL",
+      "signer_id": 10,
+      "class_id": 951,
+      "features": "30878.npy"
+    },
+    {
+      "clip_id": "56771",
+      "split": "train",
+      "label": "TAKE UP",
+      "signer_id": 6,
+      "class_id": 1747,
+      "features": "56771.npy"
+    },
+    {
+      "clip_id": "57746",
+      "split": "train",
+      "label": "THEME",
+      "signer_id": 13,
+      "class_id": 1787,
+      "features": "57746.npy"
+    },
+    {
+      "clip_id": "24555",
+      "split": "train",
+      "label": "GIFT",
+      "signer_id": 12,
+      "class_id": 780,
+      "features": "24555.npy"
+    },
+    {
+      "clip_id": "46317",
+      "split": "train",
+      "label": "REAL",
+      "signer_id": 11,
+      "class_id": 1409,
+      "features": "46317.npy"
+    },
+    {
+      "clip_id": "46930",
+      "split": "train",
+      "label": "REGULAR",
+      "signer_id": 10,
+      "class_id": 1424,
+      "features": "46930.npy"
+    },
+    {
+      "clip_id": "61700",
+      "split": "train",
+      "label": "VIEWPOINT",
+      "signer_id": 11,
+      "class_id": 1897,
+      "features": "61700.npy"
+    },
+    {
+      "clip_id": "63188",
+      "split": "train",
+      "label": "WHISTLE",
+      "signer_id": 11,
+      "class_id": 1953,
+      "features": "63188.npy"
+    },
+    {
+      "clip_id": "05743",
+      "split": "train",
+      "label": "BEFORE",
+      "signer_id": 11,
+      "class_id": 168,
+      "features": "05743.npy"
+    },
+    {
+      "clip_id": "36932",
+      "split": "train",
+      "label": "MOTHER",
+      "signer_id": 52,
+      "class_id": 1118,
+      "features": "36932.npy"
+    },
+    {
+      "clip_id": "21280",
+      "split": "train",
+      "label": "FAULT",
+      "signer_id": 11,
+      "class_id": 687,
+      "features": "21280.npy"
+    },
+    {
+      "clip_id": "40183",
+      "split": "val",
+      "label": "ORDER",
+      "signer_id": 41,
+      "class_id": 1213,
+      "features": "40183.npy"
+    },
+    {
+      "clip_id": "35120",
+      "split": "train",
+      "label": "MATCH",
+      "signer_id": 11,
+      "class_id": 1066,
+      "features": "35120.npy"
+    },
+    {
+      "clip_id": "42653",
+      "split": "train",
+      "label": "PICTURE",
+      "signer_id": 32,
+      "class_id": 1278,
+      "features": "42653.npy"
+    },
+    {
+      "clip_id": "56089",
+      "split": "train",
+      "label": "SURGERY",
+      "signer_id": 11,
+      "class_id": 1725,
+      "features": "56089.npy"
+    },
+    {
+      "clip_id": "03484",
+      "split": "train",
+      "label": "ART",
+      "signer_id": 11,
+      "class_id": 98,
+      "features": "03484.npy"
+    },
+    {
+      "clip_id": "19110",
+      "split": "train",
+      "label": "END",
+      "signer_id": 4,
+      "class_id": 618,
+      "features": "19110.npy"
+    },
+    {
+      "clip_id": "12120",
+      "split": "train",
+      "label": "COMPARE",
+      "signer_id": 5,
+      "class_id": 386,
+      "features": "12120.npy"
+    },
+    {
+      "clip_id": "23055",
+      "split": "train",
+      "label": "FORM",
+      "signer_id": 12,
+      "class_id": 735,
+      "features": "23055.npy"
+    },
+    {
+      "clip_id": "40477",
+      "split": "train",
+      "label": "OUTSIDE",
+      "signer_id": 12,
+      "class_id": 1218,
+      "features": "40477.npy"
+    },
+    {
+      "clip_id": "10093",
+      "split": "train",
+      "label": "CHASE",
+      "signer_id": 11,
+      "class_id": 320,
+      "features": "10093.npy"
+    },
+    {
+      "clip_id": "19225",
+      "split": "train",
+      "label": "ENGLAND",
+      "signer_id": 20,
+      "class_id": 624,
+      "features": "19225.npy"
+    },
+    {
+      "clip_id": "29619",
+      "split": "train",
+      "label": "INFLUENCE",
+      "signer_id": 11,
+      "class_id": 918,
+      "features": "29619.npy"
+    },
+    {
+      "clip_id": "20869",
+      "split": "train",
+      "label": "FAKE",
+      "signer_id": 11,
+      "class_id": 675,
+      "features": "20869.npy"
+    },
+    {
+      "clip_id": "53265",
+      "split": "val",
+      "label": "SONG",
+      "signer_id": 11,
+      "class_id": 1635,
+      "features": "53265.npy"
+    },
+    {
+      "clip_id": "56775",
+      "split": "train",
+      "label": "TAKE UP",
+      "signer_id": 11,
+      "class_id": 1747,
+      "features": "56775.npy"
+    },
+    {
+      "clip_id": "08890",
+      "split": "train",
+      "label": "CANDIDATE",
+      "signer_id": 32,
+      "class_id": 283,
+      "features": "08890.npy"
+    },
+    {
+      "clip_id": "12161",
+      "split": "train",
+      "label": "COMPETE",
+      "signer_id": 11,
+      "class_id": 387,
+      "features": "12161.npy"
+    },
+    {
+      "clip_id": "39289",
+      "split": "train",
+      "label": "OBTAIN",
+      "signer_id": 11,
+      "class_id": 1187,
+      "features": "39289.npy"
+    },
+    {
+      "clip_id": "19298",
+      "split": "val",
+      "label": "ENORMOUS",
+      "signer_id": 59,
+      "class_id": 627,
+      "features": "19298.npy"
+    },
+    {
+      "clip_id": "39388",
+      "split": "train",
+      "label": "ODOR",
+      "signer_id": 13,
+      "class_id": 1193,
+      "features": "39388.npy"
+    },
+    {
+      "clip_id": "24961",
+      "split": "train",
+      "label": "GO",
+      "signer_id": 10,
+      "class_id": 789,
+      "features": "24961.npy"
+    },
+    {
+      "clip_id": "32254",
+      "split": "train",
+      "label": "LAST",
+      "signer_id": 11,
+      "class_id": 990,
+      "features": "32254.npy"
+    },
+    {
+      "clip_id": "62782",
+      "split": "train",
+      "label": "WEIGH",
+      "signer_id": 19,
+      "class_id": 1939,
+      "features": "62782.npy"
+    },
+    {
+      "clip_id": "26951",
+      "split": "train",
+      "label": "HEAR",
+      "signer_id": 10,
+      "class_id": 848,
+      "features": "26951.npy"
+    },
+    {
+      "clip_id": "59215",
+      "split": "train",
+      "label": "TRADE",
+      "signer_id": 11,
+      "class_id": 1843,
+      "features": "59215.npy"
+    },
+    {
+      "clip_id": "21274",
+      "split": "train",
+      "label": "FAULT",
+      "signer_id": 4,
+      "class_id": 687,
+      "features": "21274.npy"
+    },
+    {
+      "clip_id": "10631",
+      "split": "train",
+      "label": "CHOOSE",
+      "signer_id": 11,
+      "class_id": 339,
+      "features": "10631.npy"
+    },
+    {
+      "clip_id": "49700",
+      "split": "val",
+      "label": "SCORE",
+      "signer_id": 10,
+      "class_id": 1514,
+      "features": "49700.npy"
+    },
+    {
+      "clip_id": "04426",
+      "split": "train",
+      "label": "AWFUL",
+      "signer_id": 6,
+      "class_id": 130,
+      "features": "04426.npy"
+    },
+    {
+      "clip_id": "21411",
+      "split": "train",
+      "label": "FEED",
+      "signer_id": 10,
+      "class_id": 692,
+      "features": "21411.npy"
+    },
+    {
+      "clip_id": "37471",
+      "split": "train",
+      "label": "MY",
+      "signer_id": 13,
+      "class_id": 1136,
+      "features": "37471.npy"
+    },
+    {
+      "clip_id": "45785",
+      "split": "train",
+      "label": "QUIT",
+      "signer_id": 11,
+      "class_id": 1394,
+      "features": "45785.npy"
+    },
+    {
+      "clip_id": "57843",
+      "split": "train",
+      "label": "THERMOMETER",
+      "signer_id": 11,
+      "class_id": 1794,
+      "features": "57843.npy"
+    },
+    {
+      "clip_id": "45113",
+      "split": "val",
+      "label": "PROVIDE",
+      "signer_id": 10,
+      "class_id": 1369,
+      "features": "45113.npy"
+    },
+    {
+      "clip_id": "58951",
+      "split": "train",
+      "label": "TOPIC",
+      "signer_id": 11,
+      "class_id": 1833,
+      "features": "58951.npy"
+    },
+    {
+      "clip_id": "00381",
+      "split": "train",
+      "label": "ABLE",
+      "signer_id": 11,
+      "class_id": 3,
+      "features": "00381.npy"
+    },
+    {
+      "clip_id": "19194",
+      "split": "train",
+      "label": "ENGAGEMENT",
+      "signer_id": 10,
+      "class_id": 621,
+      "features": "19194.npy"
+    },
+    {
+      "clip_id": "43801",
+      "split": "train",
+      "label": "POSITION",
+      "signer_id": 4,
+      "class_id": 1309,
+      "features": "43801.npy"
+    },
+    {
+      "clip_id": "24122",
+      "split": "train",
+      "label": "GAS",
+      "signer_id": 21,
+      "class_id": 767,
+      "features": "24122.npy"
+    },
+    {
+      "clip_id": "57371",
+      "split": "train",
+      "label": "TENDER",
+      "signer_id": 10,
+      "class_id": 1770,
+      "features": "57371.npy"
+    },
+    {
+      "clip_id": "20838",
+      "split": "train",
+      "label": "FAIRY",
+      "signer_id": 11,
+      "class_id": 674,
+      "features": "20838.npy"
+    },
+    {
+      "clip_id": "16220",
+      "split": "train",
+      "label": "DIFFICULT",
+      "signer_id": 12,
+      "class_id": 519,
+      "features": "16220.npy"
+    },
+    {
+      "clip_id": "17562",
+      "split": "train",
+      "label": "DRAMA",
+      "signer_id": 11,
+      "class_id": 563,
+      "features": "17562.npy"
+    },
+    {
+      "clip_id": "44180",
+      "split": "train",
+      "label": "PRECIPITATION",
+      "signer_id": 10,
+      "class_id": 1326,
+      "features": "44180.npy"
+    },
+    {
+      "clip_id": "44188",
+      "split": "train",
+      "label": "PRECISE",
+      "signer_id": 10,
+      "class_id": 1327,
+      "features": "44188.npy"
+    },
+    {
+      "clip_id": "05742",
+      "split": "train",
+      "label": "BEFORE",
+      "signer_id": 11,
+      "class_id": 168,
+      "features": "05742.npy"
+    },
+    {
+      "clip_id": "32755",
+      "split": "train",
+      "label": "LEGAL",
+      "signer_id": 13,
+      "class_id": 1009,
+      "features": "32755.npy"
+    },
+    {
+      "clip_id": "45469",
+      "split": "train",
+      "label": "PURSUE",
+      "signer_id": 21,
+      "class_id": 1381,
+      "features": "45469.npy"
+    },
+    {
+      "clip_id": "51313",
+      "split": "train",
+      "label": "SHOVEL",
+      "signer_id": 59,
+      "class_id": 1563,
+      "features": "51313.npy"
+    },
+    {
+      "clip_id": "59233",
+      "split": "train",
+      "label": "TRADITION",
+      "signer_id": 11,
+      "class_id": 1844,
+      "features": "59233.npy"
+    },
+    {
+      "clip_id": "03768",
+      "split": "train",
+      "label": "ASSIST",
+      "signer_id": 10,
+      "class_id": 104,
+      "features": "03768.npy"
+    },
+    {
+      "clip_id": "35969",
+      "split": "train",
+      "label": "MIDDLE",
+      "signer_id": 13,
+      "class_id": 1091,
+      "features": "35969.npy"
+    }
+  ],
+  "split_policy": "Test intact. Train excludes any raw-pose SHA256 in val/test. Val excludes any raw-pose SHA256 in test. Signer overlap remains.",
+  "remaining_exact_cross_split_groups": 0,
+  "excluded_count": 549,
+  "original_cross_split_groups": 442
+}

@@ -1,0 +1,16 @@
+{
+  "status": "development candidates, not a benchmark pass",
+  "task": "Provisional WLASL2000; all 2000 labels retained",
+  "original_train_clips": 13771,
+  "extra_original_citizen_train_clips": 16959,
+  "validation_clips": 3865,
+  "unchanged_final_test_clips": 2878,
+  "selection": "validation only; no new test predictions used",
+  "checkpoint": "OpenASL pose-only, not WLASL-pretrained",
+  "checkpoint_sha256": "f836ea66bc837bbe6ed717a4b9bece87875f03ef96d4bf1092ca3dd767982798",
+  "pretraining_audit": "work/unisign-study/pretraining-audit.json",
+  "geometry": "MediaPipe inferred XYZ, palm canonicalization, wrist orientation/movement, finger kinematics",
+  "graph_channels": "XY plus confidence or binary observation; third graph channel is not depth",
+  "phone_gate": "Initial70% gate superseded by latest user instruction: team leader may test Android after handoff if time permits. No agent handset tests performed.",
+  "limitations": "Cached public poses; raw-video and phone accuracy unmeasured. Source-ID screening does not rule out mirrors or near-duplicates. No signer-independent claim."
+}

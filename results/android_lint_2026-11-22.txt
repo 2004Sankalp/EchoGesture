@@ -1,0 +1,216 @@
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\SignEngine.java:24: Error: Call requires API level 33 (current min is 26): java.io.InputStream#readAllBytes [NewApi]
+        config=new org.json.JSONObject(new String(context.getAssets().open("ensemble/ensemble.json").readAllBytes(),java.nio.charset.StandardCharsets.UTF_8));
+                                                                                                     ~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\SignEngine.java:28: Error: Call requires API level 33 (current min is 26): java.io.InputStream#readAllBytes [NewApi]
+            for(int i=0;i<members.length();i++) sessions.add(environment.createSession(context.getAssets().open("ensemble/"+members.getJSONObject(i).getString("model")).readAllBytes(),options));
+                                                                                                                                                                         ~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\SignEngine.java:30: Error: Call requires API level 33 (current min is 26): java.io.InputStream#readAllBytes [NewApi]
+        JSONArray data = new JSONArray(new String(context.getAssets().open("labels.json").readAllBytes(), java.nio.charset.StandardCharsets.UTF_8));
+                                                                                          ~~~~~~~~~~~~
+
+   Explanation for issues of type "NewApi":
+   This check scans through all the Android API calls in the application and
+   warns about any calls that are not available on all versions targeted by
+   this application (according to its minimum SDK attribute in the manifest).
+
+   If you really want to use this API and don't need to support older devices
+   just set the minSdkVersion in your build.gradle or AndroidManifest.xml
+   files.
+
+   If your code is deliberately accessing newer APIs, and you have ensured
+   (e.g. with conditional execution) that this code will only ever be called
+   on a supported platform, then you can annotate your class or method with
+   the @TargetApi annotation specifying the local minimum SDK to apply, such
+   as @TargetApi(11), such that this check considers 11 rather than your
+   manifest file's minimum SDK as the required API level.
+
+   If you are deliberately setting android: attributes in style definitions,
+   make sure you place this in a values-vNN folder in order to avoid running
+   into runtime conflicts on certain devices where manufacturers have added
+   custom attributes whose ids conflict with the new ones on later platforms.
+
+   Similarly, you can use tools:targetApi="11" in an XML file to indicate that
+   the element will only be inflated in an adequate context.
+
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\build.gradle:23: Warning: A newer version of androidx.activity:activity than 1.10.1 is available: 1.13.0 [GradleDependency]
+    implementation 'androidx.activity:activity:1.10.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\build.gradle:24: Warning: A newer version of androidx.camera:camera-camera2 than 1.4.2 is available: 1.7.0 [GradleDependency]
+    implementation 'androidx.camera:camera-camera2:1.4.2'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\build.gradle:25: Warning: A newer version of androidx.camera:camera-lifecycle than 1.4.2 is available: 1.7.0 [GradleDependency]
+    implementation 'androidx.camera:camera-lifecycle:1.4.2'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\build.gradle:26: Warning: A newer version of androidx.camera:camera-view than 1.4.2 is available: 1.7.0 [GradleDependency]
+    implementation 'androidx.camera:camera-view:1.4.2'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\build.gradle:11: Warning: Missing x86_64 ABI support for ChromeOS [ChromeOsAbiSupport]
+        ndk { abiFilters 'arm64-v8a' }
+                         ~~~~~~~~~~~
+
+   Explanation for issues of type "ChromeOsAbiSupport":
+   To properly support ChromeOS, your Android application should have an x86
+   and/or x86_64 binary as part of the build configuration. To fix the issue,
+   ensure your files are properly optimized for ARM; the binary translator
+   will then ensure compatibility with x86. Alternatively, add an abiSplit for
+   x86 within your build.gradle file and create the required x86
+   dependencies.
+
+   https://developer.android.com/ndk/guides/abis
+
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\AndroidManifest.xml:8: Warning: The attribute android:allowBackup is deprecated from Android 12 and higher and may be removed in future versions. Consider adding the attribute android:dataExtractionRules specifying an @xml resource which configures cloud backups and device transfers on Android 12 and higher. [DataExtractionRules]
+        android:allowBackup="false" android:usesCleartextTraffic="false" android:supportsRtl="true">
+                             ~~~~~
+
+   Explanation for issues of type "DataExtractionRules":
+   Before Android 12, the attributes android:allowBackup and
+   android:fullBackupContent were used to configure all forms of backup,
+   including cloud backups, device-to-device transfers and adb backup.
+
+   In Android 12 and higher, these attributes have been deprecated and will
+   only apply to cloud backups. You should instead use the attribute
+   android:dataExtractionRules, specifying an @xml resource that configures
+   which files to back up, for cloud backups and for device-to-device
+   transfers, separately. If your minSdkVersion supports older versions,
+   you'll still want to specify an android:fullBackupContent resource if the
+   default behavior is not right for your app.
+
+   https://developer.android.com/about/versions/12/backup-restore#xml-changes
+   https://goo.gle/DataExtractionRules
+
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\AndroidManifest.xml:7: Warning: Should explicitly set android:icon, there is no default [MissingApplicationIcon]
+    <application android:label="EchoGesture" android:theme="@android:style/Theme.Material.NoActionBar"
+     ~~~~~~~~~~~
+
+   Explanation for issues of type "MissingApplicationIcon":
+   You should set an icon for the application as whole because there is no
+   default. This attribute must be set as a reference to a drawable resource
+   containing the image (for example @drawable/icon).
+
+   https://developer.android.com/studio/publish/preparing#publishing-configure
+
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:63: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        TextView title=new TextView(this);title.setText("EchoGesture");title.setTextSize(30);title.setTextColor(Color.rgb(169,240,196)); root.addView(title);
+                                                        ~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:70: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        status=new TextView(this);status.setText("Preparing local models…");status.setTextSize(18);status.setTextColor(Color.WHITE);root.addView(status);
+                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:72: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        recordButton=new Button(this);recordButton.setText("Start one sign");root.addView(recordButton);
+                                                           ~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:78: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                runOnUiThread(()-> {stopSpeech();clearChoices();status.setText("Sign one word, then tap Review.");recordButton.setText("Review this sign");});
+                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:78: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                runOnUiThread(()-> {stopSpeech();clearChoices();status.setText("Sign one word, then tap Review.");recordButton.setText("Review this sign");});
+                                                                                                                                       ~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:84: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            choice.setOnClickListener(v->{if(pending!=null&&rank<pending.length){confirmed.add(pending[rank]);clearChoices();refreshCaption();status.setText("Added. You can undo the last word.");}});
+                                                                                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:88: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        Button undo=new Button(this);undo.setText("Undo");edits.addView(undo);undo.setOnClickListener(v->{stopSpeech();if(!confirmed.isEmpty())confirmed.remove(confirmed.size()-1);refreshCaption();});
+                                                  ~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:89: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        Button clear=new Button(this);clear.setText("Clear");edits.addView(clear);clear.setOnClickListener(v->{stopSpeech();confirmed.clear();clearChoices();refreshCaption();status.setText("Caption cleared from memory.");});
+                                                    ~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:89: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        Button clear=new Button(this);clear.setText("Clear");edits.addView(clear);clear.setOnClickListener(v->{stopSpeech();confirmed.clear();clearChoices();refreshCaption();status.setText("Caption cleared from memory.");});
+                                                                                                                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:90: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        speakButton=new Button(this);speakButton.setText("Speak confirmed words");speakButton.setEnabled(false);root.addView(speakButton);
+                                                         ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:91: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        speechStatus=new TextView(this);speechStatus.setTextColor(Color.LTGRAY);speechStatus.setText("Checking for an offline English voice…");root.addView(speechStatus);
+                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:96: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                speechStatus.setText("This caption is too long to speak at once. Clear it and speak a shorter phrase.");return;
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:99: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                speechStatus.setText("Speech could not start. Your confirmed caption is still visible.");
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:102: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        benchmarkButton=new Button(this);benchmarkButton.setText("Run 10-minute device benchmark");root.addView(benchmarkButton);
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:110: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                runOnUiThread(()->{stopSpeech();clearChoices();status.setText("Benchmark running. Keep a signer in view. Captions paused.");benchmarkButton.setText("Stop benchmark early");});
+                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:110: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                runOnUiThread(()->{stopSpeech();clearChoices();status.setText("Benchmark running. Keep a signer in view. Captions paused.");benchmarkButton.setText("Stop benchmark early");});
+                                                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:113: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        Button export=new Button(this);export.setText("Export benchmark evidence");root.addView(export);
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:123: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                runOnUiThread(()->status.setText("Ready. Use the rear camera to face the signer."));
+                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:138: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        if(result!=TextToSpeech.SUCCESS){speechStatus.setText("Offline speech is unavailable. You can still use captions.");return;}
+                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:147: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            speechStatus.setText("Install an offline English voice in your phone's speech settings to speak captions.");return;
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:152: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            @Override public void onError(String id){runOnUiThread(()->{if(!destroyed)speechStatus.setText("Speech could not play. Your confirmed caption is still visible.");});}
+                                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:154: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        speechReady=true;speechStatus.setText("Speech uses an installed offline English voice.");refreshCaption();
+                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:203: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            if(sequence.size()<3||!handsSeen){runOnUiThread(()->{status.setText("Hands were not clear. Please try again.");recordButton.setText("Start one sign");});return;}
+                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:203: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            if(sequence.size()<3||!handsSeen){runOnUiThread(()->{status.setText("Hands were not clear. Please try again.");recordButton.setText("Start one sign");});return;}
+                                                                                                                                                ~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:207: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                for(int i=0;i<prediction.words.length;i++){choices.get(i).setText("Add "+prediction.words[i]);choices.get(i).setVisibility(View.VISIBLE);}recordButton.setText("Start one sign");});
+                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:207: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                for(int i=0;i<prediction.words.length;i++){choices.get(i).setText("Add "+prediction.words[i]);choices.get(i).setVisibility(View.VISIBLE);}recordButton.setText("Start one sign");});
+                                                                                  ~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:207: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                for(int i=0;i<prediction.words.length;i++){choices.get(i).setText("Add "+prediction.words[i]);choices.get(i).setVisibility(View.VISIBLE);}recordButton.setText("Start one sign");});
+                                                                                                                                                                               ~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:210: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+    private void finishBenchmark(){benchmarking=false;sequence.clear();runOnUiThread(()->{status.setText("Benchmark stopped. Export evidence for analysis.");benchmarkButton.setText("Run 10-minute device benchmark");});}
+                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:210: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+    private void finishBenchmark(){benchmarking=false;sequence.clear();runOnUiThread(()->{status.setText("Benchmark stopped. Export evidence for analysis.");benchmarkButton.setText("Run 10-minute device benchmark");});}
+                                                                                                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:214: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        runOnUiThread(()->status.setText("Evidence exported. Review it before claiming a pass."));
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:216: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+    private void showError(Exception e){runOnUiThread(()->{status.setText("Unable to continue: "+e.getClass().getSimpleName()+" "+e.getMessage());recordButton.setText("Start one sign");benchmarkButton.setText("Run 10-minute device benchmark");});}
+                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:216: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+    private void showError(Exception e){runOnUiThread(()->{status.setText("Unable to continue: "+e.getClass().getSimpleName()+" "+e.getMessage());recordButton.setText("Start one sign");benchmarkButton.setText("Run 10-minute device benchmark");});}
+                                                                          ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:216: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+    private void showError(Exception e){runOnUiThread(()->{status.setText("Unable to continue: "+e.getClass().getSimpleName()+" "+e.getMessage());recordButton.setText("Start one sign");benchmarkButton.setText("Run 10-minute device benchmark");});}
+                                                                                                                                                                       ~~~~~~~~~~~~~~~~
+C:\Users\sankalp kumar\Documents\Codex\2026-11-22\co\work\handoff\EchoGesture-Submission\src\android\app\src\main\java\org\echogesture\app\MainActivity.java:216: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+    private void showError(Exception e){runOnUiThread(()->{status.setText("Unable to continue: "+e.getClass().getSimpleName()+" "+e.getMessage());recordButton.setText("Start one sign");benchmarkButton.setText("Run 10-minute device benchmark");});}
+                                                                                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+3 errors, 41 warnings

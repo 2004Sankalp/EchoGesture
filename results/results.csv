@@ -1,0 +1,7 @@
+metric,target,measured,unit,device,runtime,pass
+top1_accuracy,>=70,51.80681028492008,%,Public WLASL2000 poses; not phone,Frozen ONNX CPU; precomputed poses,FAIL
+latency_p95,<50,,ms,realme GT6T Android16 NOT_TESTED,,NOT_MEASURED
+model_size,<20,19.276143,MB,Android ARM64 assets,All uncompressed APK inference assets by hash,PASS
+accuracy_drop_robustness,<=5,,pt,realme GT6T Android16 NOT_TESTED,,NOT_MEASURED
+avg_power,<=500,,mW,realme GT6T Android16 NOT_TESTED,,NOT_MEASURED
+thermal_drift_10min,<=20,,%,realme GT6T Android16 NOT_TESTED,,NOT_MEASURED

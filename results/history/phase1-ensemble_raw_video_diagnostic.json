@@ -1,0 +1,236 @@
+{
+  "scope": "12 development validation videos from one source, actual OpenCV CPU inferred landmarks and frozen INT8 ensemble; not representative/official held-out benchmark. Timing includes geometry and ensemble, excludes video decode/landmark extraction/camera/UI. Mac CPU, 2 warmups then 5 measured runs per clip.",
+  "top1_accuracy": 33.333333333333336,
+  "top5_accuracy": 75.0,
+  "classifier_geometry_p95_ms": 6.6006173,
+  "results": [
+    {
+      "clip_id": "13469",
+      "label": "COUGH",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/cough.mp4",
+      "sha256": "983521b59acc972e4fba3db3c63beafca27efe1a1518150743525a3581df5ec3",
+      "prediction": {
+        "prediction": "COUGH",
+        "top5": [
+          "COUGH",
+          "WORK",
+          "RESIST",
+          "SENATE",
+          "SUPERMAN"
+        ],
+        "confidence": 0.16519629955291748,
+        "latency_ms": 6.3695
+      },
+      "frames": 60
+    },
+    {
+      "clip_id": "53366",
+      "label": "SORRY",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/sorry.mp4",
+      "sha256": "005fcc6965c3f47d6a34089efcfd4a8d09894e89e6f6b694d4882fcc03e03589",
+      "prediction": {
+        "prediction": "SORRY",
+        "top5": [
+          "SORRY",
+          "CHINA",
+          "HUNGRY",
+          "LAZY",
+          "ME"
+        ],
+        "confidence": 0.390745609998703,
+        "latency_ms": 6.698625
+      },
+      "frames": 110
+    },
+    {
+      "clip_id": "59122",
+      "label": "TOWEL",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/towel.mp4",
+      "sha256": "8b79c15d4154c82fa8bb4f9d106d7eefb4b3dc31b8cf8bd8dd50d59c68eda3e3",
+      "prediction": {
+        "prediction": "EXERCISE",
+        "top5": [
+          "EXERCISE",
+          "TOWEL",
+          "DRAMA",
+          "CHEERLEADER",
+          "S"
+        ],
+        "confidence": 0.4411769509315491,
+        "latency_ms": 5.730166
+      },
+      "frames": 72
+    },
+    {
+      "clip_id": "33696",
+      "label": "LOCK",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/lock.mp4",
+      "sha256": "0c147088e9346584497b8cdcc003cf38e1ebecee29f8254c31a2ffbb3e07276a",
+      "prediction": {
+        "prediction": "WOLF",
+        "top5": [
+          "WOLF",
+          "CURSE",
+          "EVERY TUESDAY",
+          "NEVER",
+          "SUMMON"
+        ],
+        "confidence": 0.051592230796813965,
+        "latency_ms": 5.735625
+      },
+      "frames": 92
+    },
+    {
+      "clip_id": "49805",
+      "label": "SCREWDRIVER",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/screwdriver.mp4",
+      "sha256": "095c58d674cf73c67a9bdba4893e77535be79269c4d8f0fe2bd9db1681bc0f54",
+      "prediction": {
+        "prediction": "PAINT",
+        "top5": [
+          "PAINT",
+          "ROLE",
+          "SHOW",
+          "SCREWDRIVER",
+          "KEY"
+        ],
+        "confidence": 0.09135668724775314,
+        "latency_ms": 5.626584
+      },
+      "frames": 62
+    },
+    {
+      "clip_id": "33391",
+      "label": "LION",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/lion.mp4",
+      "sha256": "e3d43243f6bbf07a6b233f9a36262de77e56ed96be560a5618004bb09736fd20",
+      "prediction": {
+        "prediction": "BALD",
+        "top5": [
+          "BALD",
+          "LION",
+          "COMB",
+          "HAT",
+          "SKY"
+        ],
+        "confidence": 0.4298417568206787,
+        "latency_ms": 5.75475
+      },
+      "frames": 97
+    },
+    {
+      "clip_id": "62708",
+      "label": "WEDNESDAY",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/wednesday.mp4",
+      "sha256": "ac9393292d9db00b114d551c667da1ebf20627dd5f8905cfde5bcd3c59246e32",
+      "prediction": {
+        "prediction": "WEDNESDAY",
+        "top5": [
+          "WEDNESDAY",
+          "BLUE",
+          "FRIDAY",
+          "FOUR",
+          "WOW"
+        ],
+        "confidence": 0.704596757888794,
+        "latency_ms": 5.664917
+      },
+      "frames": 80
+    },
+    {
+      "clip_id": "44234",
+      "label": "PREGNANT",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/pregnant.mp4",
+      "sha256": "cbc5a75bebe73dd7117494e61ae833fe616f395324fe0f8b026e0066be6de124",
+      "prediction": {
+        "prediction": "STOMACH",
+        "top5": [
+          "STOMACH",
+          "PREGNANT",
+          "ABDOMEN",
+          "DISGUST",
+          "LATE"
+        ],
+        "confidence": 0.14990326762199402,
+        "latency_ms": 5.63725
+      },
+      "frames": 76
+    },
+    {
+      "clip_id": "16098",
+      "label": "DIARRHEA",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/diarrhea.mp4",
+      "sha256": "072ce7aba58bddb1379b757a09a6d2a2a266a70fb1bfa238df332cad4f9dba75",
+      "prediction": {
+        "prediction": "DESTROY",
+        "top5": [
+          "DESTROY",
+          "POOP",
+          "SKIRT",
+          "SECRETARY",
+          "CHRISTIAN"
+        ],
+        "confidence": 0.03805316239595413,
+        "latency_ms": 5.489875
+      },
+      "frames": 54
+    },
+    {
+      "clip_id": "56762",
+      "label": "TAKE TURNS",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/take-turns.mp4",
+      "sha256": "38261db00e1ff7eeafdca48c4d44193f50ee14e063f2caa8239318301e029e69",
+      "prediction": {
+        "prediction": "TURN",
+        "top5": [
+          "TURN",
+          "ALL",
+          "COMMUTE",
+          "BASEMENT",
+          "TAKE TURNS"
+        ],
+        "confidence": 0.14893442392349243,
+        "latency_ms": 5.748333
+      },
+      "frames": 91
+    },
+    {
+      "clip_id": "21070",
+      "label": "FAR",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/far.mp4",
+      "sha256": "f551d014c612f759d32068262b98e30a05e64fa5c6390cd8c18ef2105159b902",
+      "prediction": {
+        "prediction": "THROW",
+        "top5": [
+          "THROW",
+          "FACE",
+          "SHRIMP",
+          "SCISSORS",
+          "TRANSFER"
+        ],
+        "confidence": 0.027006356045603752,
+        "latency_ms": 5.595083
+      },
+      "frames": 68
+    },
+    {
+      "clip_id": "07780",
+      "label": "BRIGHT",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/bright.mp4",
+      "sha256": "e7755f63d38e582d9df77cd1d17911f9329cf0a7eb371f9ace6576b150d57a14",
+      "prediction": {
+        "prediction": "BRIGHT",
+        "top5": [
+          "BRIGHT",
+          "CLEAR",
+          "WALL",
+          "WAKE UP",
+          "MUSEUM"
+        ],
+        "confidence": 0.4966588616371155,
+        "latency_ms": 5.651458
+      },
+      "frames": 78
+    }
+  ]
+}

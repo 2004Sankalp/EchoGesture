@@ -1,0 +1,40 @@
+{
+  "anatomy": {
+    "scores": {
+      "single": 46.23544631306598,
+      "narrow": 46.261319534282016,
+      "wide": 46.33893919793014
+    },
+    "selected_profile": "wide",
+    "scales": [
+      0.67,
+      1.0,
+      1.5
+    ],
+    "checkpoint_sha256": "51361d8ea3a2a9ed0efc1bc4cb998210d56bda082e9f03a31a00d73c9584979d",
+    "checkpoint": "work/audited-validation-tta/anatomy.pt",
+    "manifest_sha256": "b90f4e801956051d60e0a7f59620aed41aa0230c7840355b5e03da103350ea20",
+    "validation_clips": 3865,
+    "classes": 2000,
+    "test_read": false
+  },
+  "kinematic": {
+    "scores": {
+      "single": 45.5627425614489,
+      "narrow": 45.5627425614489,
+      "wide": 45.66623544631307
+    },
+    "selected_profile": "wide",
+    "scales": [
+      0.67,
+      1.0,
+      1.5
+    ],
+    "checkpoint_sha256": "6b1531f78426f3587fdd1ea6bba27749e55dbc9f9bd31010509885d389dd1b18",
+    "checkpoint": "work/audited-validation-tta/kinematic.pt",
+    "manifest_sha256": "b90f4e801956051d60e0a7f59620aed41aa0230c7840355b5e03da103350ea20",
+    "validation_clips": 3865,
+    "classes": 2000,
+    "test_read": false
+  }
+}

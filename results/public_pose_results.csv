@@ -1,0 +1,4 @@
+metric,measured,unit,scope
+top1_accuracy,51.80681028492008,%,2878 public test poses;2000 outputs
+top5_accuracy,81.79291174426685,%,Not a top1 pass
+cached_views_classifier_p95,73.61381700000001,ms,Prepared features only; excludes extraction; not phone or pipeline latency

@@ -1,0 +1,368 @@
+{
+  "scope": "Twelve SHA-selected StartASL-source validation videos. Small source-specific functional diagnostic, not official held-out accuracy. Full 2000-class output. No model selected on this sample.",
+  "model_validation_top1": 37.66804550155119,
+  "results": [
+    {
+      "clip_id": "13469",
+      "label": "COUGH",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/cough.mp4",
+      "sha256": "983521b59acc972e4fba3db3c63beafca27efe1a1518150743525a3581df5ec3",
+      "archive": {
+        "prediction": "COUGH",
+        "top5": [
+          "COUGH",
+          "SENATE",
+          "PRIEST",
+          "GUILTY",
+          "POLICEMAN"
+        ],
+        "frames": 52,
+        "hand_frame_fraction": 0.6538461538461539
+      },
+      "cpu_video": {
+        "prediction": "WORK",
+        "top5": [
+          "WORK",
+          "SENATE",
+          "MYSELF",
+          "RESIST",
+          "PRIEST"
+        ],
+        "frames": 60,
+        "hand_frame_fraction": 0.6166666666666667
+      }
+    },
+    {
+      "clip_id": "53366",
+      "label": "SORRY",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/sorry.mp4",
+      "sha256": "005fcc6965c3f47d6a34089efcfd4a8d09894e89e6f6b694d4882fcc03e03589",
+      "archive": {
+        "prediction": "SORRY",
+        "top5": [
+          "SORRY",
+          "CANADA",
+          "MYSELF",
+          "DRUM",
+          "SWITZERLAND"
+        ],
+        "frames": 65,
+        "hand_frame_fraction": 0.5692307692307692
+      },
+      "cpu_video": {
+        "prediction": "SORRY",
+        "top5": [
+          "SORRY",
+          "CHINA",
+          "THIRSTY",
+          "LAZY",
+          "PRINCESS"
+        ],
+        "frames": 110,
+        "hand_frame_fraction": 0.4
+      }
+    },
+    {
+      "clip_id": "59122",
+      "label": "TOWEL",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/towel.mp4",
+      "sha256": "8b79c15d4154c82fa8bb4f9d106d7eefb4b3dc31b8cf8bd8dd50d59c68eda3e3",
+      "archive": {
+        "prediction": "TOWEL",
+        "top5": [
+          "TOWEL",
+          "EXERCISE",
+          "LOUD",
+          "WINTER",
+          "ANNIVERSARY"
+        ],
+        "frames": 62,
+        "hand_frame_fraction": 0.7741935483870968
+      },
+      "cpu_video": {
+        "prediction": "EXERCISE",
+        "top5": [
+          "EXERCISE",
+          "TOWEL",
+          "DRAMA",
+          "WINTER",
+          "AUDIOLOGIST"
+        ],
+        "frames": 72,
+        "hand_frame_fraction": 0.7083333333333334
+      }
+    },
+    {
+      "clip_id": "33696",
+      "label": "LOCK",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/lock.mp4",
+      "sha256": "0c147088e9346584497b8cdcc003cf38e1ebecee29f8254c31a2ffbb3e07276a",
+      "archive": {
+        "prediction": "FORGET",
+        "top5": [
+          "FORGET",
+          "WOOD",
+          "RELAX",
+          "BETTER",
+          "LOCK"
+        ],
+        "frames": 79,
+        "hand_frame_fraction": 0.4177215189873418
+      },
+      "cpu_video": {
+        "prediction": "CURSE",
+        "top5": [
+          "CURSE",
+          "TISSUE",
+          "WOLF",
+          "EVERY TUESDAY",
+          "AMPUTATE"
+        ],
+        "frames": 92,
+        "hand_frame_fraction": 0.30434782608695654
+      }
+    },
+    {
+      "clip_id": "49805",
+      "label": "SCREWDRIVER",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/screwdriver.mp4",
+      "sha256": "095c58d674cf73c67a9bdba4893e77535be79269c4d8f0fe2bd9db1681bc0f54",
+      "archive": {
+        "prediction": "SCREWDRIVER",
+        "top5": [
+          "SCREWDRIVER",
+          "ROLE",
+          "PAINT",
+          "REPRESENT",
+          "KEY"
+        ],
+        "frames": 53,
+        "hand_frame_fraction": 0.7735849056603774
+      },
+      "cpu_video": {
+        "prediction": "SHOW",
+        "top5": [
+          "SHOW",
+          "REPRESENT",
+          "ROLE",
+          "PAINT",
+          "DIFFICULT"
+        ],
+        "frames": 62,
+        "hand_frame_fraction": 0.7580645161290323
+      }
+    },
+    {
+      "clip_id": "33391",
+      "label": "LION",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/lion.mp4",
+      "sha256": "e3d43243f6bbf07a6b233f9a36262de77e56ed96be560a5618004bb09736fd20",
+      "archive": {
+        "prediction": "FORGET",
+        "top5": [
+          "FORGET",
+          "LION",
+          "BALD",
+          "GRANDFATHER",
+          "SKUNK"
+        ],
+        "frames": 83,
+        "hand_frame_fraction": 0.3253012048192771
+      },
+      "cpu_video": {
+        "prediction": "BALD",
+        "top5": [
+          "BALD",
+          "LION",
+          "FORGET",
+          "SKY",
+          "COMB"
+        ],
+        "frames": 97,
+        "hand_frame_fraction": 0.18556701030927836
+      }
+    },
+    {
+      "clip_id": "62708",
+      "label": "WEDNESDAY",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/wednesday.mp4",
+      "sha256": "ac9393292d9db00b114d551c667da1ebf20627dd5f8905cfde5bcd3c59246e32",
+      "archive": {
+        "prediction": "WEDNESDAY",
+        "top5": [
+          "WEDNESDAY",
+          "BLUE",
+          "FRIDAY",
+          "WOW",
+          "BROKE"
+        ],
+        "frames": 68,
+        "hand_frame_fraction": 0.5441176470588235
+      },
+      "cpu_video": {
+        "prediction": "WEDNESDAY",
+        "top5": [
+          "WEDNESDAY",
+          "BLUE",
+          "FRIDAY",
+          "WEST",
+          "W"
+        ],
+        "frames": 80,
+        "hand_frame_fraction": 0.625
+      }
+    },
+    {
+      "clip_id": "44234",
+      "label": "PREGNANT",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/pregnant.mp4",
+      "sha256": "cbc5a75bebe73dd7117494e61ae833fe616f395324fe0f8b026e0066be6de124",
+      "archive": {
+        "prediction": "NOT YET",
+        "top5": [
+          "NOT YET",
+          "PREGNANT",
+          "LATE",
+          "BOWLING",
+          "STOMACH"
+        ],
+        "frames": 65,
+        "hand_frame_fraction": 0.5538461538461539
+      },
+      "cpu_video": {
+        "prediction": "ABDOMEN",
+        "top5": [
+          "ABDOMEN",
+          "STOMACH",
+          "DISGUSTED",
+          "POLITE",
+          "DISGUST"
+        ],
+        "frames": 76,
+        "hand_frame_fraction": 0.618421052631579
+      }
+    },
+    {
+      "clip_id": "16098",
+      "label": "DIARRHEA",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/diarrhea.mp4",
+      "sha256": "072ce7aba58bddb1379b757a09a6d2a2a266a70fb1bfa238df332cad4f9dba75",
+      "archive": {
+        "prediction": "DIARRHEA",
+        "top5": [
+          "DIARRHEA",
+          "WITHOUT",
+          "REMOVE",
+          "AVOID",
+          "POOP"
+        ],
+        "frames": 47,
+        "hand_frame_fraction": 0.9787234042553191
+      },
+      "cpu_video": {
+        "prediction": "SECRETARY",
+        "top5": [
+          "SECRETARY",
+          "CHRISTIAN",
+          "SKI",
+          "POOP",
+          "TOUGH"
+        ],
+        "frames": 54,
+        "hand_frame_fraction": 0.9259259259259259
+      }
+    },
+    {
+      "clip_id": "56762",
+      "label": "TAKE TURNS",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/take-turns.mp4",
+      "sha256": "38261db00e1ff7eeafdca48c4d44193f50ee14e063f2caa8239318301e029e69",
+      "archive": {
+        "prediction": "TRANSFER",
+        "top5": [
+          "TRANSFER",
+          "ALL",
+          "TURN",
+          "THEY",
+          "COMMUTE"
+        ],
+        "frames": 78,
+        "hand_frame_fraction": 0.6666666666666666
+      },
+      "cpu_video": {
+        "prediction": "BASEMENT",
+        "top5": [
+          "BASEMENT",
+          "TURN",
+          "COMMUTE",
+          "TENNIS",
+          "DISGUSTED"
+        ],
+        "frames": 91,
+        "hand_frame_fraction": 0.6043956043956044
+      }
+    },
+    {
+      "clip_id": "21070",
+      "label": "FAR",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/far.mp4",
+      "sha256": "f551d014c612f759d32068262b98e30a05e64fa5c6390cd8c18ef2105159b902",
+      "archive": {
+        "prediction": "STING",
+        "top5": [
+          "STING",
+          "DENTIST",
+          "SOMEONE",
+          "SHEEP",
+          "MONDAY"
+        ],
+        "frames": 58,
+        "hand_frame_fraction": 0.7241379310344828
+      },
+      "cpu_video": {
+        "prediction": "SHEEP",
+        "top5": [
+          "SHEEP",
+          "POINT",
+          "ROAD",
+          "FACE",
+          "WE"
+        ],
+        "frames": 68,
+        "hand_frame_fraction": 0.6764705882352942
+      }
+    },
+    {
+      "clip_id": "07780",
+      "label": "BRIGHT",
+      "url": "https://s3-us-west-1.amazonaws.com/files.startasl.com/asldictionary/bright.mp4",
+      "sha256": "e7755f63d38e582d9df77cd1d17911f9329cf0a7eb371f9ace6576b150d57a14",
+      "archive": {
+        "prediction": "BRIGHT",
+        "top5": [
+          "BRIGHT",
+          "CLEAR",
+          "NONE",
+          "WAKE UP",
+          "WALL"
+        ],
+        "frames": 67,
+        "hand_frame_fraction": 0.6268656716417911
+      },
+      "cpu_video": {
+        "prediction": "BRIGHT",
+        "top5": [
+          "BRIGHT",
+          "WALL",
+          "WAKE UP",
+          "CLEAR",
+          "GENERAL"
+        ],
+        "frames": 78,
+        "hand_frame_fraction": 0.6538461538461539
+      }
+    }
+  ],
+  "archive_top1": 58.333333333333336,
+  "cpu_video_top1": 25.0
+}

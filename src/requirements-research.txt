@@ -1,0 +1,4 @@
+-r requirements-build.txt
+torchvision==0.23.0
+requests==2.32.5
+pose-format==0.15.0

@@ -1,0 +1,16 @@
+{
+  "clean_extract": true,
+  "file_hash_verifier": "PASS: 194 packaged files match frozen SHA256 hashes",
+  "video_to_json_contract_passed": true,
+  "input": "Synthetic black3-frame AVI",
+  "scope": "Installation/resource/contract smoke only; no signer, no accuracy or phone claim",
+  "returned_keys": [
+    "clip_id",
+    "confidence",
+    "latency_ms",
+    "prediction",
+    "top5"
+  ],
+  "runtime_model_assets_located_from_extracted_package": true,
+  "verification_stage": "Preflight ZIP; final rebuild adds evidence receipts without changing runtime models or code"
+}

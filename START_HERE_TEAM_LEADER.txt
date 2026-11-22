@@ -1,0 +1,55 @@
+ECHOGESTURE — TEAM LEADER HANDOFF
+SRM Institute of Science and Technology | Track 2
+
+1. Extract this ZIP. Publish the CONTENTS of the EchoGesture-Submission folder
+   in a PUBLIC GitHub repository. Do not upload only the ZIP.
+2. Use GitHub Desktop or git, because the APK exceeds GitHub's 25 MB browser
+   upload limit. Every individual supplied file is checked below 100 MiB.
+3. Fill the actual registered team name and members on slide 1 of
+   presentation/EchoGesture_Final.pptx. Team name is deliberately blank at
+   the user's request. Do not invent names or registration details.
+4. Check that README, src/, models/, results/, presentation/, demo/, releases/,
+   research/, resources/, training/, licences and AI_DISCLOSURE.md are public.
+5. Primary registered member submits the public repository URL ONCE:
+   https://forms.gle/86xENrtqhx988hBt8
+   Both supplied final-submission links resolved to the same form when checked.
+   College: SRM Institute of Science and Technology
+   Theme: EchoGesture: Sign Language Prediction on Edge Device
+   Deadline supplied: 22 November, 11:59 pm; working timezone assumption IST.
+6. If time permits, install releases/EchoGesture-debug.apk on the realme GT 6T
+   Android 16. Allow camera, test a sign, review/confirm a candidate, Undo,
+   Clear, typed reply, and Speak with an installed offline English voice.
+   Prefer an actual 2–3 minute handset recording over the included walkthrough.
+
+READ BEFORE CHECKING THE FORM BOXES
+This is a research prototype, not an all-metrics-pass submission. The 70%
+accuracy target is NOT demonstrated. Physical phone accuracy, latency, power,
+paired robustness and ten-minute thermal performance are NOT verified.
+The included video is an explicitly labelled software/landmark replay with
+scripted confirmation actions. It is not a recording of live smartphone use.
+Do not describe it as live camera validation or use top-5 as top-1 accuracy.
+Use docs/Current-Evidence.pdf and models/model_card.json for final evidence.
+Historical experiment scores are separated under results/history/.
+
+WHAT TO SEND / UPLOAD
+- Entire extracted folder, including model assets and source.
+- Editable final PPTX and PDF evidence report.
+- APK under releases/.
+- Video under demo/ and its disclosure/recording guide.
+- AI disclosure, third-party notices and retained licences.
+- Results and exact-ID public-pose predictions, with their declared scope.
+
+GIT COMMANDS (create an EMPTY public repository first)
+git init
+git branch -M main
+git add .
+git commit -m "EchoGesture hackathon submission"
+git remote add origin YOUR_EMPTY_PUBLIC_REPOSITORY_URL
+git push -u origin main
+
+The agent has not published a repository, sent organizer messages, or submitted
+any form. The primary member must review the actual repository and submit it.
+
+Verify the delivered files with: python tools/verify_package.py
+Do this before editing team fields. Intentional PPT edits change its hash;
+the manifest is an integrity receipt for the delivered snapshot.

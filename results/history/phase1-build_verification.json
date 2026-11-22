@@ -1,0 +1,14 @@
+{
+  "python": "3.11.15",
+  "tests": "24 passed",
+  "android_build": "assembleDebug successful; version 0.2-3d-ensemble",
+  "apk_bytes": 60511852,
+  "apk_sha256": "4a0265e61d5f27b02a4f0cf41f6a1b6e400920db43dc8ae94072b9645d78ef0a",
+  "apk_assets_match_selected_ensemble": true,
+  "physical_phone_tested": false,
+  "target_phone": "realme GT 6T Android 16",
+  "official_accuracy_verified": false,
+  "camera_ui_visually_verified": false,
+  "apk_internet_permission": false,
+  "apk_camera_permission": true
+}

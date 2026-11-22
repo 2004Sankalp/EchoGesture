@@ -1,0 +1,11 @@
+{
+  "validation_top1": 46.23544631306598,
+  "validation_clips": 3865,
+  "classes": 2000,
+  "model_bytes": 1258528,
+  "model_sha256": "5e1e89e06bab900590739a96f9ae80a986962b270c016466515a7e018d5bd1d0",
+  "manifest_sha256": "b90f4e801956051d60e0a7f59620aed41aa0230c7840355b5e03da103350ea20",
+  "seconds": 10.082915499995579,
+  "scope": "Quantized ONNX public-pose validation; not raw video or phone",
+  "test_predictions_read": false
+}

@@ -1,0 +1,117 @@
+{
+  "status": "Frozen research prototype;70% top1 unmet; phone measurements not verified",
+  "frozen_selection": {
+    "selection": "All choices selected on corrected validation only, frozen before the new public-pose test. No test-based changes permitted.",
+    "members": [
+      {
+        "name": "anatomy",
+        "model": "anatomy.int8.onnx",
+        "weight": 0.55,
+        "scales": [
+          0.67,
+          1.0,
+          1.5
+        ],
+        "feature_version": "palm3d-context-v3",
+        "frames": 48
+      },
+      {
+        "name": "portable",
+        "model": "portable.int8.onnx",
+        "weight": 0.45,
+        "scales": [
+          1.0
+        ],
+        "feature_version": "palm3d-context-v3",
+        "frames": 48
+      }
+    ],
+    "training_data": "Audited WLASL train13771 plus16959 original ASL Citizen training clips; no ASLLVD or prior WLASL checkpoints. Transfer branch uses independent publisher OpenASL encoder with documented provenance limitations.",
+    "frozen_at_utc": "2026-11-22T16:05:03.748777+00:00"
+  },
+  "finalized_at_utc": "2026-11-22T16:08:49.567845+00:00",
+  "task": "Isolated ASL recognition; full provisional WLASL2000; no supplied organiser vocabulary/test kit",
+  "classes": 2000,
+  "split_counts": {
+    "wlasl_train": 13771,
+    "citizen_original_train": 16959,
+    "training_total": 30730,
+    "validation": 3865,
+    "test": 2878
+  },
+  "training": "Own corrected-split 3D temporal model plus independent publisher OpenASL pose encoder with fresh word head. No historical WLASL checkpoint or ASLLVD extras used.",
+  "provenance_limits": "WLASL video-byte duplicate screening; Citizen original-train membership and pose/feature screening. Signer overlap and near duplicates remain possible. Publisher pretraining audit is limited source-ID screening, not exhaustive.",
+  "validation": {
+    "clips": 3865,
+    "classes": 2000,
+    "top1_accuracy": 53.35058214747737
+  },
+  "public_pose_test": {
+    "clips": 2878,
+    "classes": 2000,
+    "top1_accuracy": 51.80681028492008,
+    "top5_accuracy": 81.79291174426685,
+    "macro_accuracy": 49.432216108054035,
+    "classes_with_eval_clips": 1999,
+    "scope": "Frozen INT8 deployment ensemble; public inferred-pose test, not raw video, organiser test or handset accuracy. Timing is views plus classifiers on already prepared features; extraction is excluded.",
+    "config_sha256": "8f076f1c96ec6a2b640e7d2a38b540352b07ff28889917ef5004eec138a0ed44",
+    "dataset_manifest_sha256": "b90f4e801956051d60e0a7f59620aed41aa0230c7840355b5e03da103350ea20"
+  },
+  "research_validation_top1": 62.716688227684344,
+  "research_scope": "Larger multiple-input cached-pose ensemble; not deployed, not size/latency compliant evidence, not final test accuracy",
+  "classifier_bytes": 5567639,
+  "active_android_model_bytes": 19276143,
+  "active_desktop_model_bytes": 13185199,
+  "all_distributed_platform_models_bytes": 26819896,
+  "model_size_definition": "Per-platform active inference assets; Android count is all uncompressed APK assets, desktop includes both label files and config. Separate frontends and conversion-only artifacts are not loaded together. Native runtimes/APK size separate.",
+  "apk_bytes": 60825849,
+  "apk_sha256": "157b7926c65f86465c8d7706181fed583d4d525ad1b5a9ec5f10be40f660304b",
+  "quantization": "INT8 QDQ Conv/Gemm/MatMul where supported; preprocessing/normalization/statistics and other operators remain float. Android Holistic FLOAT16. Not a wholly integer pipeline.",
+  "target_device": "realme GT 6T / Android 16; physical device not tested",
+  "phone_tested": false,
+  "official_accuracy_verified": false,
+  "accuracy_target_met": false,
+  "source_tests_passed": 42,
+  "assets": {
+    "ensemble/anatomy.int8.onnx": {
+      "bytes": 1258528,
+      "sha256": "5e1e89e06bab900590739a96f9ae80a986962b270c016466515a7e018d5bd1d0"
+    },
+    "ensemble/portable.int8.onnx": {
+      "bytes": 4309111,
+      "sha256": "582a77156382f5babcb93e2ae3702b5a0e241e8e9bdac9da06445651a9d89be7"
+    },
+    "opencv/person_detection_mediapipe_2023mar_int8bq.onnx": {
+      "bytes": 3482053,
+      "sha256": "c5ed8c00c028b98e5d2c55b920a6e975af6c4cd538cfeea7c054f4fbbd8b9075"
+    },
+    "opencv/palm_detection_mediapipe_2023feb_int8bq.onnx": {
+      "bytes": 1169351,
+      "sha256": "d0096a81cf82349b00d0c4cb965973662a86967a8d44ccd8134da2a2f408ee5c"
+    },
+    "opencv/pose_estimation_mediapipe_2023mar_int8bq.onnx": {
+      "bytes": 1694896,
+      "sha256": "1848ea80f657f4620e0de160594f598ed8107c9e7785d0be74f65cf15aa6deb1"
+    },
+    "opencv/handpose_estimation_mediapipe_2023feb_int8bq.onnx": {
+      "bytes": 1222348,
+      "sha256": "d7e63ed33e39c8b532a04a5466ac68c8680981637df288bcf93286bec08befbd"
+    },
+    "labels.json": {
+      "bytes": 24017,
+      "sha256": "4a4e1e6c024c19320557d0febdd7f3956960d77a691848a2101cbca72ce69380"
+    },
+    "ensemble/labels.json": {
+      "bytes": 24017,
+      "sha256": "4a4e1e6c024c19320557d0febdd7f3956960d77a691848a2101cbca72ce69380"
+    },
+    "ensemble/ensemble.json": {
+      "bytes": 878,
+      "sha256": "8f076f1c96ec6a2b640e7d2a38b540352b07ff28889917ef5004eec138a0ed44"
+    },
+    "holistic_landmarker.task": {
+      "bytes": 13683609,
+      "sha256": "e2dab61191e2dcd0a15f943d8e3ed1dce13c82dfa597b9dd39f562975a50c3f8"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "clips": 13771,
+  "classes": 2000,
+  "scope": "Training teacher only; no validation/test logits included",
+  "weights": {
+    "semantic": 0.5,
+    "noface": 0.2,
+    "anatomy": 0.3
+  },
+  "source_checkpoints_sha256": {
+    "semantic": "22f31b1685000dc28cc4c491416f0603ae07d21f46ab8788efefea267b80b2bc",
+    "noface": "1159bca2704925d7b6dcf30a1c6ffc2e25173b74586c21ecbf19dc1064bbf75e",
+    "anatomy": "51361d8ea3a2a9ed0efc1bc4cb998210d56bda082e9f03a31a00d73c9584979d"
+  },
+  "train_top1": 96.50715271222133,
+  "dataset_manifest_sha256": "b90f4e801956051d60e0a7f59620aed41aa0230c7840355b5e03da103350ea20",
+  "sha256": "89d0ee45ab9c58fb7769315e4e6621f6e6f98c6a86b13c634c285bbdbe739ae1"
+}

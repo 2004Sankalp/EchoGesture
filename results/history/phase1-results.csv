@@ -1,0 +1,7 @@
+metric,target,measured,unit,device,runtime,pass
+top1_accuracy,>=70,,%,realme GT 6T Android 16 (NOT TESTED),File-size audit only; phone metrics not measured,NOT_MEASURED
+latency_p95,<50,,ms,realme GT 6T Android 16 (NOT TESTED),File-size audit only; phone metrics not measured,NOT_MEASURED
+model_size,<20,17.958104,MB,realme GT 6T Android 16 (NOT TESTED),File-size audit only; phone metrics not measured,PASS
+accuracy_drop_robustness,<=5,,pt,realme GT 6T Android 16 (NOT TESTED),File-size audit only; phone metrics not measured,NOT_MEASURED
+avg_power,<=500,,mW,realme GT 6T Android 16 (NOT TESTED),File-size audit only; phone metrics not measured,NOT_MEASURED
+thermal_drift_10min,<=20,,%,realme GT 6T Android 16 (NOT TESTED),File-size audit only; phone metrics not measured,NOT_MEASURED

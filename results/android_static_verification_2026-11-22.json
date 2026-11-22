@@ -1,0 +1,93 @@
+{
+  "scope": "Static checks only; no phone execution or malware certification.",
+  "package_files_checked": 197,
+  "changed_files": [],
+  "apk_bytes": 60825849,
+  "apk_sha256": "157b7926c65f86465c8d7706181fed583d4d525ad1b5a9ec5f10be40f660304b",
+  "zip_corrupt_entry": null,
+  "assets": [
+    {
+      "path": "assets/ensemble/anatomy.int8.onnx",
+      "bytes": 1258528,
+      "sha256": "5e1e89e06bab900590739a96f9ae80a986962b270c016466515a7e018d5bd1d0",
+      "source_matches": true
+    },
+    {
+      "path": "assets/ensemble/portable.int8.onnx",
+      "bytes": 4309111,
+      "sha256": "582a77156382f5babcb93e2ae3702b5a0e241e8e9bdac9da06445651a9d89be7",
+      "source_matches": true
+    },
+    {
+      "path": "assets/holistic_landmarker.task",
+      "bytes": 13683609,
+      "sha256": "e2dab61191e2dcd0a15f943d8e3ed1dce13c82dfa597b9dd39f562975a50c3f8",
+      "source_matches": true
+    },
+    {
+      "path": "assets/labels.json",
+      "bytes": 24017,
+      "sha256": "4a4e1e6c024c19320557d0febdd7f3956960d77a691848a2101cbca72ce69380",
+      "source_matches": true
+    },
+    {
+      "path": "assets/ensemble/ensemble.json",
+      "bytes": 878,
+      "sha256": "8f076f1c96ec6a2b640e7d2a38b540352b07ff28889917ef5004eec138a0ed44",
+      "source_matches": true
+    }
+  ],
+  "active_asset_bytes": 19276143,
+  "native_libraries": [
+    {
+      "path": "lib/arm64-v8a/libimage_processing_util_jni.so",
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf_16kb_aligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libmediapipe_tasks_jni.so",
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf_16kb_aligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libonnxruntime.so",
+      "load_alignments": [
+        16384,
+        16384,
+        16384
+      ],
+      "elf_16kb_aligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libonnxruntime4j_jni.so",
+      "load_alignments": [
+        16384,
+        16384
+      ],
+      "elf_16kb_aligned": true
+    },
+    {
+      "path": "lib/arm64-v8a/libsurface_util_jni.so",
+      "load_alignments": [
+        16384,
+        16384
+      ],
+      "elf_16kb_aligned": true
+    }
+  ],
+  "dex_files": [
+    "classes.dex",
+    "classes2.dex",
+    "classes3.dex",
+    "classes4.dex"
+  ],
+  "physical_device_tested": false
+}

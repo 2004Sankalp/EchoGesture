@@ -1,0 +1,31 @@
+{
+  "validation_clips": 3865,
+  "classes": 2000,
+  "single_top1": {
+    "openasl-full": 52.93661060802069,
+    "openasl-noface": 53.221216041397156,
+    "anatomy3d": 45.74385510996119,
+    "kinematic3d": 44.941785252263905,
+    "portable-transfer": 43.0012936610608,
+    "openasl-semantic": 54.48900388098318,
+    "openasl-full512": 51.64294954721863
+  },
+  "ensemble_validation_top1": 60.82794307891333,
+  "weights": {
+    "openasl-semantic": 0.421875,
+    "anatomy3d": 0.140625,
+    "openasl-noface": 0.1875,
+    "kinematic3d": 0.25
+  },
+  "prediction_snapshot_sha256": {
+    "openasl-full": "f23f530f4cb473e4a5efa2c6047e658ccfa0024d5e76c27a4481210fdca55ae5",
+    "openasl-noface": "ada489f316dd46f0cc93fb0bac252f06c018a0a8d7f839a8d9372c899462a0df",
+    "anatomy3d": "deb82c926b0f80741e0f1c684ab81e66864b10257abba275fcc20100100d9c1d",
+    "kinematic3d": "c375c86f422ce146868b64844d1e3bad998c1a9b329b598217de151633181f43",
+    "portable-transfer": "e39e6aafd39c48a0843b54050da4cd68fe870f35cda34a86eaaa5512a0d07a30",
+    "openasl-semantic": "e9051ad8fce4e8a4694cfd717c2cf7c4835a5437550064ecf53b8e43276a7620",
+    "openasl-full512": "a50f67630f7f19d0c78dbcb15f701249dd9290f8f11eafeb07b598183bf8d2d3"
+  },
+  "selection": "Coarse greedy logit weights selected on validation only; exploratory, not official or test score",
+  "test_predictions_read": false
+}

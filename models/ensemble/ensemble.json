@@ -1,0 +1,29 @@
+{
+  "selection": "All choices selected on corrected validation only, frozen before the new public-pose test. No test-based changes permitted.",
+  "members": [
+    {
+      "name": "anatomy",
+      "model": "anatomy.int8.onnx",
+      "weight": 0.55,
+      "scales": [
+        0.67,
+        1.0,
+        1.5
+      ],
+      "feature_version": "palm3d-context-v3",
+      "frames": 48
+    },
+    {
+      "name": "portable",
+      "model": "portable.int8.onnx",
+      "weight": 0.45,
+      "scales": [
+        1.0
+      ],
+      "feature_version": "palm3d-context-v3",
+      "frames": 48
+    }
+  ],
+  "training_data": "Audited WLASL train13771 plus16959 original ASL Citizen training clips; no ASLLVD or prior WLASL checkpoints. Transfer branch uses independent publisher OpenASL encoder with documented provenance limitations.",
+  "frozen_at_utc": "2026-11-22T16:05:03.748777+00:00"
+}

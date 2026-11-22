@@ -1,0 +1,27 @@
+{
+  "source_commit": "48b10fa505aeb51fbd127fc60a5c660040e823b7",
+  "quantization": "INT8 block-quantized weights; CPU runtime may dequantize to floating-point kernels. Not a claim of full integer execution.",
+  "total_bytes": 7568648,
+  "assets": {
+    "palm_detection_mediapipe_2023feb_int8bq.onnx": {
+      "bytes": 1169351,
+      "sha256": "d0096a81cf82349b00d0c4cb965973662a86967a8d44ccd8134da2a2f408ee5c",
+      "source": "https://github.com/opencv/opencv_zoo/blob/48b10fa505aeb51fbd127fc60a5c660040e823b7/models/palm_detection_mediapipe/palm_detection_mediapipe_2023feb_int8bq.onnx"
+    },
+    "handpose_estimation_mediapipe_2023feb_int8bq.onnx": {
+      "bytes": 1222348,
+      "sha256": "d7e63ed33e39c8b532a04a5466ac68c8680981637df288bcf93286bec08befbd",
+      "source": "https://github.com/opencv/opencv_zoo/blob/48b10fa505aeb51fbd127fc60a5c660040e823b7/models/handpose_estimation_mediapipe/handpose_estimation_mediapipe_2023feb_int8bq.onnx"
+    },
+    "person_detection_mediapipe_2023mar_int8bq.onnx": {
+      "bytes": 3482053,
+      "sha256": "c5ed8c00c028b98e5d2c55b920a6e975af6c4cd538cfeea7c054f4fbbd8b9075",
+      "source": "https://github.com/opencv/opencv_zoo/blob/48b10fa505aeb51fbd127fc60a5c660040e823b7/models/person_detection_mediapipe/person_detection_mediapipe_2023mar_int8bq.onnx"
+    },
+    "pose_estimation_mediapipe_2023mar_int8bq.onnx": {
+      "bytes": 1694896,
+      "sha256": "1848ea80f657f4620e0de160594f598ed8107c9e7785d0be74f65cf15aa6deb1",
+      "source": "https://github.com/opencv/opencv_zoo/blob/48b10fa505aeb51fbd127fc60a5c660040e823b7/models/pose_estimation_mediapipe/pose_estimation_mediapipe_2023mar_int8bq.onnx"
+    }
+  }
+}

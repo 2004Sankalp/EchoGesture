@@ -1,0 +1,5 @@
+Model attribution and terms
+
+The portable transfer model contains a modified/quantized encoder derived from ZechengLi19/Uni-Sign's OpenASL pose-only checkpoint, with newly trained word-classification layers. The publisher hosting repository identifies CC-BY-NC-4.0: https://creativecommons.org/licenses/by-nc/4.0/ . Source: https://huggingface.co/ZechengLi19/Uni-Sign . Preserve attribution and the noncommercial restriction. This is not a claim of authorship of the pretrained encoder.
+
+Google MediaPipe Holistic and OpenCV Zoo detector assets retain their upstream terms and attribution, detailed in THIRD_PARTY_NOTICES.md and models/opencv/provenance.json. Third-party licences are retained under licenses/ and src/vendor/. Dataset terms remain separate from software terms. Original videos/pose archives are not redistributed. The selected own 3D training and model transformations are described in training/README.md and the AI disclosure.

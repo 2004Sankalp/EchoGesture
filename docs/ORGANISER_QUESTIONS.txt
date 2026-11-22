@@ -1,0 +1,17 @@
+Draft for the team to send if needed. No email has been sent by Codex.
+
+Subject: XR Hackathon 2026 Track 2 - fixed vocabulary and evaluation clarification
+
+We are building EchoGesture for Track 2. We have the consolidated track slides and submission template, but could not locate an additional Track 2 starter package.
+
+Could you please confirm:
+
+1. The fixed vocabulary file, held-out clip manifest/schema and any starter baseline or test kit for Track 2. Is evaluation on isolated WLASL gloss clips, How2Sign segments, or another specified vocabulary?
+2. Whether the strict model budget is under 20 MB and whether it counts all landmark models plus the recognition model. The results table also mentions 25 MB.
+3. Whether the under-50-ms latency target measures classifier inference, landmark extraction plus classifier, or the complete camera-to-caption path, and which evaluation hardware/runtime is used.
+4. The required definitions and measurement methods for robustness accuracy drop, average power and ten-minute thermal drift.
+
+We will preserve Python 3.11, predict(video_path), exact clip IDs, the required source/results layout, and supply both JSON and JSONL predictions.
+
+College: SRM Institute of Science and Technology
+Team name: [team to fill]

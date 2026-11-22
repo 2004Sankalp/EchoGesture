@@ -1,0 +1,1898 @@
+{
+  "scope": "Convenience sample from partial public WLASL pose archive. Not organiser test data, not raw-video accuracy, not phone latency.",
+  "test_clips": 78,
+  "calibration_train_clips": 367,
+  "device": "macOS-26.5.1-arm64-arm-64bit",
+  "runtime": "1.23.2",
+  "results": {
+    "recognizer.fp32.onnx": {
+      "top1_accuracy": 34.61538461538461,
+      "top5_accuracy": 61.53846153846154,
+      "classifier_p95_ms": 123.77395884999989,
+      "model_bytes": 16610953,
+      "predictions": [
+        {
+          "clip_id": "62975",
+          "truth": "WHAT",
+          "prediction": "RUSH",
+          "top5": [
+            "RUSH",
+            "HERE",
+            "PRESENT",
+            "SIN",
+            "SERVE"
+          ]
+        },
+        {
+          "clip_id": "31749",
+          "truth": "KISS",
+          "prediction": "MORE",
+          "top5": [
+            "MORE",
+            "CITY",
+            "FIX",
+            "KISS",
+            "BEARD"
+          ]
+        },
+        {
+          "clip_id": "34822",
+          "truth": "MANY",
+          "prediction": "NUMEROUS",
+          "top5": [
+            "NUMEROUS",
+            "MANY",
+            "FAT",
+            "COMPARE",
+            "APPROACH"
+          ]
+        },
+        {
+          "clip_id": "57637",
+          "truth": "THANKSGIVING",
+          "prediction": "THANKSGIVING",
+          "top5": [
+            "THANKSGIVING",
+            "SNAKE",
+            "CONTRACT",
+            "MOUSE",
+            "ROSE"
+          ]
+        },
+        {
+          "clip_id": "21890",
+          "truth": "FINE",
+          "prediction": "COST",
+          "top5": [
+            "COST",
+            "DIFFICULT",
+            "PRICE",
+            "EACH",
+            "CHEAP"
+          ]
+        },
+        {
+          "clip_id": "38482",
+          "truth": "NO",
+          "prediction": "NEUTRAL",
+          "top5": [
+            "NEUTRAL",
+            "NO",
+            "TUESDAY",
+            "LOBSTER",
+            "RUSH"
+          ]
+        },
+        {
+          "clip_id": "63769",
+          "truth": "WORK",
+          "prediction": "SLAVE",
+          "top5": [
+            "SLAVE",
+            "WORK",
+            "ECONOMY",
+            "SUMMON",
+            "TRADITION"
+          ]
+        },
+        {
+          "clip_id": "34834",
+          "truth": "MANY",
+          "prediction": "MANY",
+          "top5": [
+            "MANY",
+            "BEARD",
+            "WAIT",
+            "NUMEROUS",
+            "SAD"
+          ]
+        },
+        {
+          "clip_id": "62987",
+          "truth": "WHAT",
+          "prediction": "SERVICE",
+          "top5": [
+            "SERVICE",
+            "SERVE",
+            "DRAWER",
+            "ENCOURAGE",
+            "MONKEY"
+          ]
+        },
+        {
+          "clip_id": "35513",
+          "truth": "MEET",
+          "prediction": "MEET",
+          "top5": [
+            "MEET",
+            "GOAL",
+            "EXACT",
+            "OBJECTIVE",
+            "MATCH"
+          ]
+        },
+        {
+          "clip_id": "68034",
+          "truth": "DIFFERENT",
+          "prediction": "BUT",
+          "top5": [
+            "BUT",
+            "DIFFERENT",
+            "READY",
+            "LEFT",
+            "REPORT"
+          ]
+        },
+        {
+          "clip_id": "31841",
+          "truth": "KNIFE",
+          "prediction": "VOCABULARY",
+          "top5": [
+            "VOCABULARY",
+            "KEYBOARD",
+            "RELY",
+            "SIZE",
+            "DEPOSIT"
+          ]
+        },
+        {
+          "clip_id": "17317",
+          "truth": "DOOR",
+          "prediction": "DOOR",
+          "top5": [
+            "DOOR",
+            "PUSH",
+            "FUNERAL",
+            "CERTIFICATE",
+            "TRAFFIC"
+          ]
+        },
+        {
+          "clip_id": "46260",
+          "truth": "READ",
+          "prediction": "VOTE",
+          "top5": [
+            "VOTE",
+            "TEA",
+            "CORRECT",
+            "MUSHROOM",
+            "CHAMPION"
+          ]
+        },
+        {
+          "clip_id": "25070",
+          "truth": "GOOD",
+          "prediction": "THANK YOU",
+          "top5": [
+            "THANK YOU",
+            "GOOD",
+            "WITNESS",
+            "THANKFUL",
+            "WOLF"
+          ]
+        },
+        {
+          "clip_id": "69544",
+          "truth": "WRITE",
+          "prediction": "WRITE",
+          "top5": [
+            "WRITE",
+            "RESEARCH",
+            "SOMEWHERE",
+            "WEEKLY",
+            "SLICE"
+          ]
+        },
+        {
+          "clip_id": "69366",
+          "truth": "HOME",
+          "prediction": "HOME",
+          "top5": [
+            "HOME",
+            "ZERO",
+            "EXPERIENCE",
+            "LAMP",
+            "MILK"
+          ]
+        },
+        {
+          "clip_id": "69221",
+          "truth": "BALL",
+          "prediction": "BALL",
+          "top5": [
+            "BALL",
+            "MEETING",
+            "MORE",
+            "KISS",
+            "DATE"
+          ]
+        },
+        {
+          "clip_id": "68104",
+          "truth": "MOVIE",
+          "prediction": "FUNCTION",
+          "top5": [
+            "FUNCTION",
+            "WOOD",
+            "CHOCOLATE",
+            "COOK",
+            "STITCH"
+          ]
+        },
+        {
+          "clip_id": "70347",
+          "truth": "YESTERDAY",
+          "prediction": "YESTERDAY",
+          "top5": [
+            "YESTERDAY",
+            "AIRPLANE",
+            "GROW UP",
+            "BAR",
+            "FLY"
+          ]
+        },
+        {
+          "clip_id": "65544",
+          "truth": "DROP",
+          "prediction": "DOWNSTAIRS",
+          "top5": [
+            "DOWNSTAIRS",
+            "DOWN",
+            "THAT",
+            "HAMMER",
+            "NEED"
+          ]
+        },
+        {
+          "clip_id": "04805",
+          "truth": "BALANCE",
+          "prediction": "BALANCE",
+          "top5": [
+            "BALANCE",
+            "COURT",
+            "CLIMB",
+            "CLUMSY",
+            "TOURNAMENT"
+          ]
+        },
+        {
+          "clip_id": "58785",
+          "truth": "TOMATO",
+          "prediction": "TOMATO",
+          "top5": [
+            "TOMATO",
+            "DRAMA",
+            "UNDER",
+            "RIVER",
+            "CANNOT"
+          ]
+        },
+        {
+          "clip_id": "31320",
+          "truth": "JUMP",
+          "prediction": "HOP",
+          "top5": [
+            "HOP",
+            "STAND",
+            "JUMP",
+            "THIS",
+            "IN"
+          ]
+        },
+        {
+          "clip_id": "59317",
+          "truth": "TRAIN",
+          "prediction": "TRAIN",
+          "top5": [
+            "TRAIN",
+            "SALT",
+            "SWING",
+            "CHAIR",
+            "WEIGHT"
+          ]
+        },
+        {
+          "clip_id": "10268",
+          "truth": "CHEESE",
+          "prediction": "DELIVER",
+          "top5": [
+            "DELIVER",
+            "LAPTOP",
+            "BABY",
+            "WOOD",
+            "IRON"
+          ]
+        },
+        {
+          "clip_id": "68488",
+          "truth": "TIRED",
+          "prediction": "TIRED",
+          "top5": [
+            "TIRED",
+            "ANIMAL",
+            "LINE",
+            "BATH",
+            "MANY"
+          ]
+        },
+        {
+          "clip_id": "51614",
+          "truth": "SIGN",
+          "prediction": "SIGN",
+          "top5": [
+            "SIGN",
+            "PROBLEM",
+            "ARGUE",
+            "SIGN LANGUAGE",
+            "PEOPLE"
+          ]
+        },
+        {
+          "clip_id": "23946",
+          "truth": "FUTURE",
+          "prediction": "WILL",
+          "top5": [
+            "WILL",
+            "PRESENTATION",
+            "SOMEDAY",
+            "CAT",
+            "LECTURE"
+          ]
+        },
+        {
+          "clip_id": "42254",
+          "truth": "PERSPECTIVE",
+          "prediction": "IMPACT",
+          "top5": [
+            "IMPACT",
+            "SEW",
+            "PROPER",
+            "ANALYZE",
+            "FUNERAL"
+          ]
+        },
+        {
+          "clip_id": "36249",
+          "truth": "MINUTE",
+          "prediction": "THEMSELVES",
+          "top5": [
+            "THEMSELVES",
+            "IMPACT",
+            "APPROPRIATE",
+            "MINUTE",
+            "REGULAR"
+          ]
+        },
+        {
+          "clip_id": "49330",
+          "truth": "SATURDAY",
+          "prediction": "SATURDAY",
+          "top5": [
+            "SATURDAY",
+            "MONDAY",
+            "ALWAYS",
+            "TUESDAY",
+            "DRIVE"
+          ]
+        },
+        {
+          "clip_id": "43683",
+          "truth": "POOR",
+          "prediction": "POVERTY",
+          "top5": [
+            "POVERTY",
+            "DIARRHEA",
+            "ARM",
+            "GENERAL",
+            "COUNTRY"
+          ]
+        },
+        {
+          "clip_id": "31734",
+          "truth": "KING",
+          "prediction": "KING",
+          "top5": [
+            "KING",
+            "ATTORNEY",
+            "LORD",
+            "SNOB",
+            "PRESENT"
+          ]
+        },
+        {
+          "clip_id": "37986",
+          "truth": "NEPHEW",
+          "prediction": "NEPHEW",
+          "top5": [
+            "NEPHEW",
+            "CRAZY",
+            "HORSE",
+            "STUBBORN",
+            "GOVERNMENT"
+          ]
+        },
+        {
+          "clip_id": "31780",
+          "truth": "KITCHEN",
+          "prediction": "KITCHEN",
+          "top5": [
+            "KITCHEN",
+            "CARE",
+            "GRADUATE",
+            "APPROVE",
+            "GRADUATION"
+          ]
+        },
+        {
+          "clip_id": "36859",
+          "truth": "MORNING",
+          "prediction": "SPRING",
+          "top5": [
+            "SPRING",
+            "MORNING",
+            "BED",
+            "GROW",
+            "SUNRISE"
+          ]
+        },
+        {
+          "clip_id": "50407",
+          "truth": "SENTENCE",
+          "prediction": "CAPTION",
+          "top5": [
+            "CAPTION",
+            "DEGREE",
+            "SENTENCE",
+            "NONE",
+            "SWIM"
+          ]
+        },
+        {
+          "clip_id": "42426",
+          "truth": "PHONE",
+          "prediction": "TELEPHONE",
+          "top5": [
+            "TELEPHONE",
+            "BEFORE",
+            "PHONE",
+            "CALIFORNIA",
+            "AUNT"
+          ]
+        },
+        {
+          "clip_id": "62733",
+          "truth": "WEEKEND",
+          "prediction": "PROGRESS",
+          "top5": [
+            "PROGRESS",
+            "REPLACE",
+            "FAIL",
+            "SMOOTH",
+            "DRAMA"
+          ]
+        },
+        {
+          "clip_id": "50416",
+          "truth": "SENTENCE",
+          "prediction": "LANGUAGE",
+          "top5": [
+            "LANGUAGE",
+            "MUCH",
+            "RELEASE",
+            "ROPE",
+            "DISSOLVE"
+          ]
+        },
+        {
+          "clip_id": "20700",
+          "truth": "FACE",
+          "prediction": "CATHOLIC",
+          "top5": [
+            "CATHOLIC",
+            "AMAZING",
+            "FACE",
+            "WOW",
+            "SINGER"
+          ]
+        },
+        {
+          "clip_id": "09577",
+          "truth": "CAUSE",
+          "prediction": "EXPRESS",
+          "top5": [
+            "EXPRESS",
+            "COOK",
+            "HAPPY",
+            "BABYSITTER",
+            "THERAPY"
+          ]
+        },
+        {
+          "clip_id": "16128",
+          "truth": "DICTIONARY",
+          "prediction": "PAGE",
+          "top5": [
+            "PAGE",
+            "BARK",
+            "SOAP",
+            "LABEL",
+            "ADVANTAGE"
+          ]
+        },
+        {
+          "clip_id": "09897",
+          "truth": "CHALLENGE",
+          "prediction": "CHALLENGE",
+          "top5": [
+            "CHALLENGE",
+            "NARROW",
+            "WITH",
+            "TOGETHER",
+            "WEDDING"
+          ]
+        },
+        {
+          "clip_id": "52509",
+          "truth": "SLOW",
+          "prediction": "SLOW",
+          "top5": [
+            "SLOW",
+            "PET",
+            "SEND",
+            "BAR",
+            "WATERMELON"
+          ]
+        },
+        {
+          "clip_id": "20382",
+          "truth": "EXPERIENCE",
+          "prediction": "EXPERIENCE",
+          "top5": [
+            "EXPERIENCE",
+            "OCEAN",
+            "SEA",
+            "FEED",
+            "COUSIN"
+          ]
+        },
+        {
+          "clip_id": "53418",
+          "truth": "SOUND",
+          "prediction": "WOW",
+          "top5": [
+            "WOW",
+            "SPEECH",
+            "IGNORE",
+            "SIDE",
+            "LEAVE"
+          ]
+        },
+        {
+          "clip_id": "22998",
+          "truth": "FOR",
+          "prediction": "FOR",
+          "top5": [
+            "FOR",
+            "UNTIL",
+            "DREAM",
+            "GALLAUDET",
+            "BECAUSE"
+          ]
+        },
+        {
+          "clip_id": "24918",
+          "truth": "GOD",
+          "prediction": "WILL",
+          "top5": [
+            "WILL",
+            "GOD",
+            "DELICIOUS",
+            "OCTOBER",
+            "BROWN"
+          ]
+        },
+        {
+          "clip_id": "50272",
+          "truth": "SELL",
+          "prediction": "MOTORCYCLE",
+          "top5": [
+            "MOTORCYCLE",
+            "BLANKET",
+            "STORE",
+            "MANY",
+            "SELL"
+          ]
+        },
+        {
+          "clip_id": "06929",
+          "truth": "BOAT",
+          "prediction": "MACHINE",
+          "top5": [
+            "MACHINE",
+            "LEAD",
+            "AMERICA",
+            "NEAR",
+            "MOTOR"
+          ]
+        },
+        {
+          "clip_id": "64416",
+          "truth": "YOUNG",
+          "prediction": "BRAVE",
+          "top5": [
+            "BRAVE",
+            "RECOVER",
+            "LINE",
+            "TIGER",
+            "SERVICE"
+          ]
+        },
+        {
+          "clip_id": "58939",
+          "truth": "TOP",
+          "prediction": "TURKEY",
+          "top5": [
+            "TURKEY",
+            "MONKEY",
+            "FULL",
+            "TOP",
+            "EUROPE"
+          ]
+        },
+        {
+          "clip_id": "19458",
+          "truth": "EQUAL",
+          "prediction": "WAR",
+          "top5": [
+            "WAR",
+            "OWL",
+            "CRY",
+            "MORE",
+            "DYE"
+          ]
+        },
+        {
+          "clip_id": "05959",
+          "truth": "BENEFIT",
+          "prediction": "RELIEF",
+          "top5": [
+            "RELIEF",
+            "PROFIT",
+            "COOL",
+            "BENEFIT",
+            "CHARACTER"
+          ]
+        },
+        {
+          "clip_id": "53071",
+          "truth": "SOFT",
+          "prediction": "SOFT",
+          "top5": [
+            "SOFT",
+            "RUSH",
+            "TENDER",
+            "FEED",
+            "SIN"
+          ]
+        },
+        {
+          "clip_id": "23628",
+          "truth": "FROG",
+          "prediction": "FROG",
+          "top5": [
+            "FROG",
+            "DUCK",
+            "METAL",
+            "GUM",
+            "ICE CREAM"
+          ]
+        },
+        {
+          "clip_id": "05761",
+          "truth": "BEG",
+          "prediction": "SHEEP",
+          "top5": [
+            "SHEEP",
+            "CORRECT",
+            "DEBATE",
+            "SPAIN",
+            "DOCTOR"
+          ]
+        },
+        {
+          "clip_id": "07490",
+          "truth": "BRAG",
+          "prediction": "DIAPER",
+          "top5": [
+            "DIAPER",
+            "BOAST",
+            "BRAG",
+            "ACTIVE",
+            "ACTION"
+          ]
+        },
+        {
+          "clip_id": "08739",
+          "truth": "CALM",
+          "prediction": "CALM",
+          "top5": [
+            "CALM",
+            "SNOW",
+            "SETTLE",
+            "TRANQUIL",
+            "SWEATER"
+          ]
+        },
+        {
+          "clip_id": "67600",
+          "truth": "DUCK",
+          "prediction": "STARE",
+          "top5": [
+            "STARE",
+            "DUCK",
+            "NUT",
+            "ORANGE",
+            "PATIENT"
+          ]
+        },
+        {
+          "clip_id": "32885",
+          "truth": "LESSON",
+          "prediction": "LIST",
+          "top5": [
+            "LIST",
+            "BIBLE",
+            "GRATEFUL",
+            "LESSON",
+            "BOAT"
+          ]
+        },
+        {
+          "clip_id": "35219",
+          "truth": "MAYBE",
+          "prediction": "MAYBE",
+          "top5": [
+            "MAYBE",
+            "DEBATE",
+            "DRIVE",
+            "ROBOT",
+            "SINGER"
+          ]
+        },
+        {
+          "clip_id": "37395",
+          "truth": "MUST",
+          "prediction": "NECESSARY",
+          "top5": [
+            "NECESSARY",
+            "SHOULD",
+            "STRAIGHT",
+            "NEED",
+            "ASK"
+          ]
+        },
+        {
+          "clip_id": "25481",
+          "truth": "GRAPES",
+          "prediction": "NIGHT",
+          "top5": [
+            "NIGHT",
+            "ENGLISH",
+            "ENGLAND",
+            "EARTH",
+            "PET"
+          ]
+        },
+        {
+          "clip_id": "29868",
+          "truth": "INSIDE",
+          "prediction": "WITHIN",
+          "top5": [
+            "WITHIN",
+            "FISHING",
+            "PREDICT",
+            "GEOMETRY",
+            "DECREASE"
+          ]
+        },
+        {
+          "clip_id": "33463",
+          "truth": "LISTEN",
+          "prediction": "COUSIN",
+          "top5": [
+            "COUSIN",
+            "FORMER",
+            "OCTOBER",
+            "PREACH",
+            "PEPPER"
+          ]
+        },
+        {
+          "clip_id": "34868",
+          "truth": "MARCH",
+          "prediction": "ADVERB",
+          "top5": [
+            "ADVERB",
+            "MARCH",
+            "ALPHABET",
+            "BANK",
+            "ASIA"
+          ]
+        },
+        {
+          "clip_id": "25012",
+          "truth": "GOLF",
+          "prediction": "GOLF",
+          "top5": [
+            "GOLF",
+            "POINT",
+            "TOILET PAPER",
+            "DEEP",
+            "EACH"
+          ]
+        },
+        {
+          "clip_id": "44494",
+          "truth": "PRIEST",
+          "prediction": "RED",
+          "top5": [
+            "RED",
+            "STEEL",
+            "HONEY",
+            "JEALOUS",
+            "RESTAURANT"
+          ]
+        },
+        {
+          "clip_id": "47788",
+          "truth": "RETIRE",
+          "prediction": "VACATION",
+          "top5": [
+            "VACATION",
+            "ACCEPT",
+            "MICROWAVE",
+            "CORNER",
+            "TOTAL"
+          ]
+        },
+        {
+          "clip_id": "50107",
+          "truth": "SEE",
+          "prediction": "WOLF",
+          "top5": [
+            "WOLF",
+            "BROWN",
+            "VOICE",
+            "STRAIGHT",
+            "LIGHT"
+          ]
+        },
+        {
+          "clip_id": "39984",
+          "truth": "OPERATE",
+          "prediction": "PAINT",
+          "top5": [
+            "PAINT",
+            "POLICY",
+            "SURGERY",
+            "PRINCIPLE",
+            "NEGATIVE"
+          ]
+        },
+        {
+          "clip_id": "51112",
+          "truth": "SHOCK",
+          "prediction": "SHOCK",
+          "top5": [
+            "SHOCK",
+            "LOUD",
+            "DECIDE",
+            "CAN",
+            "PRECIPITATION"
+          ]
+        },
+        {
+          "clip_id": "50932",
+          "truth": "SHEEP",
+          "prediction": "MUSCLE",
+          "top5": [
+            "MUSCLE",
+            "SHEEP",
+            "BABY",
+            "CARDS",
+            "SCHOOL"
+          ]
+        },
+        {
+          "clip_id": "60046",
+          "truth": "TURTLE",
+          "prediction": "SPIDER",
+          "top5": [
+            "SPIDER",
+            "WRISTWATCH",
+            "SLOW",
+            "WORM",
+            "WASH"
+          ]
+        },
+        {
+          "clip_id": "02879",
+          "truth": "APARTMENT",
+          "prediction": "RUBBER",
+          "top5": [
+            "RUBBER",
+            "NOT",
+            "GIRLFRIEND",
+            "PATIENT",
+            "SHAVE"
+          ]
+        }
+      ]
+    },
+    "recognizer.int8.onnx": {
+      "top1_accuracy": 35.8974358974359,
+      "top5_accuracy": 61.53846153846154,
+      "classifier_p95_ms": 50.60286249999995,
+      "model_bytes": 4515197,
+      "predictions": [
+        {
+          "clip_id": "62975",
+          "truth": "WHAT",
+          "prediction": "RUSH",
+          "top5": [
+            "RUSH",
+            "ROB",
+            "PRESENT",
+            "SIN",
+            "LOBSTER"
+          ]
+        },
+        {
+          "clip_id": "31749",
+          "truth": "KISS",
+          "prediction": "MORE",
+          "top5": [
+            "MORE",
+            "FIX",
+            "CITY",
+            "BEARD",
+            "KISS"
+          ]
+        },
+        {
+          "clip_id": "34822",
+          "truth": "MANY",
+          "prediction": "NUMEROUS",
+          "top5": [
+            "NUMEROUS",
+            "MANY",
+            "FAT",
+            "COMPARE",
+            "APPROACH"
+          ]
+        },
+        {
+          "clip_id": "57637",
+          "truth": "THANKSGIVING",
+          "prediction": "THANKSGIVING",
+          "top5": [
+            "THANKSGIVING",
+            "SNAKE",
+            "CONTRACT",
+            "MOUSE",
+            "FALL IN LOVE"
+          ]
+        },
+        {
+          "clip_id": "21890",
+          "truth": "FINE",
+          "prediction": "COST",
+          "top5": [
+            "COST",
+            "DIFFICULT",
+            "PRICE",
+            "CHEAP",
+            "EACH"
+          ]
+        },
+        {
+          "clip_id": "38482",
+          "truth": "NO",
+          "prediction": "NEUTRAL",
+          "top5": [
+            "NEUTRAL",
+            "MONDAY",
+            "SATURDAY",
+            "TUESDAY",
+            "EMERGENCY"
+          ]
+        },
+        {
+          "clip_id": "63769",
+          "truth": "WORK",
+          "prediction": "SLAVE",
+          "top5": [
+            "SLAVE",
+            "WORK",
+            "ECONOMY",
+            "TRADITION",
+            "SUMMON"
+          ]
+        },
+        {
+          "clip_id": "34834",
+          "truth": "MANY",
+          "prediction": "MANY",
+          "top5": [
+            "MANY",
+            "BEARD",
+            "WAIT",
+            "LESSON",
+            "NUMEROUS"
+          ]
+        },
+        {
+          "clip_id": "62987",
+          "truth": "WHAT",
+          "prediction": "SERVICE",
+          "top5": [
+            "SERVICE",
+            "SELL",
+            "SERVE",
+            "ENCOURAGE",
+            "MONKEY"
+          ]
+        },
+        {
+          "clip_id": "35513",
+          "truth": "MEET",
+          "prediction": "MEET",
+          "top5": [
+            "MEET",
+            "GOAL",
+            "OBJECTIVE",
+            "EXACT",
+            "MATCH"
+          ]
+        },
+        {
+          "clip_id": "68034",
+          "truth": "DIFFERENT",
+          "prediction": "BUT",
+          "top5": [
+            "BUT",
+            "DIFFERENT",
+            "READY",
+            "LEFT",
+            "REPORT"
+          ]
+        },
+        {
+          "clip_id": "31841",
+          "truth": "KNIFE",
+          "prediction": "DEPOSIT",
+          "top5": [
+            "DEPOSIT",
+            "RELY",
+            "VOCABULARY",
+            "EGG",
+            "SHORT"
+          ]
+        },
+        {
+          "clip_id": "17317",
+          "truth": "DOOR",
+          "prediction": "DOOR",
+          "top5": [
+            "DOOR",
+            "PUSH",
+            "FUNERAL",
+            "MEETING",
+            "TRAFFIC"
+          ]
+        },
+        {
+          "clip_id": "46260",
+          "truth": "READ",
+          "prediction": "VOTE",
+          "top5": [
+            "VOTE",
+            "TEA",
+            "CORRECT",
+            "FLEXIBLE",
+            "ENOUGH"
+          ]
+        },
+        {
+          "clip_id": "25070",
+          "truth": "GOOD",
+          "prediction": "THANK YOU",
+          "top5": [
+            "THANK YOU",
+            "GOOD",
+            "WITNESS",
+            "THANKFUL",
+            "WOLF"
+          ]
+        },
+        {
+          "clip_id": "69544",
+          "truth": "WRITE",
+          "prediction": "WRITE",
+          "top5": [
+            "WRITE",
+            "RESEARCH",
+            "WEEKLY",
+            "SLICE",
+            "ROUGH"
+          ]
+        },
+        {
+          "clip_id": "69366",
+          "truth": "HOME",
+          "prediction": "HOME",
+          "top5": [
+            "HOME",
+            "ZERO",
+            "EXPERIENCE",
+            "LAMP",
+            "MILK"
+          ]
+        },
+        {
+          "clip_id": "69221",
+          "truth": "BALL",
+          "prediction": "BALL",
+          "top5": [
+            "BALL",
+            "MEETING",
+            "MORE",
+            "KISS",
+            "DATE"
+          ]
+        },
+        {
+          "clip_id": "68104",
+          "truth": "MOVIE",
+          "prediction": "FUNCTION",
+          "top5": [
+            "FUNCTION",
+            "COOK",
+            "WOOD",
+            "SALAD",
+            "CHOCOLATE"
+          ]
+        },
+        {
+          "clip_id": "70347",
+          "truth": "YESTERDAY",
+          "prediction": "YESTERDAY",
+          "top5": [
+            "YESTERDAY",
+            "GROW UP",
+            "AIRPLANE",
+            "ADULT",
+            "BAR"
+          ]
+        },
+        {
+          "clip_id": "65544",
+          "truth": "DROP",
+          "prediction": "DOWNSTAIRS",
+          "top5": [
+            "DOWNSTAIRS",
+            "DOWN",
+            "THAT",
+            "HAMMER",
+            "AUDIOLOGIST"
+          ]
+        },
+        {
+          "clip_id": "04805",
+          "truth": "BALANCE",
+          "prediction": "BALANCE",
+          "top5": [
+            "BALANCE",
+            "COURT",
+            "CLUMSY",
+            "CLIMB",
+            "TOURNAMENT"
+          ]
+        },
+        {
+          "clip_id": "58785",
+          "truth": "TOMATO",
+          "prediction": "TOMATO",
+          "top5": [
+            "TOMATO",
+            "UNDER",
+            "DRAMA",
+            "RIVER",
+            "SIMPLE"
+          ]
+        },
+        {
+          "clip_id": "31320",
+          "truth": "JUMP",
+          "prediction": "HOP",
+          "top5": [
+            "HOP",
+            "STAND",
+            "JUMP",
+            "THIS",
+            "IN"
+          ]
+        },
+        {
+          "clip_id": "59317",
+          "truth": "TRAIN",
+          "prediction": "TRAIN",
+          "top5": [
+            "TRAIN",
+            "SALT",
+            "SWING",
+            "WEIGHT",
+            "RIDE"
+          ]
+        },
+        {
+          "clip_id": "10268",
+          "truth": "CHEESE",
+          "prediction": "DELIVER",
+          "top5": [
+            "DELIVER",
+            "LAPTOP",
+            "BABY",
+            "IRON",
+            "WOOD"
+          ]
+        },
+        {
+          "clip_id": "68488",
+          "truth": "TIRED",
+          "prediction": "TIRED",
+          "top5": [
+            "TIRED",
+            "ANIMAL",
+            "LINE",
+            "BATH",
+            "MANY"
+          ]
+        },
+        {
+          "clip_id": "51614",
+          "truth": "SIGN",
+          "prediction": "SIGN",
+          "top5": [
+            "SIGN",
+            "PROBLEM",
+            "SIGN LANGUAGE",
+            "ARGUE",
+            "PEOPLE"
+          ]
+        },
+        {
+          "clip_id": "23946",
+          "truth": "FUTURE",
+          "prediction": "WILL",
+          "top5": [
+            "WILL",
+            "PRESENTATION",
+            "SOMEDAY",
+            "CAT",
+            "LECTURE"
+          ]
+        },
+        {
+          "clip_id": "42254",
+          "truth": "PERSPECTIVE",
+          "prediction": "IMPACT",
+          "top5": [
+            "IMPACT",
+            "BANANA",
+            "ANALYZE",
+            "PROPER",
+            "SEW"
+          ]
+        },
+        {
+          "clip_id": "36249",
+          "truth": "MINUTE",
+          "prediction": "THEMSELVES",
+          "top5": [
+            "THEMSELVES",
+            "SQUIRREL",
+            "PERSPECTIVE",
+            "TRUCK",
+            "MINUTE"
+          ]
+        },
+        {
+          "clip_id": "49330",
+          "truth": "SATURDAY",
+          "prediction": "SATURDAY",
+          "top5": [
+            "SATURDAY",
+            "MONDAY",
+            "ALWAYS",
+            "DRIVE",
+            "TUESDAY"
+          ]
+        },
+        {
+          "clip_id": "43683",
+          "truth": "POOR",
+          "prediction": "POVERTY",
+          "top5": [
+            "POVERTY",
+            "DIARRHEA",
+            "ARM",
+            "GENERAL",
+            "COUNTRY"
+          ]
+        },
+        {
+          "clip_id": "31734",
+          "truth": "KING",
+          "prediction": "KING",
+          "top5": [
+            "KING",
+            "LORD",
+            "ATTORNEY",
+            "SNOB",
+            "SCOTLAND"
+          ]
+        },
+        {
+          "clip_id": "37986",
+          "truth": "NEPHEW",
+          "prediction": "NEPHEW",
+          "top5": [
+            "NEPHEW",
+            "CRAZY",
+            "GOVERNMENT",
+            "PHILOSOPHY",
+            "LAMP"
+          ]
+        },
+        {
+          "clip_id": "31780",
+          "truth": "KITCHEN",
+          "prediction": "KITCHEN",
+          "top5": [
+            "KITCHEN",
+            "CARE",
+            "GRADUATE",
+            "APPROVE",
+            "GRADUATION"
+          ]
+        },
+        {
+          "clip_id": "36859",
+          "truth": "MORNING",
+          "prediction": "SPRING",
+          "top5": [
+            "SPRING",
+            "MORNING",
+            "BED",
+            "GONE",
+            "GROW"
+          ]
+        },
+        {
+          "clip_id": "50407",
+          "truth": "SENTENCE",
+          "prediction": "CAPTION",
+          "top5": [
+            "CAPTION",
+            "DEGREE",
+            "NONE",
+            "SENTENCE",
+            "BAR"
+          ]
+        },
+        {
+          "clip_id": "42426",
+          "truth": "PHONE",
+          "prediction": "TELEPHONE",
+          "top5": [
+            "TELEPHONE",
+            "BEFORE",
+            "AUNT",
+            "PHONE",
+            "YELLOW"
+          ]
+        },
+        {
+          "clip_id": "62733",
+          "truth": "WEEKEND",
+          "prediction": "PROGRESS",
+          "top5": [
+            "PROGRESS",
+            "REPLACE",
+            "SMOOTH",
+            "INSTEAD",
+            "DESCRIBE"
+          ]
+        },
+        {
+          "clip_id": "50416",
+          "truth": "SENTENCE",
+          "prediction": "MUCH",
+          "top5": [
+            "MUCH",
+            "RELEASE",
+            "LANGUAGE",
+            "OFFICE",
+            "DISSOLVE"
+          ]
+        },
+        {
+          "clip_id": "20700",
+          "truth": "FACE",
+          "prediction": "AMAZING",
+          "top5": [
+            "AMAZING",
+            "CATHOLIC",
+            "FACE",
+            "WOW",
+            "SINGER"
+          ]
+        },
+        {
+          "clip_id": "09577",
+          "truth": "CAUSE",
+          "prediction": "EXPRESS",
+          "top5": [
+            "EXPRESS",
+            "COOK",
+            "HAPPY",
+            "BOOK",
+            "BABYSITTER"
+          ]
+        },
+        {
+          "clip_id": "16128",
+          "truth": "DICTIONARY",
+          "prediction": "PAGE",
+          "top5": [
+            "PAGE",
+            "BARK",
+            "SOAP",
+            "LABEL",
+            "BUTTER"
+          ]
+        },
+        {
+          "clip_id": "09897",
+          "truth": "CHALLENGE",
+          "prediction": "CHALLENGE",
+          "top5": [
+            "CHALLENGE",
+            "NARROW",
+            "WITH",
+            "CONFLICT",
+            "SIN"
+          ]
+        },
+        {
+          "clip_id": "52509",
+          "truth": "SLOW",
+          "prediction": "SLOW",
+          "top5": [
+            "SLOW",
+            "PET",
+            "SEND",
+            "BAR",
+            "WATERMELON"
+          ]
+        },
+        {
+          "clip_id": "20382",
+          "truth": "EXPERIENCE",
+          "prediction": "EXPERIENCE",
+          "top5": [
+            "EXPERIENCE",
+            "OCEAN",
+            "SEA",
+            "LESS",
+            "FEED"
+          ]
+        },
+        {
+          "clip_id": "53418",
+          "truth": "SOUND",
+          "prediction": "WOW",
+          "top5": [
+            "WOW",
+            "IGNORE",
+            "SIDE",
+            "HISTORY",
+            "SPEECH"
+          ]
+        },
+        {
+          "clip_id": "22998",
+          "truth": "FOR",
+          "prediction": "FOR",
+          "top5": [
+            "FOR",
+            "DREAM",
+            "UNTIL",
+            "SKUNK",
+            "THINK"
+          ]
+        },
+        {
+          "clip_id": "24918",
+          "truth": "GOD",
+          "prediction": "OCTOBER",
+          "top5": [
+            "OCTOBER",
+            "BLUE",
+            "PEPPER",
+            "FORMER",
+            "WILL"
+          ]
+        },
+        {
+          "clip_id": "50272",
+          "truth": "SELL",
+          "prediction": "MOTORCYCLE",
+          "top5": [
+            "MOTORCYCLE",
+            "BLANKET",
+            "MANY",
+            "STORE",
+            "SELL"
+          ]
+        },
+        {
+          "clip_id": "06929",
+          "truth": "BOAT",
+          "prediction": "MACHINE",
+          "top5": [
+            "MACHINE",
+            "LEAD",
+            "MOTOR",
+            "AMERICA",
+            "NEAR"
+          ]
+        },
+        {
+          "clip_id": "64416",
+          "truth": "YOUNG",
+          "prediction": "YOUNG",
+          "top5": [
+            "YOUNG",
+            "LINE",
+            "SERVICE",
+            "BRAVE",
+            "RECOVER"
+          ]
+        },
+        {
+          "clip_id": "58939",
+          "truth": "TOP",
+          "prediction": "TURKEY",
+          "top5": [
+            "TURKEY",
+            "FULL",
+            "MONKEY",
+            "TOP",
+            "DIRTY"
+          ]
+        },
+        {
+          "clip_id": "19458",
+          "truth": "EQUAL",
+          "prediction": "WAR",
+          "top5": [
+            "WAR",
+            "OWL",
+            "CRY",
+            "EQUAL",
+            "MORE"
+          ]
+        },
+        {
+          "clip_id": "05959",
+          "truth": "BENEFIT",
+          "prediction": "RELIEF",
+          "top5": [
+            "RELIEF",
+            "PROFIT",
+            "COOL",
+            "BENEFIT",
+            "CONSTITUTION"
+          ]
+        },
+        {
+          "clip_id": "53071",
+          "truth": "SOFT",
+          "prediction": "SOFT",
+          "top5": [
+            "SOFT",
+            "TENDER",
+            "RUSH",
+            "FEED",
+            "SIN"
+          ]
+        },
+        {
+          "clip_id": "23628",
+          "truth": "FROG",
+          "prediction": "FROG",
+          "top5": [
+            "FROG",
+            "DUCK",
+            "METAL",
+            "ICE CREAM",
+            "GUM"
+          ]
+        },
+        {
+          "clip_id": "05761",
+          "truth": "BEG",
+          "prediction": "SHEEP",
+          "top5": [
+            "SHEEP",
+            "SPAIN",
+            "CORRECT",
+            "DOCTOR",
+            "DEBATE"
+          ]
+        },
+        {
+          "clip_id": "07490",
+          "truth": "BRAG",
+          "prediction": "DIAPER",
+          "top5": [
+            "DIAPER",
+            "BOAST",
+            "ACTIVE",
+            "ACTION",
+            "BRAG"
+          ]
+        },
+        {
+          "clip_id": "08739",
+          "truth": "CALM",
+          "prediction": "CALM",
+          "top5": [
+            "CALM",
+            "SNOW",
+            "SETTLE",
+            "TRANQUIL",
+            "SWEATER"
+          ]
+        },
+        {
+          "clip_id": "67600",
+          "truth": "DUCK",
+          "prediction": "STARE",
+          "top5": [
+            "STARE",
+            "DUCK",
+            "NUT",
+            "QUEEN",
+            "CHICKEN"
+          ]
+        },
+        {
+          "clip_id": "32885",
+          "truth": "LESSON",
+          "prediction": "LIST",
+          "top5": [
+            "LIST",
+            "GRATEFUL",
+            "BIBLE",
+            "LESSON",
+            "SOME"
+          ]
+        },
+        {
+          "clip_id": "35219",
+          "truth": "MAYBE",
+          "prediction": "MAYBE",
+          "top5": [
+            "MAYBE",
+            "DEBATE",
+            "DRIVE",
+            "ROBOT",
+            "WHICH"
+          ]
+        },
+        {
+          "clip_id": "37395",
+          "truth": "MUST",
+          "prediction": "NECESSARY",
+          "top5": [
+            "NECESSARY",
+            "STRAIGHT",
+            "SHOULD",
+            "ASK",
+            "NEED"
+          ]
+        },
+        {
+          "clip_id": "25481",
+          "truth": "GRAPES",
+          "prediction": "NIGHT",
+          "top5": [
+            "NIGHT",
+            "ENGLAND",
+            "ENGLISH",
+            "EARLY",
+            "WRISTWATCH"
+          ]
+        },
+        {
+          "clip_id": "29868",
+          "truth": "INSIDE",
+          "prediction": "WITHIN",
+          "top5": [
+            "WITHIN",
+            "FISHING",
+            "GEOMETRY",
+            "PREDICT",
+            "DECREASE"
+          ]
+        },
+        {
+          "clip_id": "33463",
+          "truth": "LISTEN",
+          "prediction": "COUSIN",
+          "top5": [
+            "COUSIN",
+            "FORMER",
+            "PREACH",
+            "OCTOBER",
+            "RADIO"
+          ]
+        },
+        {
+          "clip_id": "34868",
+          "truth": "MARCH",
+          "prediction": "ADVERB",
+          "top5": [
+            "ADVERB",
+            "MARCH",
+            "ALPHABET",
+            "APRIL",
+            "TRUCK"
+          ]
+        },
+        {
+          "clip_id": "25012",
+          "truth": "GOLF",
+          "prediction": "GOLF",
+          "top5": [
+            "GOLF",
+            "POINT",
+            "TOILET PAPER",
+            "RECLINER",
+            "DOLPHIN"
+          ]
+        },
+        {
+          "clip_id": "44494",
+          "truth": "PRIEST",
+          "prediction": "RED",
+          "top5": [
+            "RED",
+            "STEEL",
+            "JEALOUS",
+            "THIRSTY",
+            "RESTAURANT"
+          ]
+        },
+        {
+          "clip_id": "47788",
+          "truth": "RETIRE",
+          "prediction": "VACATION",
+          "top5": [
+            "VACATION",
+            "ACCEPT",
+            "MICROWAVE",
+            "CORNER",
+            "TAKE"
+          ]
+        },
+        {
+          "clip_id": "50107",
+          "truth": "SEE",
+          "prediction": "WOLF",
+          "top5": [
+            "WOLF",
+            "LIGHT",
+            "VOICE",
+            "BROWN",
+            "STRAIGHT"
+          ]
+        },
+        {
+          "clip_id": "39984",
+          "truth": "OPERATE",
+          "prediction": "POLICY",
+          "top5": [
+            "POLICY",
+            "PAINT",
+            "SURGERY",
+            "PRINCIPLE",
+            "NEGATIVE"
+          ]
+        },
+        {
+          "clip_id": "51112",
+          "truth": "SHOCK",
+          "prediction": "SHOCK",
+          "top5": [
+            "SHOCK",
+            "LOUD",
+            "DECIDE",
+            "PRECIPITATION",
+            "CAN"
+          ]
+        },
+        {
+          "clip_id": "50932",
+          "truth": "SHEEP",
+          "prediction": "MUSCLE",
+          "top5": [
+            "MUSCLE",
+            "SHEEP",
+            "BABY",
+            "CARDS",
+            "SCHOOL"
+          ]
+        },
+        {
+          "clip_id": "60046",
+          "truth": "TURTLE",
+          "prediction": "SPIDER",
+          "top5": [
+            "SPIDER",
+            "WRISTWATCH",
+            "SLOW",
+            "WORM",
+            "WASH"
+          ]
+        },
+        {
+          "clip_id": "02879",
+          "truth": "APARTMENT",
+          "prediction": "RUBBER",
+          "top5": [
+            "RUBBER",
+            "NOT",
+            "PATIENT",
+            "SHAVE",
+            "GIRLFRIEND"
+          ]
+        }
+      ]
+    }
+  },
+  "quantization_accuracy_drop_pt": -1.2820512820512846
+}

@@ -1,0 +1,35 @@
+Android verification performed on 22 November 2026 (IST)
+
+RESULT: PC checks completed; physical-device verification pending.
+
+The original 197 files match PACKAGE_MANIFEST.json. The supplied APK's
+SHA256 is 157b7926c65f86465c8d7706181fed583d4d525ad1b5a9ec5f10be40f660304b.
+APK v2 signature verification passed (Android Debug certificate).
+Manifest: version 1.0-submission / code 3, min SDK 26, target SDK 35,
+ARM64 only. Requested permissions: CAMERA and an app-specific signature
+permission. No INTERNET, ACCESS_NETWORK_STATE, SMS, contacts, microphone,
+storage, accessibility or device-admin permissions are requested.
+
+All five packaged inference assets match the supplied models byte for byte;
+total 19,276,143 bytes. APK ZIP integrity and 16 KiB zipalign checks pass.
+All five native libraries have ELF LOAD alignment of at least 16 KiB.
+
+Fresh source build: assembleDebug SUCCEEDED using supplied Gradle 8.10.2,
+AGP 8.8.2, Java 21, Android SDK 35. lintDebug FAILED with 3 errors and
+41 warnings. The three errors are InputStream.readAllBytes() calls in
+SignEngine.java, requiring API 33 despite the declared minimum of API 26.
+This compatibility defect concerns Android 8 through 12L. It does not
+establish a failure on Android 16. Full lint findings accompany this note.
+
+ADB detected no connected device. No app was installed on a phone.
+Live camera, sign review/confirmation, Undo/Clear, typed reply, speech,
+10-minute thermal operation, accuracy, robustness and app power have not
+been verified. Original device-performance claims remain unmeasured.
+
+Security scope: limited static inspection found no obvious harmful behavior
+in the app's own Java source. No malware-engine scan was performed and
+third-party native libraries were not fully audited. A valid signature and
+matching package hashes establish integrity, not absence of malware.
+
+This note and android_*_2026-11-22 result files are new evidence. Existing
+handoff receipts remain a record of the original supplied snapshot.

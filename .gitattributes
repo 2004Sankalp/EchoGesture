@@ -1,0 +1,2 @@
+# Preserve the frozen package hashes on all checkout platforms.
+* -text

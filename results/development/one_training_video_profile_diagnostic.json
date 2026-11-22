@@ -1,0 +1,26 @@
+{
+  "clip_id": "07073",
+  "split": "train",
+  "truth": "BOOK",
+  "scope": "One training-clip extractor compatibility diagnostic, not validation/test accuracy",
+  "profiles": {
+    "public_pose": {
+      "top5": [
+        "BOOK",
+        "DIVE",
+        "HAMBURGER",
+        "BIBLE",
+        "BOTH"
+      ]
+    },
+    "raw_video_cpu": {
+      "top5": [
+        "BOAT",
+        "MELT",
+        "BIBLE",
+        "BOOK",
+        "BEG"
+      ]
+    }
+  }
+}

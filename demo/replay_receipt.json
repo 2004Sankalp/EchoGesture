@@ -1,0 +1,64 @@
+{
+  "duration_seconds": 135,
+  "scope": "Disclosed training-pose software replay, not live camera or evaluation; missing hand frames omitted from visualization only, inference uses full clip",
+  "examples": [
+    {
+      "clip_id": "07073",
+      "word": "BOOK",
+      "result": {
+        "prediction": "BOOK",
+        "top5": [
+          "BOOK",
+          "SLOW",
+          "BECOME",
+          "HOT",
+          "PEACE"
+        ],
+        "confidence": 0.2538403570652008,
+        "latency_ms": 44.506417
+      },
+      "visual_hand": "left",
+      "visual_observed_frames": 26
+    },
+    {
+      "clip_id": "62506",
+      "word": "WATER",
+      "result": {
+        "prediction": "WATER",
+        "top5": [
+          "WATER",
+          "JEWISH",
+          "WINE",
+          "RAT",
+          "WEIRD"
+        ],
+        "confidence": 0.9864083528518677,
+        "latency_ms": 44.139958
+      },
+      "visual_hand": "right",
+      "visual_observed_frames": 42
+    },
+    {
+      "clip_id": "27216",
+      "word": "HELP",
+      "result": {
+        "prediction": "HELP",
+        "top5": [
+          "HELP",
+          "THERAPY",
+          "AID",
+          "EVIDENCE",
+          "ECONOMY"
+        ],
+        "confidence": 0.9324553608894348,
+        "latency_ms": 43.569459
+      },
+      "visual_hand": "right",
+      "visual_observed_frames": 42
+    }
+  ],
+  "model_sha256": {
+    "anatomy.int8.onnx": "5e1e89e06bab900590739a96f9ae80a986962b270c016466515a7e018d5bd1d0",
+    "portable.int8.onnx": "582a77156382f5babcb93e2ae3702b5a0e241e8e9bdac9da06445651a9d89be7"
+  }
+}

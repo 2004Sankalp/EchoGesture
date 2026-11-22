@@ -1,0 +1,7 @@
+metric,target,measured,unit,device,runtime,pass
+top1_accuracy,>=70,41.07018763029882,%,"Mac CPU; public inferred-XYZ pose test, NOT organiser videos",ONNX Runtime INT8-QDQ ensemble; public pose accuracy only,FAIL
+latency_p95,<50,,ms,"Mac CPU; public inferred-XYZ pose test, NOT organiser videos",ONNX Runtime INT8-QDQ ensemble; public pose accuracy only,NOT_MEASURED
+model_size,<20,11.843143,MB,"Mac CPU; public inferred-XYZ pose test, NOT organiser videos",ONNX Runtime INT8-QDQ ensemble; public pose accuracy only,PASS
+accuracy_drop_robustness,<=5,,pt,"Mac CPU; public inferred-XYZ pose test, NOT organiser videos",ONNX Runtime INT8-QDQ ensemble; public pose accuracy only,NOT_MEASURED
+avg_power,<=500,,mW,"Mac CPU; public inferred-XYZ pose test, NOT organiser videos",ONNX Runtime INT8-QDQ ensemble; public pose accuracy only,NOT_MEASURED
+thermal_drift_10min,<=20,,%,"Mac CPU; public inferred-XYZ pose test, NOT organiser videos",ONNX Runtime INT8-QDQ ensemble; public pose accuracy only,NOT_MEASURED

@@ -1,0 +1,13 @@
+{
+  "train_clips": 12,
+  "geometry_max_abs_error": 3.5762786865234375e-07,
+  "geometry_shape": [
+    12,
+    1016
+  ],
+  "sequence_shape": [
+    2,
+    3072
+  ],
+  "test_read": false
+}

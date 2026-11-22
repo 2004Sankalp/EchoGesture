@@ -1,0 +1,12 @@
+The supplied software walkthrough uses public training-pose replay and actual
+local inference. Confirmation actions are scripted to demonstrate the review,
+Undo and Clear workflow. It is not live smartphone capture, a user study, a
+held-out accuracy test, or proof of real-device latency. Original source video
+frames are not redistributed. Pose source: OpenHands WLASL archive, Zenodo
+record 6674324, with attribution and original terms in THIRD_PARTY_NOTICES.md.
+
+For stronger submission evidence, replace or supplement it with an actual
+2–3 minute realme recording. Show camera permission, one isolated sign, the
+candidate list, explicit confirmation, Undo/Clear, typed reply and optional
+offline speech. Do not claim continuous sentence translation or validated
+power/thermal figures without measurements.

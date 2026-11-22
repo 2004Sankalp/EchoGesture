@@ -1,0 +1,19 @@
+{
+  "models": {
+    "anatomy.int8.onnx": {
+      "int8_initializers": 78,
+      "quantize_nodes": 42,
+      "dequantize_nodes": 60,
+      "bytes": 1258528,
+      "sha256": "5e1e89e06bab900590739a96f9ae80a986962b270c016466515a7e018d5bd1d0"
+    },
+    "portable.int8.onnx": {
+      "int8_initializers": 132,
+      "quantize_nodes": 78,
+      "dequantize_nodes": 135,
+      "bytes": 4309111,
+      "sha256": "582a77156382f5babcb93e2ae3702b5a0e241e8e9bdac9da06445651a9d89be7"
+    }
+  },
+  "scope": "Mixed QDQ classifiers; does not imply full integer execution or quantized Holistic"
+}

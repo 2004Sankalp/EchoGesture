@@ -1,0 +1,12 @@
+{
+  "apk_sha256": "157b7926c65f86465c8d7706181fed583d4d525ad1b5a9ec5f10be40f660304b",
+  "version": "1.0-submission",
+  "version_code": 3,
+  "build_succeeded": true,
+  "apk_assets_match_models": true,
+  "active_android_asset_bytes": 19276143,
+  "active_android_under_20MB": true,
+  "physical_device_tested": false,
+  "manifest_permissions": "aapt verified CAMERA; no INTERNET or ACCESS_NETWORK_STATE",
+  "source_tests_passed": 42
+}

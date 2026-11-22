@@ -1,0 +1,459 @@
+{
+  "scope": "Video SHA256 identity only; no test decoding/predictions",
+  "confirmed": [
+    {
+      "sha256": "6b6472f58083508034c814910f7147a1a3420382d940e2d25931ad106e8f1580",
+      "rows": [
+        {
+          "clip_id": "10194",
+          "split": "val",
+          "label": "CHECK",
+          "signer_id": 5,
+          "class_id": 324,
+          "features": "10194.npy"
+        },
+        {
+          "clip_id": "10193",
+          "split": "train",
+          "label": "CHECK",
+          "signer_id": 5,
+          "class_id": 324,
+          "features": "10193.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "01d84d91caf6a3e5aac7c6d4710830f06abc65b693016371c9974da7bbb7c8b1",
+      "rows": [
+        {
+          "clip_id": "06073",
+          "split": "val",
+          "label": "BETTER",
+          "signer_id": 5,
+          "class_id": 183,
+          "features": "06073.npy"
+        },
+        {
+          "clip_id": "06072",
+          "split": "test",
+          "label": "BETTER",
+          "signer_id": 5,
+          "class_id": 183,
+          "features": "06072.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "e65f907081ad22620e571161deb5dfc63cfc0e6096bde37c74583c7453a1af19",
+      "rows": [
+        {
+          "clip_id": "11716",
+          "split": "val",
+          "label": "COLLEGE",
+          "signer_id": 5,
+          "class_id": 370,
+          "features": "11716.npy"
+        },
+        {
+          "clip_id": "11715",
+          "split": "train",
+          "label": "COLLEGE",
+          "signer_id": 5,
+          "class_id": 370,
+          "features": "11715.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "6deecbc6bddbd2a46700e0ad15ff6c83e7c3061993f179f4a2151e5462fb325d",
+      "rows": [
+        {
+          "clip_id": "15040",
+          "split": "val",
+          "label": "DECIDE",
+          "signer_id": 5,
+          "class_id": 477,
+          "features": "15040.npy"
+        },
+        {
+          "clip_id": "15039",
+          "split": "train",
+          "label": "DECIDE",
+          "signer_id": 5,
+          "class_id": 477,
+          "features": "15039.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "06d5c718549b44cd77b159630757b6f24518542ff9fcdae40d415d32964b92ad",
+      "rows": [
+        {
+          "clip_id": "36838",
+          "split": "test",
+          "label": "MORE",
+          "signer_id": 5,
+          "class_id": 1114,
+          "features": "36838.npy"
+        },
+        {
+          "clip_id": "36837",
+          "split": "train",
+          "label": "MORE",
+          "signer_id": 64,
+          "class_id": 1114,
+          "features": "36837.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "6e7fc236595205d65d7714588479afe252dd08cdd3a406f93d51f8bdc05ad0f9",
+      "rows": [
+        {
+          "clip_id": "25251",
+          "split": "test",
+          "label": "GOVERNMENT",
+          "signer_id": 5,
+          "class_id": 800,
+          "features": "25251.npy"
+        },
+        {
+          "clip_id": "25252",
+          "split": "val",
+          "label": "GOVERNMENT",
+          "signer_id": 5,
+          "class_id": 800,
+          "features": "25252.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "0e2be93cddcb94c99e7cbe726dae6a820687c8e0adfb87bb3b043c684a661840",
+      "rows": [
+        {
+          "clip_id": "51939",
+          "split": "test",
+          "label": "SITUATION",
+          "signer_id": 5,
+          "class_id": 1585,
+          "features": "51939.npy"
+        },
+        {
+          "clip_id": "51938",
+          "split": "train",
+          "label": "SITUATION",
+          "signer_id": 5,
+          "class_id": 1585,
+          "features": "51938.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "a1e6a8b4d9543ea53496f6a86db21ba1dd9ec39e9cec2dfe4201adf86311dc4a",
+      "rows": [
+        {
+          "clip_id": "16595",
+          "split": "test",
+          "label": "DISCUSS",
+          "signer_id": 5,
+          "class_id": 535,
+          "features": "16595.npy"
+        },
+        {
+          "clip_id": "16594",
+          "split": "train",
+          "label": "DISCUSS",
+          "signer_id": 5,
+          "class_id": 535,
+          "features": "16594.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "0c802319c8d13def1084babdf3a273b71268b3f5e9c24f065f69c86cd29f2cb1",
+      "rows": [
+        {
+          "clip_id": "02235",
+          "split": "val",
+          "label": "ALWAYS",
+          "signer_id": 5,
+          "class_id": 58,
+          "features": "02235.npy"
+        },
+        {
+          "clip_id": "02234",
+          "split": "train",
+          "label": "ALWAYS",
+          "signer_id": 5,
+          "class_id": 58,
+          "features": "02234.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "7e9bf77600f41a56a56b1c376872824f205c4c00576c7c9616dc2a9c5e98228f",
+      "rows": [
+        {
+          "clip_id": "41360",
+          "split": "test",
+          "label": "PASS",
+          "signer_id": 5,
+          "class_id": 1240,
+          "features": "41360.npy"
+        },
+        {
+          "clip_id": "41361",
+          "split": "train",
+          "label": "PASS",
+          "signer_id": 5,
+          "class_id": 1240,
+          "features": "41361.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "ab5a3f1882491bbfffd435d1c71b66e5e1c07a91479ec86cb2f577733127870e",
+      "rows": [
+        {
+          "clip_id": "51203",
+          "split": "test",
+          "label": "SHOPPING",
+          "signer_id": 5,
+          "class_id": 1558,
+          "features": "51203.npy"
+        },
+        {
+          "clip_id": "51202",
+          "split": "train",
+          "label": "SHOPPING",
+          "signer_id": 5,
+          "class_id": 1558,
+          "features": "51202.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "18fbd9bf31eb4967de20cd6dd7b663cdd88170bf8f1ed5166c2bcb19d3bd91fb",
+      "rows": [
+        {
+          "clip_id": "49938",
+          "split": "test",
+          "label": "SEARCH",
+          "signer_id": 5,
+          "class_id": 1520,
+          "features": "49938.npy"
+        },
+        {
+          "clip_id": "49937",
+          "split": "train",
+          "label": "SEARCH",
+          "signer_id": 5,
+          "class_id": 1520,
+          "features": "49937.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "8198e906354c333a0fb85113911e2ccaffff5fa47c48c1c06022ae1041eb4827",
+      "rows": [
+        {
+          "clip_id": "28119",
+          "split": "test",
+          "label": "HOT",
+          "signer_id": 64,
+          "class_id": 884,
+          "features": "28119.npy"
+        },
+        {
+          "clip_id": "28120",
+          "split": "train",
+          "label": "HOT",
+          "signer_id": 5,
+          "class_id": 884,
+          "features": "28120.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "032043ed06406058dbee13a500e2a844189ae0ded22722a9f5c7f3521cee182c",
+      "rows": [
+        {
+          "clip_id": "38343",
+          "split": "train",
+          "label": "NIGHT",
+          "signer_id": 5,
+          "class_id": 1163,
+          "features": "38343.npy"
+        },
+        {
+          "clip_id": "38342",
+          "split": "val",
+          "label": "NIGHT",
+          "signer_id": 5,
+          "class_id": 1163,
+          "features": "38342.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "c884c25fd3fed730bf573c552c39683ce9b2e683ef29a130dddd905d4a4b9899",
+      "rows": [
+        {
+          "clip_id": "05813",
+          "split": "test",
+          "label": "BEHIND",
+          "signer_id": 5,
+          "class_id": 172,
+          "features": "05813.npy"
+        },
+        {
+          "clip_id": "05814",
+          "split": "val",
+          "label": "BEHIND",
+          "signer_id": 5,
+          "class_id": 172,
+          "features": "05814.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "060330223015b325189c4ea7c6916b32e763cdb3d2c5b3627ad3cbf7e1e3d898",
+      "rows": [
+        {
+          "clip_id": "51549",
+          "split": "train",
+          "label": "SIDE",
+          "signer_id": 5,
+          "class_id": 1569,
+          "features": "51549.npy"
+        },
+        {
+          "clip_id": "51550",
+          "split": "test",
+          "label": "SIDE",
+          "signer_id": 5,
+          "class_id": 1569,
+          "features": "51550.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "b8dd59a3e4214866acc738d06415b85e5ec2ef6f261d06298b9bcb00a51d5dab",
+      "rows": [
+        {
+          "clip_id": "62253",
+          "split": "train",
+          "label": "WANT",
+          "signer_id": 5,
+          "class_id": 1917,
+          "features": "62253.npy"
+        },
+        {
+          "clip_id": "62254",
+          "split": "val",
+          "label": "WANT",
+          "signer_id": 5,
+          "class_id": 1917,
+          "features": "62254.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "6810b002db0a81ad9561351b9f7fa33c93c31521cc1101e0f95275e33fe66fb4",
+      "rows": [
+        {
+          "clip_id": "25425",
+          "split": "val",
+          "label": "GRANDMA",
+          "signer_id": 5,
+          "class_id": 806,
+          "features": "25425.npy"
+        },
+        {
+          "clip_id": "25424",
+          "split": "train",
+          "label": "GRANDMA",
+          "signer_id": 64,
+          "class_id": 806,
+          "features": "25424.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "ed894a79f5d577a5d3c59b3237db0e47811fddef924ec88b82acea5d3bd4d6b6",
+      "rows": [
+        {
+          "clip_id": "33809",
+          "split": "val",
+          "label": "LONG",
+          "signer_id": 5,
+          "class_id": 1042,
+          "features": "33809.npy"
+        },
+        {
+          "clip_id": "33810",
+          "split": "train",
+          "label": "LONG",
+          "signer_id": 5,
+          "class_id": 1042,
+          "features": "33810.npy"
+        }
+      ]
+    },
+    {
+      "sha256": "0994a13d8dbe3dfdd4a95f4190939d19f611d6bc8b84091aa163f832561b39e1",
+      "rows": [
+        {
+          "clip_id": "61813",
+          "split": "val",
+          "label": "VISIT",
+          "signer_id": 5,
+          "class_id": 1899,
+          "features": "61813.npy"
+        },
+        {
+          "clip_id": "61814",
+          "split": "train",
+          "label": "VISIT",
+          "signer_id": 5,
+          "class_id": 1899,
+          "features": "61814.npy"
+        }
+      ]
+    }
+  ],
+  "excluded_ids": [
+    "02234",
+    "05814",
+    "06073",
+    "10193",
+    "11715",
+    "15039",
+    "16594",
+    "25252",
+    "25424",
+    "28120",
+    "33810",
+    "36837",
+    "38343",
+    "41361",
+    "49937",
+    "51202",
+    "51549",
+    "51938",
+    "61814",
+    "62253"
+  ],
+  "counts": {
+    "train": 13771,
+    "val": 3865,
+    "test": 2878
+  },
+  "original_counts": {
+    "train": 13788,
+    "val": 3868,
+    "test": 2878
+  },
+  "training_classes_before": 2000,
+  "training_classes_after": 2000
+}

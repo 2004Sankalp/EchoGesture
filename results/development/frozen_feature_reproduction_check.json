@@ -1,0 +1,9 @@
+{
+  "clip_id": "citizen_3802527701650662-seedACCIDENT",
+  "source_sha_verified": true,
+  "recreated_training_tensor_sha_matches": true,
+  "shape": [
+    308,
+    48
+  ]
+}

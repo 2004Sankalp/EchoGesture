@@ -1,0 +1,9 @@
+{
+  "source": "OpenHands ASLLVD-Skeleton.zip / original ASLLVD train_labels.json only",
+  "archive_md5": "cd73156728bbc3ad1d016a5decc5c6ec",
+  "label_policy": "Exact normalized_gloss equality only; no guessed synonyms; original ASLLVD test unused",
+  "clips": 4161,
+  "classes": 1160,
+  "heldout_exact_pose_hash_excluded": [],
+  "limitations": "Exact array hash exclusion only, does not establish no near-duplicate video content."
+}

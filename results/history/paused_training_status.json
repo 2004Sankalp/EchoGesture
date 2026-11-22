@@ -1,0 +1,63 @@
+{
+  "status": "paused at explicit user request; resume only on explicit prompt",
+  "five_hour_remaining_percent_at_stop": 50,
+  "assumption": "Use full WLASL2000; user has supplied all organiser context; do not request another kit",
+  "experiments": {
+    "palm3d-clean-mixer128": {
+      "completed_epochs": 33,
+      "best_validation_top1": 26.88728024819028,
+      "best_epoch": 30,
+      "last_checkpoint": "work/experiments/palm3d-clean-mixer128/last.pt",
+      "best_checkpoint": "work/experiments/palm3d-clean-mixer128/best.pt"
+    },
+    "palm3d-v2-mixer128": {
+      "completed_epochs": 24,
+      "best_validation_top1": 29.007238883143742,
+      "best_epoch": 23,
+      "last_checkpoint": "work/experiments/palm3d-v2-mixer128/last.pt",
+      "best_checkpoint": "work/experiments/palm3d-v2-mixer128/best.pt"
+    },
+    "palm3d-cosine-final128": {
+      "completed_epochs": 20,
+      "best_validation_top1": 31.10134436401241,
+      "best_epoch": 4,
+      "last_checkpoint": "work/experiments/palm3d-cosine-final128/last.pt",
+      "best_checkpoint": "work/experiments/palm3d-cosine-final128/best.pt"
+    },
+    "palm3d-attention128": {
+      "completed_epochs": 13,
+      "best_validation_top1": 33.195449844881075,
+      "best_epoch": 13,
+      "last_checkpoint": "work/experiments/palm3d-attention128/last.pt",
+      "best_checkpoint": "work/experiments/palm3d-attention128/best.pt"
+    }
+  },
+  "data": {
+    "archive": "work/WLASL-full.zip",
+    "checksum_verified": true,
+    "features": "work/3d-data-v2",
+    "train_clips": 13788,
+    "validation_clips": 3868,
+    "test_clips": 2878,
+    "classes": 2000,
+    "duplicate_clips_excluded": 549,
+    "test_not_yet_evaluated_for_new_models": true
+  },
+  "pending": [
+    "Restore selected training run from last.pt with matching classifier/architecture and scheduler; preserve snapshot initialization and RNG state",
+    "Finish validation-based selection; no 70% pass achieved",
+    "Export/quantize chosen new 3D model and evaluate validation, then frozen test",
+    "Investigate raw desktop MediaPipe failure: NSOpenGLPixelFormat unavailable in sandbox; cached public poses worked",
+    "Update model card, audit, README and source ZIP; old APK still baseline, Android testing deferred"
+  ],
+  "raw_validation": "12 deterministic StartASL public validation clips downloaded to work/raw-validation; raw extraction failed due unavailable OpenGL service; do not claim video accuracy",
+  "source_changes": "Current outputs/EchoGesture source includes new 308-feature 3D representation, CPU training, conversion and evaluation code. Previously delivered ZIP/PDF/APK predate this work.",
+  "quota_monitoring": "User will monitor usage and say pause; do not poll quota or stop automatically based on tool meter",
+  "new_export": {
+    "folder": "work/exported-mixer3d",
+    "model_bytes": 2462629,
+    "validation_selection_top1": 31.10134436401241,
+    "accuracy_after_quantization_not_yet_measured": true
+  },
+  "next_raw_extraction_check": "Installed mediapipe 0.10.21 DOES expose mp.tasks.vision.HolisticLandmarker. Try its explicit BaseOptions Delegate.CPU with local models/holistic_landmarker.task before installing or downloading another extractor. Legacy solutions.Holistic failed OpenGL."
+}

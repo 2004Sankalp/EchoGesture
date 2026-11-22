@@ -1,0 +1,25 @@
+{
+  "training_manifest_video_clean.json.gz": {
+    "uncompressed_sha256": "b90f4e801956051d60e0a7f59620aed41aa0230c7840355b5e03da103350ea20",
+    "uncompressed_bytes": 13560716,
+    "compressed_bytes": 2412911
+  },
+  "wlasl_manifest_video_clean.json.gz": {
+    "uncompressed_sha256": "fe64986803586d070d92c52a69f0e16a3774e3c26414c2b246efb3f5c614f442",
+    "uncompressed_bytes": 3028330,
+    "compressed_bytes": 341963
+  },
+  "training_coverage_video_clean.json.gz": {
+    "uncompressed_sha256": "a8fdd2f08903fbc2c0728fb26f2ba6bda7ebe7d9499f0a569680a4486a23e951",
+    "uncompressed_bytes": 1800786,
+    "compressed_bytes": 911043
+  },
+  "task": "Provisional WLASL2000; supplied organiser materials do not include a fixed-vocabulary file.",
+  "membership_policy": "Original WLASL splits with pose-hash/video-SHA duplicate exclusions; original ASL Citizen TRAIN membership and exact label matches only; no ASLLVD extras in final fresh runs.",
+  "wlasl_pose_filtered_manifest.json.gz": {
+    "uncompressed_sha256": "05bbaa208b25d4677c209bb79c3e4487bebfb9e7a926c527f66292c342de9484",
+    "uncompressed_bytes": 3031271,
+    "compressed_bytes": 342279,
+    "role": "Input manifest for reproducing the additional20 video identity exclusions"
+  }
+}

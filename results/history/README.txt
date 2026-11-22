@@ -1,0 +1,1 @@
+Historical prototype evidence only. These files predate the stronger raw-video identity audit and are not clean final benchmark passes. Current evidence is in the parent results folder and models/model_card.json.

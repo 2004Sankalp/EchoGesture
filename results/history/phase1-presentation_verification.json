@@ -1,0 +1,58 @@
+{
+  "finalSha256": "2ed2d9224c2e704493af075a34b74c0c154d38834aafa7a49d69d92a43118036",
+  "byteCount": 42428,
+  "packageIntegrity": {
+    "chart_count": 0,
+    "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+    "finding_count": 0,
+    "findings": [],
+    "notes_parts_skipped": 9,
+    "relationship_part_count": 23,
+    "slide_count": 9,
+    "status": "pass",
+    "exitCode": 0,
+    "findingCount": 0,
+    "warnings": []
+  },
+  "presentationLayout": {
+    "finding_count": 0,
+    "findings": [],
+    "font_policy": {
+      "checked_text_script_count": 55,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Arial Black",
+        "Calibri"
+      ],
+      "observed_font_use_counts": {
+        "Arial Black": 2,
+        "Calibri": 53
+      },
+      "passed": true,
+      "performed": true
+    },
+    "slide_count": 9,
+    "slide_size_in": [
+      10,
+      5.625
+    ],
+    "warning_count": 0,
+    "warnings": [],
+    "exitCode": 0,
+    "findingCount": 0,
+    "fontPolicy": {
+      "checked_text_script_count": 55,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Arial Black",
+        "Calibri"
+      ],
+      "observed_font_use_counts": {
+        "Arial Black": 2,
+        "Calibri": 53
+      },
+      "passed": true,
+      "performed": true
+    }
+  }
+}

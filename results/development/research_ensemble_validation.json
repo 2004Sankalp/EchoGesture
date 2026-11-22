@@ -1,0 +1,44 @@
+{
+  "validation_clips": 3865,
+  "classes": 2000,
+  "single_top1": {
+    "how2sign-full": 51.64294954721863,
+    "how2sign-noface": 51.228978007761974,
+    "how2sign-semantic": 51.48771021992238,
+    "openasl-full": 52.93661060802069,
+    "openasl-noface": 53.221216041397156,
+    "anatomy3d": 46.33893919793014,
+    "kinematic3d": 45.66623544631307,
+    "portable-transfer": 46.183699870633895,
+    "openasl-semantic": 54.85122897800776,
+    "openasl-semantic-full": 54.69598965071152,
+    "openasl-full512": 53.19534282018111,
+    "small-temporal-adapter": 55.44631306597672
+  },
+  "ensemble_validation_top1": 62.716688227684344,
+  "weights": {
+    "small-temporal-adapter": 0.19304296875,
+    "kinematic3d": 0.19304296875,
+    "openasl-semantic": 0.1286953125,
+    "openasl-semantic-full": 0.17159374999999996,
+    "how2sign-semantic": 0.121125,
+    "portable-transfer": 0.1425,
+    "how2sign-full": 0.05
+  },
+  "prediction_snapshot_sha256": {
+    "how2sign-full": "fd024fc376ff51f4ed19df61a59f4bf9c7119d13e8375a5c016cfd20becc000c",
+    "how2sign-noface": "e16fe367a5644013dbfd463b8bb9f52dcad085eac8878a726c8052dfed348afb",
+    "how2sign-semantic": "a3a0b37eda070bca06f94cdbc59e7218fc5ff7d8a371bb8a8ca987472a7633ad",
+    "openasl-full": "f23f530f4cb473e4a5efa2c6047e658ccfa0024d5e76c27a4481210fdca55ae5",
+    "openasl-noface": "ada489f316dd46f0cc93fb0bac252f06c018a0a8d7f839a8d9372c899462a0df",
+    "anatomy3d": "267d64cb590971a2c2f88a850f561a3555c5999a868763cecdcc0802c3933f0f",
+    "kinematic3d": "7a09e32b29bed802632ee6e07a8d235e20fe99704a2c8cf08be146fbe7a5a6af",
+    "portable-transfer": "0bb99375821678464c698969423aee98253a0f0d103a4aebf9b789cb5458f692",
+    "openasl-semantic": "df94b94c8858f21ad5de77d9f61b345024583c6f92a539b3db1b6baf9486fd33",
+    "openasl-semantic-full": "c93d733ebc2d53a0439de4fd4fef63e09326d5d1ead88c1f04c3d27dc21a60cd",
+    "openasl-full512": "13144626072638148d79ddf8f1dd49c5d897a8ee54dce395c3318bfdd425da74",
+    "small-temporal-adapter": "4eed60091ad1d6d31da6a81c6ac9f36f2a67f0fa855eedc0372fb1d84cc602f8"
+  },
+  "selection": "Coarse greedy logit weights selected on validation only; exploratory, not official or test score",
+  "test_predictions_read": false
+}

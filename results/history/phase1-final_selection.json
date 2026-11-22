@@ -1,0 +1,25 @@
+{
+  "scope": "Validation only; global coarse nonnegative logit weights; full 2000-class outputs; no test read. Repeated selection means this is a development score.",
+  "top1_accuracy": 41.54601861427094,
+  "top5_accuracy": 71.35470527404343,
+  "models": [
+    "attention_v2",
+    "mixer_v2",
+    "extra_v3",
+    "wide_v2"
+  ],
+  "weights": [
+    0.0,
+    0.3,
+    0.4,
+    0.3
+  ],
+  "clips": 3868,
+  "checkpoint_sha256": {
+    "work/experiments/palm3d-cosine-final128/best.pt": "50d366ff5018a327e8aa70a6757c93ef6fcb7f001d8d6c0155ecee62e460be6a",
+    "work/experiments/palm3d-extra128/best.pt": "536cbf7898e53ea969c47d3ebec866797d7fec034a6334dd0ae5c9f670078395",
+    "work/experiments/palm3d-wide256/best.pt": "7fa7a78a849fc16fd5fe6e5dd8addf9c4ec923adf05a69755bec22032f54148e"
+  },
+  "deployment_config_sha256": "62656554f0f9e4a063940f5884c71f147dae2f0f268d828e6887695bcfa1f5b8",
+  "test_status": "Not read for selection; deployment configuration frozen before final test."
+}

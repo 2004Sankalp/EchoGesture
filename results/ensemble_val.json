@@ -1,0 +1,26 @@
+{
+  "scope": "Frozen INT8 deployment public-pose validation; not video or phone accuracy",
+  "clips": 3865,
+  "classes": 2000,
+  "top1_accuracy": 53.35058214747737,
+  "selection": {
+    "validation_top1": 53.35058214747737,
+    "anatomy_scales": [
+      0.67,
+      1.0,
+      1.5
+    ],
+    "portable_scales": [
+      1.0
+    ],
+    "anatomy_weight": 0.55,
+    "portable_weight": 0.45,
+    "anatomy_profile": "wide",
+    "portable_profile": "single",
+    "validation_clips": 3865,
+    "classes": 2000,
+    "test_read": false,
+    "selection": "Global validation-only geometry profiles and weights; no test selection"
+  },
+  "config_sha256": "8f076f1c96ec6a2b640e7d2a38b540352b07ff28889917ef5004eec138a0ed44"
+}

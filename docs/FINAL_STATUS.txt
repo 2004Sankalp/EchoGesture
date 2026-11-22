@@ -1,0 +1,15 @@
+FROZEN HANDOFF STATUS
+
+Deployment public-pose validation top-1: 53.35058214747737% (3,865 clips).
+Deployment public-pose test top-1: 51.80681028492008%; top-5: 81.79291174426685% (2,878 clips).
+All 2,000 output labels retained; 1,999 classes have original test clips.
+Research-only larger blend: 62.716688227684344% validation; not deployed.
+70% requirement: UNMET. No smartphone/video accuracy pass is claimed.
+Android active inference assets:19,276,143bytes. APK:60,825,849bytes.
+Phone latency/robustness/power/thermal: NOT_MEASURED.
+Source checks: 42 passed. APK built; assets and permissions checked.
+Video:135-second disclosed training-pose replay, not live phone recording.
+Team/member fields:deliberately blank; leader must fill actual identity.
+Public GitHub/form submission: not performed by agent.
+
+Read START_HERE_TEAM_LEADER.txt before uploading.

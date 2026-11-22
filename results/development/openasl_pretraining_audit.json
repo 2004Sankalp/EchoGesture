@@ -1,0 +1,12 @@
+{
+  "encoder": "Publisher OpenASL pose-only SLT checkpoint; no WLASL checkpoint used",
+  "openasl_original_train_segments": 96476,
+  "openasl_unique_source_video_ids": 2042,
+  "source_train_metadata_sha256": "3271f91bca264a6f39606cdec180f0d5306f63fa18a31efdf7d274b1ceea8622",
+  "overlapping_source_videos": [],
+  "non_youtube_or_unparsed_wlasl_heldout_urls": 4866,
+  "scope": "Source-ID screening only; not proof against all mirrored videos or near duplicates",
+  "upstream_selection": "OpenASL config has distinct train/dev/test metadata; fine_tuning.py selects best on dev, while also reporting test. CSL-News/MT5 pretraining remains publisher provenance, not an independent re-audit.",
+  "wlasl_heldout_clips_with_parsed_youtube_urls": 1928,
+  "wlasl_unique_parsed_source_count": "Not calculated; preceding count is clips, not unique sources"
+}
